@@ -4,19 +4,21 @@ body {
     color: 3a3a3a;
 }
 
-#logo {
+#logo, #why {
     float: left;
     font-size: 280%;
     margin-left: 32%;
 }
 
-#menu, #logo{
+#menu, #logo {
     line-height: 75px;
 }
 #menu, li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    font-size: large;
+    margin-top: 20px;
 }
 
 #menu a {
@@ -26,6 +28,7 @@ body {
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+     
 }
 
 #hero-top {
@@ -54,4 +57,17 @@ body {
     width: 100%;
     background: url('../css/images/hero-3.jpg') no-repeat center center; 
    
+}
+
+#why {
+    margin-top: 5%;
+    color: rgb(0, 130, 200)
+}
+
+#left-about {
+   color: rgb(0, 130, 200);
+   position: relative;
+   margin-right: 40px;
+   padding: 25px;
+   float: right;
 }
