@@ -64,10 +64,55 @@ body {
     color: rgb(0, 130, 200)
 }
 
-#left-about {
-   color: rgb(0, 130, 200);
-   position: relative;
-   margin-right: 40px;
-   padding: 25px;
-   float: right;
+#left-about-top {
+    color: rgb(0, 130, 200);
+    position: relative;
+    margin-right: 25px;
+    padding: 25px;
+    float: right;
+    
+ }
+
+ #left-about-mid {
+    color: rgb(0, 130, 200);
+    position: relative;
+    margin-right: -100px;
+    margin-top: 50px;
+    padding: 25px;
+    float: right;
+    
+ }
+
+ #right-about-top {
+    color: rgb(0, 130, 200);
+    position: fixed;
+    margin-left: 20%;
+    padding-top: 10%;
+    float: right;
+    
+ }
+
+ #right-about-mid {
+    color: rgb(0, 130, 200);
+    position: fixed;
+    margin-left: 200px;
+    margin-bottom: -30%;
+    padding: 25px;
+    float: right;
+    
+ }
+ 
+
+
+
+p {
+    color:#3a3a3a;
+    max-width: 30%;
 }
+
+h3 {
+    max-width: 50%;
+}
+
+
+
