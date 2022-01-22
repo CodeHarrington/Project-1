@@ -123,11 +123,13 @@ p {
 h3 {
     max-width: 50%;
 }
+
 /* footer */
 footer {
     position: relative;
-    height: 350px;
     width: 100%;
+    color: rgb(0, 130, 200);
+
 
 }
 
@@ -135,7 +137,7 @@ footer {
     height: 200px;
     text-align: center;
     position: relative;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;  
 }
 
 .social-network-contact > li {
@@ -143,8 +145,6 @@ footer {
     position: relative;
     top: 280%;
     right: 80%;
-
-
 }
 
 
@@ -153,6 +153,29 @@ footer {
     display: inline;
 
   
+}
+
+#sponsors {
+    color: #3a3a3a;
+    position: absolute;
+    left: 520px;
+    top: 250%;
+    text-align: center;
+    border: 2px solid;
+    width: 70%;
+}
+
+
+h2 {
+    position: inherit;
+    text-decoration: underline;
+}
+
+#allianz-img {
+    background: url('../css/images/allianz.png') no-repeat center center;
+  
+
+    
 }
 
 
