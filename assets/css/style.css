@@ -143,8 +143,8 @@ footer {
 .social-network-contact > li {
     display: inline;
     position: relative;
-    top: 280%;
-    right: 80%;
+    top: 250%;
+    right: 86%;
 }
 
 
@@ -169,7 +169,15 @@ footer {
 h2 {
     position: inherit;
     text-decoration: underline;
+    
 }
+
+#need {
+    position: absolute;
+    top: 200%;
+    left: 150px;
+}
+
 
 #allianz-img {
     background: url('../css/images/allianz.png') no-repeat center center;
