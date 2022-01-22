@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Oswald, sans-serif;
     font-weight: 300;
     color: 3a3a3a;
 }
 
+/* headings and logos */
+
 #logo, #why {
     float: left;
     font-size: 280%;
-    margin-left: 32%;
+    margin-left: 36%;
 }
 #why {
     text-decoration: underline;
@@ -16,6 +19,9 @@ body {
 #menu, #logo {
     line-height: 75px;
 }
+
+/* navigation links */
+
 #menu, li {
     float: right;
     list-style-type: none;
@@ -34,34 +40,38 @@ body {
      
 }
 
+/* hero-images */
+
 #hero-top {
-    height: 450px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image-1 {
-    height: 400px;
+    height: 500px;
     width: 33%;
     background: url('../css/images/hero-1.jpg') no-repeat center center;
     float: left;
+    transform: scale(.80);
 }
 
 #hero-image-2 {
-    height: 400px;
+    height: 500px;
     width: 33%;
     background: url('../css/images/hero-2.jpg') no-repeat center center;
     float: right;
+    transform: scale(.80);
 }
 
 #hero-image-3 {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: url('../css/images/hero-3.jpg') no-repeat center center; 
-   
 }
 
+/* reasons to get involued */
 #why {
     margin-top: 5%;
     color: rgb(0, 130, 200)
@@ -102,7 +112,6 @@ body {
     margin-bottom: -30%;
     padding: 25px;
     float: right;
-    
  }
 
 
@@ -114,38 +123,40 @@ p {
 h3 {
     max-width: 50%;
 }
-
+/* footer */
 footer {
-    height: 150px;
+    position: relative;
+    height: 350px;
+    width: 100%;
 
 }
 
-
 .social-network-contact {
-    height: 250px;
+    height: 200px;
     text-align: center;
     position: relative;
     margin-bottom: 50px;   
-    border: 10px solid red;
-
-
 }
 
 .social-network-contact > li {
-    display: inline-table;
-    border: 10px solid red;
+    display: inline;
+    position: relative;
+    top: 280%;
+    right: 80%;
 
 
 }
 
 
 .social-network-contact i {
-    font-size: 200px;
+    font-size: 250%;
+    display: inline;
+
   
 }
 
-.sponsors {
-    border: 10px solid red;
-    position: absolute;
-    float: left;
-}
+
+
+
+
+
