@@ -71,7 +71,9 @@ body {
     background: url('../css/images/hero-3.jpg') no-repeat center center; 
 }
 
-/* reasons to get involued */
+/* reasons to get involved */
+
+
 #why {
     margin-top: 5%;
     color: rgb(0, 130, 200)
@@ -167,27 +169,25 @@ footer {
 
 
 h2 {
-    position: inherit;
+    position: absolute;
     text-decoration: underline;
+    width: 300px;
+    margin-top: 440px;
+
+    
     
 }
 
 #need {
-    position: absolute;
-    top: 200%;
-    left: 150px;
+    position: relative;
+    left: 90px;
+ 
 }
 
+#how {
+    right: 236px;
 
-#allianz-img {
-    background: url('../css/images/allianz.png') no-repeat center center;
-  
 
-    
 }
-
-
-
-
 
 
