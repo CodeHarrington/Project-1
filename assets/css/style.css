@@ -247,3 +247,22 @@ h2 {
     font: 32px Oswald, sans-serif;
 }
 
+/* information page */
+
+#hero-image-4 {
+    background: url('../css/images/hero-4.jpg') no-repeat center center;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.text-boxes > li {
+    color: rgb(0, 130, 200);;
+    height: 200px;
+    width: 470px;
+    border: 2px solid rgb(0, 130, 200);
+    background-color: rgb(146, 250, 146); 
+    text-transform: capitalize;
+    text-size-adjust: 10%;
+}
+
