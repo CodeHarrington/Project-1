@@ -263,6 +263,8 @@ h2 {
     border: 2px solid rgb(0, 130, 200);
     background-color: rgb(146, 250, 146); 
     text-transform: capitalize;
-    text-size-adjust: 10%;
+    padding: 10px;
+    
 }
+
 
