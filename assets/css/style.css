@@ -14,6 +14,8 @@ body {
 }
 #why {
     text-decoration: underline;
+    margin-top: 3%;
+    color: rgb(0, 130, 200)
 }
 
 #menu, #logo {
@@ -74,11 +76,6 @@ body {
 /* reasons to get involved */
 
 
-#why {
-    margin-top: 5%;
-    color: rgb(0, 130, 200)
-}
-
  #left-about-top {
     color: rgb(0, 130, 200);
     position: absolute;
@@ -126,13 +123,28 @@ h3 {
     max-width: 50%;
 }
 
+h5 {
+    position: relative;
+    transform: scale(2);
+    top: 260px;
+    right: 720px;
+    
+}
+
+#rugbyball-whistle {
+    background: url('../css/images/rugbyball-whistle-watch.png') no-repeat center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: scale(.3);
+    bottom: -300px;
+}
+
 /* footer */
 footer {
     position: relative;
     width: 100%;
     color: rgb(0, 130, 200);
-
-
 }
 
 .social-network-contact {
@@ -160,23 +172,54 @@ footer {
 #sponsors {
     color: #3a3a3a;
     position: absolute;
-    left: 520px;
+    left: 720px;
     top: 250%;
-    text-align: center;
+    text-align: left;
+    padding-left: 5px;
     border: 2px solid;
-    width: 58%;
+    width: 40%;
+    text-transform: uppercase;
 }
 
+#allianz-img {
+    background: url('../css/images/allianz.png') no-repeat center center;
+    position: absolute;
+    width: 100%;
+    bottom: -35px;
+    right: 90px;
+    height: 129px;
+    transform: scale(.3)
+     
+}
+#adidas-img {
+    background: url('../css/images/adidas.jpeg') no-repeat center center;
+    position: absolute;
+    width: 100%;
+    bottom: -55px;
+    right: -127px;
+    height: 180px;
+    transform: scale(.27)
+}
+
+
+#im-irwinmitchel-img {
+    background: url('../css/images/im-iriwinmitchel.png') no-repeat center center;
+    position: absolute;
+    width: 100%;
+    bottom: -35px;
+    left: 340px;
+    height: 129px;
+    transform: scale(.6)
+     
+}
 
 h2 {
     position: absolute;
     text-decoration: underline;
     width: 300px;
     margin-top: 440px;
-
-    
-    
 }
+    
 
 #need {
     position: relative;
@@ -202,8 +245,5 @@ h2 {
     color: rgb(255, 255, 255);
     text-align: center;
     font: 32px Oswald, sans-serif;
-
-
-
 }
 
