@@ -289,8 +289,7 @@ h2 {
     background: url('../css/images/school-ref-scrum.png');
     background-size: cover;
     background-position: center;
-    height: 1300px;
-    
+    transform: scale(.5);
 }
 
 .signup-form {
@@ -339,7 +338,7 @@ h2 {
 }
 
 .join-button:hover {
-    color: #f16c6b;
+    color: #3a3a3a;
     background-color: #fafafa;
     
 }
