@@ -345,30 +345,28 @@ h2 {
     margin: 0 auto;
 }
    
-#why {
-    padding: 30px 0;
-    margin: 0;
-}
-   
+
 #right-about-mid, #right-about-top {
-    width: 100%;
+    width: 80%;
     float: left;
-    padding: 0;
+    padding: -15px;
+    left: -117px;
+    bottom: 50px;
 }
    
 #left-about-mid, #left-about-top  {
     clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
+    width: 80%;
+    float: right;
+    padding: -15px;
+    left: -117px;
+    bottom: 50px;
 }
    
    
-#rugbyball-whistle > div {
-    width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
+#rugbyball-whistle, h5 {
+    bottom: -700px;
+  
 }
 
 #sponsors {
