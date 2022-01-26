@@ -264,7 +264,7 @@ h2 {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 7;
+    column-count: 2;
     column-gap: 0;
     background: cover;
 }
@@ -334,3 +334,83 @@ h2 {
     background-color: #fafafa;
     
 }
+
+/* media screen */
+@media screen and (max-width: 1200px) {
+#question {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+}
+   
+#why {
+    padding: 30px 0;
+    margin: 0;
+}
+   
+#right-about-mid, #right-about-top {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+   
+#left-about-mid, #left-about-top  {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+   
+   
+#rugbyball-whistle > div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+}
+   }
+   
+   /* For medium screen sizes from 950px wide and down */
+   @media screen and (max-width: 950px) {
+   
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+         margin-bottom: 20px;
+        line-height: 25px;
+    }
+   
+    #welcome {
+        left: 0;
+    }
+   
+    #question {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+   
+    #right-about-mid, #right-about-top{
+        width: inherit;
+    }
+   
+    .left-about-heading h2, .right-about-heading h2, #left-about-mid, #left-about-top {
+        width: 100%;
+        text-align: center;
+    }
+   
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    #photos {
+        column-count: 3;
+         }
+
+   /* for small screen size 800px and below */
+    @media screen and (max-width: 800px) {
+       #photos {
+           column-count: 2;   
+       }
+    }
