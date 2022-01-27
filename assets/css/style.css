@@ -422,18 +422,20 @@ a.circle {
     @media screen and (max-width: 800px) {
      
 #rugbyball-whistle {
-    transform: scale(.2);
+    transform: scale(.14);
 }
         
 #sponsors {
     width :100%;
     left: 10px;
     transform:scale(.9)
+
 }
 
-#need >h2 {
-padding: 5px; 
-}
+#need > h2 {
+    padding: 5px; 
+    }
+
         
 a.circle {
     left: 545px;
@@ -441,4 +443,9 @@ a.circle {
 
 #menu {
     float: left;
+}
+
+form {
+    top: 1000px;
+    text-align: center;
 }
