@@ -407,8 +407,38 @@ a.circle {
    /* For medium screen sizes from 950px wide and down */
    @media screen and (max-width: 950px) {
    
- 
+a.circle {
+    left: 670px;
+}
+    
+#rugbyball-whistle {
+    transform: scale(.27);
+}
+.social-network-contact {
+    left: 40px;
+}
 
    /* for small screen size 800px and below */
     @media screen and (max-width: 800px) {
      
+#rugbyball-whistle {
+    transform: scale(.2);
+}
+        
+#sponsors {
+    width :100%;
+    left: 10px;
+    transform:scale(.9)
+}
+
+#need >h2 {
+padding: 5px; 
+}
+        
+a.circle {
+    left: 545px;
+}
+
+#menu {
+    float: left;
+}
