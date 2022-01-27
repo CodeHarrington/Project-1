@@ -136,7 +136,8 @@ h5 {
     height: 100%;
     position: absolute;
     transform: scale(.3);
-    bottom: -300px;
+    text-align: center;
+    top: 400px;
 }
 
 /* footer */
