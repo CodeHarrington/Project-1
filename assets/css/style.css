@@ -30,6 +30,7 @@ body {
     margin-right: 30px;
     font-size: large;
     margin-top: 20px;
+    background-color: #fafafa;
 }
 
 #menu a {
@@ -399,11 +400,7 @@ h4 {
 a.circle {
     left: 900px;
 }
-#menu > li {
-    background-color: #fafafa;
-  }
 
-   
    /* For medium screen sizes from 950px wide and down */
    @media screen and (max-width: 950px) {
    
