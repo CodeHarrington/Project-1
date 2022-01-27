@@ -13,7 +13,7 @@ body {
 }
 
 #why {
-    text-decoration: underline;
+    text-decoration: underline; 
     margin-top: 3%;
     color: rgb(0, 130, 200)
 }
@@ -170,10 +170,8 @@ footer {
 #sponsors {
     color: #4b296b;
     position: absolute;
-    left: 720px;
+    text-align: center;
     top: 250%;
-    text-align: left;
-    padding-left: 5px;
     border: 2px solid;
     width: 40%;
     text-transform: uppercase;
@@ -233,7 +231,7 @@ h2 {
     left: 2236px;
     bottom: 40px;
     border-radius: 50%;
-    color: 3a3a3a;
+    color: #fafafa;
     width: 54px;
     height: 34px;
     padding: 10px;
@@ -241,8 +239,8 @@ h2 {
     border: 4px solid #4b296b;
     color: rgb(255, 255, 255);
     text-align: center;
-    font: Oswald, sans-serif;
-    size: 32px;
+    font: Oswald,sans-serif;
+    resize: 32px;
 }
 
 /* information page */
@@ -269,7 +267,7 @@ h2 {
     line-height: 0;
     column-count: 2;
     column-gap: 0;
-    background: cover;
+    background-image: cover;
 }
     
 #photos > img {
@@ -344,7 +342,7 @@ h2 {
 #logo, #why {
     text-align: center;
 }
-
+}
 
 #question {
     width: 100%;
@@ -355,7 +353,7 @@ h2 {
 #right-about-mid, #right-about-top {
     width: 80%;
     float: left;
-    padding: -15px;
+    padding: 5px;
     left: -117px;
     bottom: 250px;
 }
@@ -364,7 +362,7 @@ h2 {
     clear: both;
     width: 80%;
     float: right;
-    padding: -15px;
+    padding: 5px;
     left: -117px;
     bottom: 250px;
 }
@@ -376,7 +374,7 @@ h2 {
 }
 
 #need {
-    text-align: cenetr;
+    text-align: ceneter;
     bottom: 200px;
     left: 150px;
 }
@@ -408,7 +406,8 @@ a.circle {
 a.circle {
     left: 670px;
 }
-    
+}
+
 #rugbyball-whistle {
     transform: scale(.27);
 }
@@ -447,3 +446,4 @@ form {
     top: 1000px;
     text-align: center;
 }
+    }
