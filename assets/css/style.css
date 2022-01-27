@@ -8,9 +8,8 @@ body {
 /* headings and logos */
 
 #logo, #why {
-    float: left;
+   text-align: center;
     font-size: 280%;
-    margin-left: 36%;
 }
 
 #why {
@@ -340,18 +339,23 @@ h2 {
 /* media screen */
 @media screen and (max-width: 1200px) {
 
-
-#question {
-    height: 34px;
+#logo, #why {
+    text-align: center;
 }
 
+
+#question {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    }
 
 #right-about-mid, #right-about-top {
     width: 80%;
     float: left;
     padding: -15px;
     left: -117px;
-    bottom: 50px;
+    bottom: 250px;
 }
    
 #left-about-mid, #left-about-top  {
@@ -360,74 +364,51 @@ h2 {
     float: right;
     padding: -15px;
     left: -117px;
-    bottom: 50px;
+    bottom: 250px;
 }
    
    
 #rugbyball-whistle, h5 {
-    bottom: -700px;
+    bottom: -500px;
   
 }
 
+#need {
+    text-align: cenetr;
+    bottom: 200px;
+    left: 150px;
+}
+
 #sponsors {
-    width: 80%;
-    left: 141px;
+    width: 90%;
+    text-align: center;
+    left: 60px;
+    height: 35%;
+}
+
+h4 {
+    float: left;
 }
 
 .social-network-contact {
     margin-left: 280px;
     height: 143px;
-    bottom: 627px;
+    bottom: 200px;
 }
 
 a.circle {
     left: 900px;
 }
+#menu > li {
+    background-color: #fafafa;
+  }
 
-#need {
-    left: 150px}
-}
    
    /* For medium screen sizes from 950px wide and down */
    @media screen and (max-width: 950px) {
    
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-         margin-bottom: 20px;
-        line-height: 25px;
-    }
-   
-    #welcome {
-        left: 0;
-    }
-   
-    #question {
-        width: 90%;
-        margin: 0 auto;
-    }
-   
-    #right-about-mid, #right-about-top{
-        width: inherit;
-    }
-   
-    #left-about-heading h2, #right-about-heading h2, #left-about-mid, #left-about-top {
-        width: 100%;
-        text-align: center;
-    }
-   
-    #left-about-heading p, #right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-    #photos {
-        column-count: 3;
-         }
+ 
 
    /* for small screen size 800px and below */
     @media screen and (max-width: 800px) {
-       #photos {
-           column-count: 2;   
-       }
-    }
+     
