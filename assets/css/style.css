@@ -24,7 +24,7 @@ body {
 
 /* navigation links */
 
-#menu, li {
+#menu > li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -88,11 +88,8 @@ body {
  #left-about-mid {
     color: rgb(0, 130, 200);
     position: absolute;
-    margin-left: 78%;
-    margin-bottom: -30%;
-    padding: 25px;
-    float: right;
-    width: 25%;
+    margin-left: 73%;
+    top: 1000px;
  }
 
  #right-about-top {
@@ -123,12 +120,6 @@ h3 {
     max-width: 44%;
 }
 
-h5 {
-    position: relative;
-    transform: scale(2);
-    top: 260px;
-    right: 720px;  
-}
 
 #rugbyball-whistle {
     background: url('../css/images/rugbyball-whistle-watch.png') no-repeat center center;
