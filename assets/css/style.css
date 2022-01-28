@@ -80,9 +80,7 @@ body {
     color: rgb(0, 130, 200);
     position: absolute;
     margin-left: 73%;
-    padding-top: 10%;
-    float: right;
-    
+    padding-top: 10%; 
  }
 
  #left-about-mid {
@@ -97,27 +95,23 @@ body {
     position: absolute;
     margin-left: 20%;
     padding-top: 10%;
-    float: right;
-    
  }
 
  #right-about-mid {
     color: rgb(0, 130, 200);
     position: absolute;
     margin-left: 20%;
-    top: 100px;
-    padding: 25px;
-    float: right;
+    top: 1000px;
  }
 
 
 p {
     color:#4b296b;
-    max-width: 30%;
+    max-width: 20%;
 }
 
 h3 {
-    max-width: 44%;
+    max-width: 20%;
 }
 
 
@@ -131,16 +125,50 @@ h3 {
     top: 400px;
 }
 
+
+
 /* footer */
+
 footer {
     height: 200px;
-    position: relative;
+    position: absolute;
     width: 100%;
     color: rgb(0, 130, 200);
+    background-color: #4b296b
+}
+
+#need {
+    position: relative;
+    border: 10px solid #4b296b;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    text-align: center;  
+}
+
+h2 {
+    position: absolute;
+    left: 500px;
+    padding-top: 30px;
+    letter-spacing: 5px;
+    
+} 
+
+.circle {
+    position: relative;
+    font-size: 400%;
+    border-radius: 50%;
+    width: 54px;
+    height: 34px;
+    padding: 10px;
+    background:  rgb(0, 130, 200);
+    border: 5px solid #4b296b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: Oswald,sans-serif;
 }
 
 .social-network-contact {
-    height: 150px;
     text-align: center;
     position: relative; 
 }
@@ -148,13 +176,14 @@ footer {
 .social-network-contact > li {
     display: inline;
     position: relative;
-    top: 250%;
-    right: 86%;
+    top: 50px;
+    padding: 5px;
+    right: 44%;
 }
 
 
 .social-network-contact i {
-    font-size: 250%;
+    font-size: 500%;
     display: inline; 
 }
 
@@ -162,30 +191,33 @@ footer {
     color: #4b296b;
     position: absolute;
     text-align: center;
-    top: 250%;
-    border: 2px solid;
-    width: 40%;
+    background-color: #4b296b;
     text-transform: uppercase;
+    top: 105%; 
 }
+
+h4 {
+    float: left;
+}
+
 
 #allianz-img {
     background: url('../css/images/allianz.png') no-repeat center center;
     position: absolute;
     width: 100%;
-    bottom: -35px;
-    right: 90px;
-    height: 129px;
-    transform: scale(.3)   
+    bottom: 1px;
+    right: 450px;
+    height: 150px;
+    transform: scale(.6)   
 }
 
 #adidas-img {
     background: url('../css/images/adidas.jpeg') no-repeat center center;
     position: absolute;
     width: 100%;
-    bottom: -55px;
-    right: -127px;
-    height: 180px;
-    transform: scale(.27)
+    bottom: 1px;
+    height: 150px;
+    transform: scale(.6)
 }
 
 
@@ -193,47 +225,28 @@ footer {
     background: url('../css/images/im-iriwinmitchel.png') no-repeat center center;
     position: absolute;
     width: 100%;
-    bottom: -35px;
-    left: 340px;
-    height: 129px;
-    transform: scale(.6)   
+    bottom: 1px;
+    left: 600px;
+    height: 150px;
+    transform: scale(.75)   
+}
+/* information page */
+
+#hero-image-4 {
+    background: url('../css/images/hero-4.jpg') no-repeat center center;
+    width: 100%;
+    height: 100%;
 }
 
-h2 {
-    position: absolute;
-    text-decoration: underline;
-    width: 300px;
-    margin-top: 440px;
+.text-boxes > li {
+    color: rgb(0, 130, 200);
+    height: 200px;
+    width: 470px;
+    border: 2px solid rgb(0, 130, 200);
+    background-color: #87b37a; 
+    text-transform: capitalize;
+    padding: 10px;  
 }
-    
-
-#need {
-    position: relative;
-    left: 90px;
-}
-
-#how {
-    right: 236px;
-}
-
-.circle {
-    position: relative;
-    font-size: 200%;
-    left: 2236px;
-    bottom: 40px;
-    border-radius: 50%;
-    color: #fafafa;
-    width: 54px;
-    height: 34px;
-    padding: 10px;
-    background:  rgb(0, 130, 200);
-    border: 4px solid #4b296b;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font: Oswald,sans-serif;
-    resize: 32px;
-}
-
 /* information page */
 
 #hero-image-4 {
