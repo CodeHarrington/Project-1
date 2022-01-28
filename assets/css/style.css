@@ -104,8 +104,8 @@ body {
  #right-about-mid {
     color: rgb(0, 130, 200);
     position: absolute;
-    margin-left: 200px;
-    margin-bottom: -30%;
+    margin-left: 20%;
+    top: 100px;
     padding: 25px;
     float: right;
  }
