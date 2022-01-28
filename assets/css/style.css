@@ -104,18 +104,18 @@ body {
     top: 1000px;
  }
  hr {
-    border-top: 2px solid #4b296b;
-    width: 20%;
+    border-top: 2px solid #fafafa;
+    width: 50%;
     margin: 5px 0;
 }
 
 p {
-    color:#4b296b;
-    max-width: 20%;
+    color:#fafafa;
+    max-width: 50%;
 }
 
 h3 {
-    max-width: 20%;
+    max-width: 50%;
 }
 
 
@@ -133,9 +133,8 @@ h3 {
 
 /* footer */
 
-footer {
-    height: 220px;
-    position: absolute;
+footer{
+    height: 700px;
     width: 100%;
     color: rgb(0, 130, 200);
     background-color: #4b296b
@@ -145,8 +144,8 @@ footer {
     position: relative;
     width: 70%;
     height: 100%;
-    top: 20px;
-    margin-left: 400px;
+    top: 440px;
+    margin-left: 600px;
 
     
 }
@@ -162,16 +161,18 @@ h2 {
 
 .circle {
     position: relative;
+    left: 950px;
     font-size: 350%;
     border-radius: 50%;
     width: 54px;
     height: 34px;
-    padding: 10px;
+    padding: 25px;
     background:  rgb(0, 130, 200);
     border: 5px solid #4b296b;
     color: rgb(255, 255, 255);
     text-align: center;
     font: Oswald,sans-serif;
+    
 }
 
 .social-network-contact {
@@ -182,29 +183,30 @@ h2 {
 .social-network-contact > li {
     display: inline;
     position: relative;
-    top: 30px;
-    padding: 15px;
-    right: 44%;
+    bottom: 270px;
+    padding: 20px;
+    right: 29%;
 }
 
 
 .social-network-contact i {
-    font-size: 500%;
-    display: inline; 
+    font-size: 500%; 
 }
 
-#sponsors {
-    color: #4b296b;
-    position: absolute;
+#sponsors li{
+ 
+    color: #fafafa;
+    position: fixed;
     text-align: center;
     background-color: #4b296b;
     text-transform: uppercase;
-    top: 105%; 
+    bottom: 120px;
 }
 
 h4 {
     float: left;
-    color: #fafafa;
+    color: #4b296b;
+    position: absolute;
 }
 
 
@@ -212,30 +214,30 @@ h4 {
 #allianz-img {
     background: url('../css/images/allianz.png') no-repeat center center;
     position: absolute;
-    width: 100%;
-    bottom: 0px;
-    right: 450px;
-    height: 80px;
-    transform: scale(.6)   
+    width: 33%;
+    bottom: 10px;
+    right: 650px;
+    height: 160px;
+    transform: scale(1)   
 }
 
 #adidas-img {
     background: url('../css/images/adidas.jpeg') no-repeat center center;
     position: absolute;
-    width: 100%;
-    height: 80px;
-    transform: scale(.6);  
+    width: 33%;
+    height: 160px;
+    transform: scale(1);  
 }
 
 
 #im-irwinmitchel-img {
     background: url('../css/images/im-iriwinmitchel.png') no-repeat center center;
     position: absolute;
-    width: 100%;
-    bottom: 0px;
-    left: 600px;
-    height: 80px;
-    transform: scale(.60)   
+    width: 33%;
+    bottom: 10px;
+    left: 1200px;
+    height: 160px;
+    transform: scale(1)   
 }
 /* information page */
 
@@ -331,114 +333,3 @@ h4 {
     background-color: #fafafa;
     
 }
-/* media screen */
-@media screen and (max-width: 1200px) {
-
-#logo, #why {
-    text-align: center;
-}
-}
-
-#question {
-    width: 100%;
-    height: 500px;
-    margin: 0 auto;
-    }
-
-#right-about-mid, #right-about-top {
-    width: 80%;
-    float: left;
-    padding: 5px;
-    left: -117px;
-    bottom: 250px;
-}
-   
-#left-about-mid, #left-about-top  {
-    clear: both;
-    width: 80%;
-    float: right;
-    padding: 5px;
-    left: -117px;
-    bottom: 250px;
-}
-   
-   
-#rugbyball-whistle, h5 {
-    bottom: -500px;
-  
-}
-
-#need {
-    text-align: ceneter;
-    bottom: 200px;
-    left: 150px;
-}
-
-#sponsors {
-    width: 90%;
-    text-align: center;
-    left: 60px;
-    height: 35%;
-}
-
-h4 {
-    float: left;
-}
-
-.social-network-contact {
-    margin-left: 280px;
-    height: 143px;
-    bottom: 200px;
-}
-
-a.circle {
-    left: 900px;
-}
-
-   /* For medium screen sizes from 950px wide and down */
-   @media screen and (max-width: 950px) {
-   
-a.circle {
-    left: 670px;
-}
-}
-
-#rugbyball-whistle {
-    transform: scale(.27);
-}
-.social-network-contact {
-    left: 40px;
-}
-
-   /* for small screen size 800px and below */
-    @media screen and (max-width: 800px) {
-     
-#rugbyball-whistle {
-    transform: scale(.14);
-}
-        
-#sponsors {
-    width :100%;
-    left: 10px;
-    transform:scale(.9)
-
-}
-
-#need > h2 {
-    padding: 5px; 
-    }
-
-        
-a.circle {
-    left: 545px;
-}
-
-#menu {
-    float: left;
-}
-
-form {
-    top: 1000px;
-    text-align: center;
-}
-    }
