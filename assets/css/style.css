@@ -130,7 +130,7 @@ h3 {
 }
 
 
-
+ 
 /* footer */
 
 footer{
@@ -171,7 +171,7 @@ h2 {
     border: 5px solid #4b296b;
     color: rgb(255, 255, 255);
     text-align: center;
-    font: Oswald,sans-serif;
+    font-family: Oswald, sans-serif;
     
 }
 
@@ -204,9 +204,22 @@ h2 {
 }
 
 h4 {
+    text-align-last: center;
+    letter-spacing: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: underline;
+    color: #fafafa;
+    font-size: x-large;
+}
+
+thanks {
     float: left;
-    color: #4b296b;
-    position: absolute;
+    color: #fafafa;
+    position: fixed;
+    padding: 20px;
+    background-color: #4b296b;
+    bottom: 160px;
 }
 
 
@@ -214,7 +227,7 @@ h4 {
 #allianz-img {
     background: url('../css/images/allianz.png') no-repeat center center;
     position: absolute;
-    width: 33%;
+    width: 40%;
     bottom: 10px;
     right: 650px;
     height: 160px;
@@ -224,7 +237,7 @@ h4 {
 #adidas-img {
     background: url('../css/images/adidas.jpeg') no-repeat center center;
     position: absolute;
-    width: 33%;
+    width: 40%;
     height: 160px;
     transform: scale(1);  
 }
@@ -233,7 +246,7 @@ h4 {
 #im-irwinmitchel-img {
     background: url('../css/images/im-iriwinmitchel.png') no-repeat center center;
     position: absolute;
-    width: 33%;
+    width: 40%;
     bottom: 10px;
     left: 1200px;
     height: 160px;
@@ -256,6 +269,7 @@ h4 {
     border: 4px solid rgb(0, 130, 200);
     background-color: #87b37a; 
     text-transform: capitalize;
+    padding: left;
    
 }
 
@@ -266,7 +280,7 @@ h4 {
     line-height: 0;
     column-count: 2;
     column-gap: 0;
-    background-image: cover;
+   
 }
     
 #photos > img {
@@ -294,6 +308,10 @@ h4 {
     position: absolute;
     left: 5%;
     padding: 15px;
+}
+
+.form-section h4 {
+    font-size: medium;
 }
 
 .signup-form > h2 {
@@ -333,3 +351,136 @@ h4 {
     background-color: #fafafa;
     
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    footer{
+        height: 800px;
+        width: 100%;
+ 
+        
+    }
+    
+    #need {
+        position: relative;
+        width: 70%;
+        height: 100%;
+        top: 550px;
+        margin-left: 300px;
+    
+        
+    }
+
+    hr {
+        display: none;
+    }
+    
+    .circle {
+        
+        left: 620px;
+        font-size: 200%;
+  
+        
+    }
+    
+    .social-network-contact {
+        text-align: center;
+        position: relative; 
+    }
+    
+    .social-network-contact > li {
+        bottom: 200px;
+        padding: 5px;
+        right: 29%;
+    }
+    
+    
+    .social-network-contact i {
+        font-size: 400%; 
+    }
+    
+  
+    
+    #allianz-img {
+        
+        width: 40%;
+        right: 300px;
+        transform: scale(.7)   
+    }
+    
+    #adidas-img {
+        width: 37%;
+        right: 640px;
+        transform: scale(.7);  
+    }
+    
+    
+    #im-irwinmitchel-img {
+        width: 40%;
+        left: 750px;
+        transform: scale(.7)   
+    }
+    /* information page */
+
+    
+    
+    #text-boxes > li {
+        color: rgb(0, 130, 200);
+        display: inline-block;
+        height: 150px;
+        width: 98%;
+        border: 4px solid rgb(0, 130, 200);
+        background-color: #87b37a; 
+        text-transform: capitalize;
+       
+    }
+
+    #rugbyball-whistle {
+        transform: scale(.2)
+    }
+    
+    
+    /* gallery-photos */ 
+   
+        
+  
+    /* contact-us page */
+    
+
+    #left-about-top {
+        color: rgb(0, 130, 200);
+        position: absolute;
+        margin-left: 73%;
+        top: 800px
+     }
+    
+     #left-about-mid {
+        color: rgb(0, 130, 200);
+        position: absolute;
+        margin-left: 73%;
+        top: 1000px;
+     }
+    
+     #right-about-top {
+        color: rgb(0, 130, 200);
+        position: absolute;
+        margin-left: 20%;
+        top: 800px;
+     }
+    
+     #right-about-mid {
+        color: rgb(0, 130, 200);
+        position: absolute;
+        margin-left: 20%;
+        top: 1000px;
+     }
+
+}
+
+
+
+    /* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
