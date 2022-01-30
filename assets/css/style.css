@@ -615,86 +615,199 @@ h4 {
  }
 } 
 
- /* For medium screen sizes from 768px wide and down */
- @media screen and (max-width: 768px) {
+ /* For medium screen sizes from 576px wide and down */
+ @media screen and (max-width: 576px) {
 
+   
     #right-about-top {
-       width: 40%;
-       float: right;
-       padding: 0px;
-       margin-left: 100px;
-   }
-           
-   #left-about-top {
-       width: 110%;
-       left: -30px;                
-             
-   }        
-           
-   #right-about-mid {
-       width: 60%;
-       right: 270px;
-       padding-top: 5%;
-   }
-           
-   #left-about-mid {
-       width: 100%;
-       padding-top: 5%;
-       right: 60px;
-   }  
-   
-     /* footer */
-   
-   #need {
-       margin-left: 160px;
-       max-width: 70%; 
+        width: 60%;
+        float: right;
+        padding: 15px;
+        margin-left: 50px;
     }
-   
-    .circle {
-       left: 145px;
-       font-size: 120%;
+            
+    #left-about-top {
+        width: 120%;
+        left: -30px; 
+        padding-top: 15px;               
+              
+    }        
+            
+    #right-about-mid {
+        width: 65%;
+        right: 270px;
+        padding-top: 5%;
     }
-   
-    .social-network-contact li {
-       padding: 8px;
-    }
-   
-   
-    .social-network-contact i {
-       font-size: 300%; 
-    }
-   
+            
+    #left-about-mid {
+        width: 110%;
+        padding-top: 5%;
+        left: 0px;
+    }  
     
-   
-#thanks {
-    padding: 20px 0px;
-    left: -40px;
-    transform: scale(.6)
-}
-
-#allianz-img {
-    width: 88%;
-    left: 18.5%;
-    transform: scale(.35);   
-}
-
-#adidas-img {
-    width: 70%;
-    transform: scale(.35); 
-    left: 0%; 
-}
-
-#im-irwinmitchel-img {
-    width: 65%;
-    bottom: 10px;
-    left: 57%;
-    transform: scale(.35);   
-}
-  
-/* form */
-
-.signup-form {
+      /* footer */
+    
+    #need {
+        margin-left: 160px;
+        padding: 0%;
+        top: 60%;
+     }
+    
+     .circle {
+        left: 170px;
+        top: 130px;
+        font-size: 130%;
+     }
+    
+     .social-network-contact li {
+         bottom: 220px;
+         padding: 7px;
+     }
+    
+    
+     .social-network-contact i {
+        font-size: 200%;  
+     }
+    
+    
+     #thanks {
+         padding: 20px 0px;
+         left: -40px;
+         transform: scale(.6)
+     }
+     
+     #allianz-img {
+         width: 91%;
+         left: 15%;
+         transform: scale(.35);   
+     }
+     
+     #adidas-img {
+         width: 65%;
+         transform: scale(.35); 
+         left: 1%; 
+     }
+     
+     #im-irwinmitchel-img {
+         width: 69%;
+         bottom: 10px;
+         left: 54%;
+         transform: scale(.35);   
+     }
+       
+ 
+  /* form */
+ 
+  .signup-form {
     top: 115%;
-    left: 18%;
+    left: 7%;
  }
-} 
+}
+
+ /* For medium screen sizes from 412px wide and down */
+ @media screen and (max-width: 412px) {
+    #right-about-top {
+
+        width: 80%;
+        float: right;
+        
+        padding-top: 80px;
+        margin-left: 0px;
+    }
+            
+    #left-about-top {
+        width: 130%;
+        left: -30px; 
+        padding-top: 80px;               
+              
+    }        
+            
+    #right-about-mid {
+        width: 70%;
+        right: 180px;
+        padding-top: 20%;
+    }
+            
+    #left-about-mid {
+        width: 120%;
+        padding-top: 25%;
+        left: -10px;
+    }  
+    
+      /* footer */
+    
+    #need {
+        margin-left: 54px;
+        top: 60%;
+     }
+    
+     .circle {
+        left: 190px;
+        top: 100px;
+        font-size: 130%;
+     }
+    
+     .social-network-contact li {
+   
+         bottom: 192px;
+         padding: 30px;
+     }
+    
+    
+     .social-network-contact i {
+        font-size: 180%;
+        
+     }
+    
+    
+     #thanks {
+         padding: 20px 0px;
+         left: -40px;
+         transform: scale(.6)
+     }
+     
+     #allianz-img {
+         width: 100%;
+         left: 6%;
+         transform: scale(.2);   
+     }
+     
+     #adidas-img {
+         width: 100%;
+         transform: scale(.2); 
+         left: -14%;
+     }
+     #im-irwinmitchel-img {
+         width: 90%;
+         bottom: 10px;
+         left: 30%;
+         transform: scale(.2);   
+     }
+    /* information */
+
+ text-boxes h2, h4 {
+    font-size: medium;
+}   
+ 
+  /* form */
+ 
+  .signup-form  {
+      max-width: 86%;
+    top: 115%;
+    left: 0%;
+
+ }
+
+ .signup-form h2 {
+     max-width: 100%;
+
+ }
+
+ .signup-form h4 {
+     max-width: 90%;
+ }
+}
+   
+   
+       
+       
