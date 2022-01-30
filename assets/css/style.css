@@ -176,7 +176,7 @@
     position: relative;
     bottom: 200px;
     padding: 20px;
-    right: 26%;
+    left: 100px;
  }
 
 
@@ -259,9 +259,16 @@ h4 {
     border: 4px solid rgb(0, 130, 200);
     background-color: #87b37a; 
     text-transform: capitalize;
-    padding: left; 
+    padding-left: 35px; 
 }
 
+#text-boxes h3 {
+    text-transform: uppercase;
+}
+
+#text-boxes h4 {
+    text-decoration: none;
+}
 
 /* gallery-photos */ 
 #photos {
@@ -289,17 +296,17 @@ h4 {
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 30px 30px;
     color: #fafafa;
     background-color: rgba(75, 41, 107, 1);
     max-width: 435px;
     position: absolute;
-    left: 5%;
-    padding: 15px;
+    padding: 20px;
+    
 }
 
 .form-section h4 {
-    font-size: medium;
+    font-size: large;
 }
 
 .signup-form > h2 {
@@ -344,82 +351,117 @@ h4 {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    footer{
-        height: 800px;
-        width: 100%;  
-    }
-    
-    #need {
-        position: relative;
-        width: 70%;
-        height: 100%;
-        top: 550px;
-        margin-left: 300px;  
-    }
+    #rugbyball-whistle {
+        transform: scale(.2);
+     }
 
-    hr {
-        display: none;
-    }
-    
-    .circle {
-        
-        left: 620px;
-        font-size: 200%;    
-    }
-    
-    .social-network-contact {
-        text-align: center;
-        position: relative; 
-    }
-    
-    .social-network-contact > li {
-        bottom: 200px;
-        padding: 5px;
-        right: 29%;
-    }
-    
-    
-    .social-network-contact i {
-        font-size: 400%; 
-    }
-    
+#right-about-top {
+    width: 50%;
+    float: right;
+    padding: 0px;
+    margin-left: 100px;
+}
+
+#left-about-top {
+    width: 110%;
+   margin-right: 100px;
   
+}
+
+#right-about-mid {
+    width: 60%;
+    right: 550px;
+}
+
+#left-about-mid {
+    width: 110%;
+}
+
+/* footer */
+
+#need {
+    margin-left: 280px;   
+ }
+
+ .circle {
+    left: 500px;
+    font-size: 250%;
+ }
+
+ .social-network-contact > li {
+    bottom: 130px;
+    padding: 20px;
+    left: 0px;
+ }
+
+
+ .social-network-contact i {
+    font-size: 400%; 
+ }
+
+ 
+h4 {
+    text-align-last: center;
+    letter-spacing: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: underline;
+    color: #fafafa;
+    font-size: x-large;
+}
+
+#thanks {
+    padding: 25px 25px;
+    font-size: smaller;
+}
+
+#allianz-img {
+    width: 39%;
+    right: 21%;
+    transform: scale(.8)   
+}
+
+#adidas-img {
+    width: 29%;
+    transform: scale(.8); 
+    left: 18%; 
+}
+
+#im-irwinmitchel-img {
+    width: 30%;
+    bottom: 10px;
+    left: 72%;
+    transform: scale(.8)   
+}
+/* information page */
+
+#text-boxes > li {
+    width: 97%;
+    border: 3px solid rgb(0, 130, 200);
+    padding-left: 25px; 
+}
+
+/* gallery-photos */ 
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0; 
+}
     
-    #allianz-img {
-        width: 40%;
-        right: 300px;
-        transform: scale(.7)   
-    }
-    
-    #adidas-img {
-        width: 37%;
-        right: 640px;
-        transform: scale(.7);  
-    }
-    
-    
-    #im-irwinmitchel-img {
-        width: 40%;
-        left: 750px;
-        transform: scale(.7)   
-    }
+#photos > img {
+    width: 100%;
+
+}
+
+
+}
+
     /* information page */
 
     
     
-    #text-boxes > li {
-        color: rgb(0, 130, 200);
-        display: inline-block;
-        height: 150px;
-        width: 98%;
-        border: 4px solid rgb(0, 130, 200);
-        background-color: #87b37a; 
-        text-transform: capitalize; 
-    }
-
-    #rugbyball-whistle {
-        transform: scale(.2)
-    }
+   
     
     
     /* gallery-photos */ 
@@ -429,33 +471,7 @@ h4 {
     /* contact-us page */
     
 
-    #left-about-top {
-        color: rgb(0, 130, 200);
-        position: absolute;
-        margin-left: 73%;
-        top: 800px
-     }
     
-     #left-about-mid {
-        color: rgb(0, 130, 200);
-        position: absolute;
-        margin-left: 73%;
-        top: 1000px;
-     }
-    
-     #right-about-top {
-        color: rgb(0, 130, 200);
-        position: absolute;
-        margin-left: 20%;
-        top: 800px;
-     }
-    
-     #right-about-mid {
-        color: rgb(0, 130, 200);
-        position: absolute;
-        margin-left: 20%;
-        top: 1000px;
-     }
 
 }
 
