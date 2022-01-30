@@ -1,139 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
-body {
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+ body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
     color: #4b296b;
-}
+ }
 
-/* headings and logos */
+ /* headings and logos */
 
-#logo, #why {
+ #logo, #why {
    text-align: center;
     font-size: 280%;
-}
+ } 
 
-#why {
+ #why {
     width: 100%;
     height: 100px;
     background-color: #87b37a;
-
     text-decoration: underline; 
-  
     color: rgb(0, 130, 200)
-  
-}
+ }
 
 
-#menu, #logo {
+ #menu, #logo {
     line-height: 40px;
-}
+ } 
 
-/* navigation links */
+ /* navigation links */ 
 
-#menu > li {
+ #menu > li {  
     float: right;
     list-style-type: none;
     margin-right: 30px;
     font-size: xx-large;
     margin-top: 20px;
     padding-bottom: 20px;
-}
+ }
 
-#menu a {
+ #menu a {
     text-decoration: none;
     color: inherit;
-}
+ }
 
-#menu a:hover {
+ #menu a:hover {
     border-bottom: 3px solid #4b296b;     
-}
+ }
 
-/* hero-images */
+ /* hero-images */
 
-#hero-top {
+ #hero-top {
     height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
-}
+ }
 
-#hero-image-1 {
+ #hero-image-1 {
     height: 500px;
     width: 33%;
     background: url('../css/images/hero-1.jpg') no-repeat center center;
     float: left;
     transform: scale(.80);
-}
+ }
 
-#hero-image-2 {
+ #hero-image-2 {
     height: 500px;
     width: 33%;
     background: url('../css/images/hero-2.jpg') no-repeat center center;
     float: right;
     transform: scale(.80);
-}
+ }  
 
-#hero-image-3 {
+ #hero-image-3 {
     height: 500px;
     width: 100%;
     background: url('../css/images/hero-3.jpg') no-repeat center center; 
-}
-
-/* reasons to get involved */
-
-.question {
-    color: rgb(0, 130, 200);
-}
-.question h3 {
-    max-width: 60%;
-  
-
-}
-
-.question p {
-    max-width: 40%;
-    color: #fafafa;
-}
-
- #left-about-top {
-    
-   position: absolute;
-   padding-left: 75%;
-    top: 800px
  }
 
+ /* reasons to get involved */
+
+ .question {
+    color: rgb(0, 130, 200); 
+ }
+ .question h3 {
+    max-width: 60%;
+ }
+
+ .question p {
+    max-width: 40%;
+    color: #fafafa;
+ }
+
+ #left-about-top {
+    position: absolute;
+    padding-left: 75%;
+    top: 800px
+ } 
+
  #left-about-mid {
-   
     position: absolute;
     padding-left: 70%;
     top: 1000px;
  }
 
  #right-about-top {
-   
     position: absolute;
     padding-left: 17%;
     top: 800px;
  }
 
  #right-about-mid {
-    
     position: absolute;
     padding-left: 23%;
     top: 1000px;
  }
+ 
  hr {
     border-top: 2px solid #fafafa;
     width: 40%;
     margin: 5px 0;
-}
+ }
 
-
-
-
-
-
-#rugbyball-whistle {
+ #rugbyball-whistle {
     background: url('../css/images/rugbyball-whistle-watch.png') no-repeat center center;
     width: 100%;
     height: 100%;
@@ -141,39 +128,35 @@ body {
     transform: scale(.3);
     text-align: center;
     top: 410px;
-}
+ }
+  
+ /* footer */
 
-
- 
-/* footer */
-
-footer{
+  footer{
     height: 700px;
     width: 100%;
     color: rgb(0, 130, 200);
     background-color: #4b296b
-}
+ }
 
-#need {
+ #need {
     position: relative;
     width: 70%;
     height: 100%;
-    top: 440px;
-    margin-left: 600px;
+    top: 500px;
+    margin-left: 600px;   
+ }
 
-    
-}
-
-h2 {
+ #need h2 {
     text-align-last: center;
     letter-spacing: 5px;
     margin: 5px;
     padding: 12px;
     text-decoration: underline;
 
-}
+ }
 
-.circle {
+ .circle {
     position: relative;
     left: 950px;
     font-size: 350%;
@@ -186,29 +169,22 @@ h2 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Oswald, sans-serif;
-    
-}
+ }
 
-.social-network-contact {
-    text-align: center;
-    position: relative; 
-}
-
-.social-network-contact > li {
+ .social-network-contact > li {
     display: inline;
     position: relative;
-    bottom: 270px;
+    bottom: 200px;
     padding: 20px;
-    right: 29%;
-}
+    right: 26%;
+ }
 
 
-.social-network-contact i {
+ .social-network-contact i {
     font-size: 500%; 
-}
+ }
 
-#sponsors li{
- 
+ #sponsors li {
     color: #fafafa;
     position: fixed;
     text-align: center;
@@ -216,7 +192,7 @@ h2 {
     text-transform: uppercase;
     bottom: 20px;
 }
-
+ 
 h4 {
     text-align-last: center;
     letter-spacing: 5px;
@@ -236,8 +212,6 @@ h4 {
     bottom: 70px;
     font-size: medium;
 }
-
-
 
 #allianz-img {
     background: url('../css/images/allianz.png') no-repeat center center;
@@ -285,8 +259,7 @@ h4 {
     border: 4px solid rgb(0, 130, 200);
     background-color: #87b37a; 
     text-transform: capitalize;
-    padding: left;
-   
+    padding: left; 
 }
 
 
@@ -295,8 +268,7 @@ h4 {
     clear: both;
     line-height: 0;
     column-count: 2;
-    column-gap: 0;
-   
+    column-gap: 0; 
 }
     
 #photos > img {
@@ -364,8 +336,7 @@ h4 {
 
 .join-button:hover {
     color:#4b296b;
-    background-color: #fafafa;
-    
+    background-color: #fafafa;  
 }
 
 /* Media queries */
@@ -375,9 +346,7 @@ h4 {
 
     footer{
         height: 800px;
-        width: 100%;
- 
-        
+        width: 100%;  
     }
     
     #need {
@@ -385,9 +354,7 @@ h4 {
         width: 70%;
         height: 100%;
         top: 550px;
-        margin-left: 300px;
-    
-        
+        margin-left: 300px;  
     }
 
     hr {
@@ -397,9 +364,7 @@ h4 {
     .circle {
         
         left: 620px;
-        font-size: 200%;
-  
-        
+        font-size: 200%;    
     }
     
     .social-network-contact {
@@ -421,7 +386,6 @@ h4 {
   
     
     #allianz-img {
-        
         width: 40%;
         right: 300px;
         transform: scale(.7)   
@@ -450,8 +414,7 @@ h4 {
         width: 98%;
         border: 4px solid rgb(0, 130, 200);
         background-color: #87b37a; 
-        text-transform: capitalize;
-       
+        text-transform: capitalize; 
     }
 
     #rugbyball-whistle {
