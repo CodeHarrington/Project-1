@@ -204,43 +204,45 @@ h4 {
 }
 
 #thanks {
+    width: 460px;
+    height: 80px;
     float: left;
     color: #fafafa;
     position: fixed;
-    padding: 20px;
+    padding: 25px 0px;
     background-color: #4b296b;
-    bottom: 70px;
+    bottom: 55px;
     font-size: medium;
 }
 
 #allianz-img {
     background: url('../css/images/allianz.png') no-repeat center center;
     position: absolute;
-    width: 32%;
+    width: 1000px;
     bottom: 10px;
-    right: 26%;
+    right: 250px;
     height: 160px;
-    transform: scale(.9)   
+    transform: scale(.5)   
 }
 
 #adidas-img {
     background: url('../css/images/adidas.jpeg') no-repeat center center;
     position: absolute;
-    width: 33%;
+    width: 1000px;
     height: 160px;
-    transform: scale(.9); 
-    left: 13%; 
+    transform: scale(.5); 
+    left: 209px; 
 }
 
 
 #im-irwinmitchel-img {
     background: url('../css/images/im-iriwinmitchel.png') no-repeat center center;
     position: absolute;
-    width: 30%;
+    width: 1000px;
     bottom: 10px;
-    left: 70%;
+    left: 1200px;
     height: 160px;
-    transform: scale(.9)   
+    transform: scale(.5)   
 }
 /* information page */
 
