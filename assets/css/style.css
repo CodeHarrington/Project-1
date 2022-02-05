@@ -447,108 +447,50 @@ h4 {
 @media screen and (max-width: 1200px) {
 
     #rugbyball-whistle {
-        transform: scale(.2);
-     }
-
-#right-about-top {
-    width: 50%;
-    float: right;
-    padding: 0px;
-    margin-left: 100px;
-}
-
-#left-about-top {
-    width: 110%;
-   margin-right: 100px;
-  
-}
-
-#right-about-mid {
-    width: 60%;
-    right: 550px;
-}
-
-#left-about-mid {
-    width: 110%;
-}
-
-/* footer */
-
-#need {
-    margin-left: 280px;   
- }
-
- .circle {
-    left: 500px;
-    font-size: 250%;
- }
-
- .social-network-contact > li {
-    bottom: 130px;
-    padding: 20px;
-    left: 0px;
- }
-
-
- .social-network-contact i {
-    font-size: 400%; 
- }
-
- 
-h4 {
-    text-align-last: center;
-    letter-spacing: 5px;
-    margin: 5px;
-    padding: 5px;
-    text-decoration: underline;
-    color: #fafafa;
-    font-size: x-large;
-}
-
-#thanks {
-    padding: 25px 25px;
-    font-size: smaller;
-}
-
-#allianz-img {
-    width: 39%;
-    right: 21%;
-    transform: scale(.8)   
-}
-
-#adidas-img {
-    width: 29%;
-    transform: scale(.8); 
-    left: 18%; 
-}
-
-#im-irwinmitchel-img {
-    width: 30%;
-    bottom: 10px;
-    left: 72%;
-    transform: scale(.8)   
-}
-/* information page */
-
-#text-boxes > li {
-    width: 97%;
-    border: 3px solid rgb(0, 130, 200);
-    padding-left: 25px; 
-}
-
-/* gallery-photos */ 
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0; 
-}
+        top: 300px;
+        transform: scale(.18);
+        }   
     
-#photos > img {
-    width: 100%;
-
- }
-}
+    /* footer */
+    
+    #need {
+        margin-left: 80px;   
+     }
+    
+     .circle {
+        left: 480px;
+        font-size: 250%;
+     }
+    
+     .social-network-contact > li {
+        bottom: 130px;
+        padding: 25px;
+        left: 0px;
+     }
+    
+    
+     .social-network-contact i {
+        font-size: 400%; 
+     }
+    
+    
+    #allianz-img {
+        
+        right: 330px;
+        width: 600px;
+    }
+    
+    #adidas-img {
+       width: 560px;
+        left: 180px; 
+    }
+    
+    #im-irwinmitchel-img {
+        width: 600px;
+        left: 750px;
+      
+    }
+    }
 
     /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
