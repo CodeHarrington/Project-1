@@ -808,9 +808,15 @@ h4 {
         }
     } 
 
- /* For medium screen sizes from 576px wide and down */
- @media screen and (max-width: 576px) {
+/* For medium screen sizes from 540px wide and down */
+@media screen and (max-width: 540px) {
+    #menu li {
+        font-size: large;
+    }
 
+    #logo #h1 {
+        font-size: x-large;
+    }
    
     #right-about-top {
         width: 60%;
