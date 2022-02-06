@@ -498,6 +498,83 @@ h4 {
     }
     }
 
+
+/* Media queries */
+
+/* For larger to medium screens size from 1024px wide and down */
+@media screen and (max-width: 1024px) {
+
+    #rugbyball-whistle {
+        top: 150px;
+    }
+   
+    #left-about-top {
+        width: 1150px;
+        right: 50px;
+    }
+   
+    #left-about-mid {
+        width: 1000px;
+        right: 150px;
+    }
+   
+   #right-about-mid {
+       width: 450px;
+      right: 650px;
+   }
+
+  /* footer */
+   
+   #need h2 {
+       letter-spacing: 0;
+      padding: 10px 100px 0px 0px;
+   }
+   .circle {
+       font-size: 150%;
+       left: 400px;
+       bottom: 50px;
+   }
+
+
+ .social-network-contact i {
+    font-size: 350%; 
+ }
+
+ 
+ h4 {
+    letter-spacing: 2px;
+}
+
+#thanks {
+    width: 250px;
+    padding: 25px 0px;
+}
+
+#allianz-img {
+    width: 520px;
+    left: 378px;
+      
+}
+
+#adidas-img {
+    width: 510px;
+    left: 125px; 
+}
+
+#im-irwinmitchel-img {
+    width: 510px;
+    left: 640px;
+     
+}
+/* form */
+
+.signup-form {
+    top: 80%;
+    left: 27%;
+}     
+}
+      
+
     /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
