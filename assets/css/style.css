@@ -362,6 +362,7 @@ h4 {
 
     #rugbyball-whistle {
         transform: scale(.2);
+        top: 300px;
      }
 
 #right-about-top {
@@ -449,12 +450,17 @@ h4 {
     #rugbyball-whistle {
         top: 300px;
         transform: scale(.18);
-        }   
+        } 
+        
+    #right-about-mid {   
+    padding-left: 250px;
+         }   
     
     /* footer */
     
     #need {
-        margin-left: 80px;   
+        margin-left: 80px;  
+        top: 470px; 
      }
     
      .circle {
