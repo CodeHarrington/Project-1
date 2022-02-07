@@ -1151,7 +1151,12 @@ h4 {
  
   .signup-form {
     top: 85%;
-    left: 5%;
+    width: 85%;
+    left: 5px;
+ }
+
+ .signup-form h2{
+     width: 100%;
  }
 }
 
@@ -1239,8 +1244,8 @@ h4 {
 }
 
 .signup-form h2 {
-   max-width: 100%;
-}
+    max-width: 80%;
+ }
 
 .signup-form h4 {
    max-width: 90%;
@@ -1322,14 +1327,16 @@ h4 {
   
   /* form */
  
+  /* form */
+ 
   .signup-form  {
-    max-width: 86%;
+    max-width: 85%;
     top: 85%;
-    left: 0%;
+   
 }
 
 .signup-form h2 {
-   max-width: 100%;
+   max-width: 80%;
 }
 
 .signup-form h4 {
