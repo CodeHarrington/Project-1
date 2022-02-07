@@ -388,7 +388,7 @@ h4 {
     
      .circle {
         left: 600px;
-        font-size: 250%;
+        font-size: 200%;
      }
     
      .social-network-contact > li {
@@ -456,7 +456,7 @@ h4 {
     
      .circle {
         left: 600px;
-        font-size: 250%;
+        font-size: 200%;
      }
     
      .social-network-contact > li {
@@ -543,7 +543,7 @@ h4 {
 
  .circle {
     left: 600px;
-    font-size: 250%;
+    font-size: 200%;
  }
 
  .social-network-contact > li {
@@ -613,19 +613,20 @@ h4 {
     
     /* footer */
     
+     
     #need {
-        margin-left: 80px;  
+        margin-left: 30px;  
         top: 470px; 
      }
     
      .circle {
-        left: 480px;
-        font-size: 250%;
+        left: 450px;
+        font-size: 150%;
      }
     
      .social-network-contact > li {
         bottom: 130px;
-        padding: 25px;
+        padding: 20px;
         left: 0px;
      }
     
@@ -757,17 +758,17 @@ h4 {
 
 #need h2 {
    letter-spacing: 0px;
-   padding: 10px 140px 50px 0px;  
+   padding: 0px 290px 50px 70px;  
  }
 
  .circle {
-    left: 380px;
-    font-size: 150%;
+    left: 320px;
+    font-size: 130%;
     bottom: 0px;
  }
 
  .social-network-contact li {
-    padding: 20px; 
+    padding: 15px; 
  }
 
 
@@ -890,58 +891,66 @@ h4 {
     }
 
 
-    /* For medium screen sizes from 768px wide and down */
+    /* For medium screen sizes from 768px wide and down i.e "ipad mini" */
     @media screen and (max-width: 768px) {
     
-        #right-about-top {
-            width: 150px;
-            float: right; 
-        }
-                
-        #left-about-top {
-              width: 1050px;          
-        }        
-                
-        #right-about-mid {
-          width: 400px;
-          float: right;
-          right: 500px;    
-        }
-                
-        #left-about-mid {
-            width: 950px;
-            right: 130px;
-        }  
-        
-          /* footer */
- 
-        
-        #thanks {
-            width: 200px;
-           transform: scale(.8)
-        }
-        
-        #allianz-img {
-            width: 500px;
-            left: 210px;
-            transform: scale(.4);   
-        }
-        
-        #adidas-img {
-            width: 450px;
-            transform: scale(.4); 
-            left: 50px; 
-        }
-        
-        #im-irwinmitchel-img {
-            width: 500px;
-            left: 410px;
-            transform: scale(.4);   
-        }
-    } 
+           
+        #rugbyball-whistle{
+            display: none;
+    
+        } 
+    
+          #right-about-top {
+              width: 200px;
+              top: 800px;
+              float: right; 
+          }
+                  
+          #left-about-top {
+                width: 1100px;
+                top: 800px;          
+          }        
+                  
+          #right-about-mid {
+            width: 400px;
+            top: 1000px;
+            float: right;
+            right: 530px;    
+          }
+                  
+          #left-about-mid {
+              width: 950px;
+              top: 1000px;
+              right: 120px;
+          }  
+          
+            /* footer */
+    
+          
+          #thanks {
+              width: 200px;
+             transform: scale(.8)
+          }
+          
+          #allianz-img {
+              width: 500px;
+              left: 210px;
+              transform: scale(.4);   
+          }
+          
+          #adidas-img {
+              width: 450px;
+              transform: scale(.4); 
+              left: 50px; 
+          }
+          
+          #im-irwinmitchel-img {
+              width: 500px;
+              left: 410px;
+              transform: scale(.4);   
+          }
 
-
-/* For medium screen sizes from 540px wide and down */
+/* For medium screen sizes from 540px wide and down i.e "Surface Duo"*/
 @media screen and (max-width: 540px) {
 
     #menu li {
@@ -1055,11 +1064,11 @@ h4 {
  }
 }
 
- /* For medium screen sizes from 414px wide and down */
+ /* For medium screen sizes from 414px wide and down i.e "iphone/6/7/8 plus" */
  @media screen and (max-width: 414px) {
    
     #right-about-top {
-        padding-right: 0px;   
+        padding-right: 50px;   
     }
             
     #left-about-top {
@@ -1146,7 +1155,7 @@ h4 {
 }
 }
    
-  /* For medium screen sizes from 375px wide and down */
+  /* For medium screen sizes from 375px wide and down i.e "iphone/6/7/8 " */
   @media screen and (max-width: 375px) {      
        
     #menu li {
@@ -1222,8 +1231,8 @@ h4 {
    
 }
 
-/* For medium screen sizes from 325px wide and down */
-@media screen and (max-width: 325px) { 
+/* For medium screen sizes from 320px wide and down i.e "iphone 5/ SE" */
+@media screen and (max-width: 320px) { 
 
     #menu li {
         font-size: small;
