@@ -682,7 +682,6 @@ h4 {
 }
 
 
-/* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -722,7 +721,7 @@ h4 {
     
     
     #allianz-img {
-        right: 330px;
+        right: 278px;
         width: 600px;
     }
     
@@ -738,7 +737,25 @@ h4 {
     }
 
 
-/* Media queries */
+/* For larger to medium screens size from 1115px wide and down */
+@media screen and (max-width: 1115px) {
+
+      
+    #allianz-img {
+        right: 330px;
+        width: 550px;
+    }
+    
+    #adidas-img {
+       width: 550px;
+        left: 180px; 
+    }
+    
+    #im-irwinmitchel-img {
+        width: 500px;
+        left: 730px; 
+    }
+    }
 
 /* For larger to medium screens size from 1024px wide and down */
 @media screen and (max-width: 1024px) {
