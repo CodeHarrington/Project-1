@@ -223,9 +223,9 @@ h4 {
 #allianz-img {
     background: url('../css/images/allianz.png') no-repeat center center;
     position: absolute;
-    width: 1000px;
+    width: 1100px;
     bottom: 10px;
-    right: 250px;
+    right: 150px;
     height: 160px;
     transform: scale(.5)   
 }
@@ -400,9 +400,8 @@ h4 {
     }
     
     #allianz-img {
-        width: 800px;
-        right: 250px;
-      
+        width: 900px;
+        right: 200px;
     }
     
     #adidas-img {
@@ -478,10 +477,10 @@ h4 {
         padding-left: 10px;
         font-size: small;
     }
-    
+
     #allianz-img {
-        width: 750px;
-        right: 267px;
+        width: 850px;
+        right: 200px;
         transform: scale(.5)   
     }
     
@@ -562,12 +561,13 @@ h4 {
         padding-left: 10px;
         font-size: small;
     }
-    
+
     #allianz-img {
-        width: 740px;
-        right: 225px;
+        width: 840px;
+        right: 175px;
         transform: scale(.5)   
     }
+    
     
     #adidas-img {
         width: 700px;
@@ -648,8 +648,8 @@ h4 {
 }
 
 #allianz-img {
-    width: 640px;
-    right: 355px;
+    width: 740px;
+    right: 300px;
     transform: scale(.5)   
 }
 
@@ -706,10 +706,11 @@ h4 {
      }
     
     
-    #allianz-img {
-        right: 300px;
-        width: 600px;
+     #allianz-img {
+        right: 250px;
+        width: 700px;
     }
+    
     
     #adidas-img {
        width: 560px;
@@ -728,8 +729,8 @@ h4 {
 
       
     #allianz-img {
-        right: 330px;
-        width: 550px;
+        right: 290px;
+        width: 650px;
     }
     
     #adidas-img {
@@ -794,8 +795,8 @@ h4 {
 }
 
 #allianz-img {
-    width: 520px;
-    left: 378px; 
+    width: 620px;
+    left: 340px; 
 }
 
 #adidas-img {
@@ -875,9 +876,10 @@ h4 {
 }
 
 #allianz-img {
-    width: 500px;
-    left: 355px;    
+    width: 600px;
+    left: 300px;    
 }
+
 
 #adidas-img {
     width: 460px;
@@ -952,8 +954,8 @@ h4 {
     }
     
     #allianz-img {
-        width: 520px;
-        left: 250px;
+        width: 600px;
+        left: 200px;
         transform: scale(.4);   
     }
     
@@ -1017,10 +1019,10 @@ h4 {
           }
           
           #allianz-img {
-              width: 500px;
-              left: 210px;
-              transform: scale(.4);   
-          }
+            width: 550px;
+            left: 190px;
+            transform: scale(.4);   
+        }
           
           #adidas-img {
               width: 450px;
@@ -1050,7 +1052,7 @@ h4 {
        display: none;
 
    }
-   
+
    #hero-image-2 {
     transform: scale(1);
     width: 100%;
@@ -1116,8 +1118,8 @@ h4 {
      }
      
      #allianz-img {
-        width: 500px;
-         left: 65px;
+        width: 530px;
+         left: 50px;
          transform: scale(.35);   
      }
      
@@ -1396,9 +1398,10 @@ h4 {
      }
      
      #adidas-img {
-         width: 480px; 
-         left: -120px;
-     }
+        width: 490px; 
+        left: -130px;
+    }
+    
      #im-irwinmitchel-img {
          width: 520px; 
          left: 60px;
