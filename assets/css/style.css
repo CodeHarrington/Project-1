@@ -98,7 +98,7 @@
  #left-about-top {
     position: absolute;
     padding-left: 1500px;
-    top: 800px
+    top: 800px;
  } 
 
  #left-about-mid {
@@ -363,7 +363,6 @@ h4 {
 /* For larger to medium screens size from 1600px wide and down */
 @media screen and (max-width: 1600px) {
 
-
     #rugbyball-whistle {
         height: 1700px;
         transform: scale(.25);
@@ -392,7 +391,6 @@ h4 {
      .social-network-contact > li {
         bottom: 130px;
         padding: 35px;
-       
      }
     
     
@@ -409,13 +407,11 @@ h4 {
     
     #adidas-img {
         width: 800px;
-        
         left: 205px; 
     }
     
     #im-irwinmitchel-img {
         width: 800px;
-      
         left: 1000px;
            
     }
@@ -549,8 +545,6 @@ h4 {
      .social-network-contact i {
         font-size: 400%; 
      }
-    
-     
      
      h4 {
         text-align-last: center;
@@ -1145,8 +1139,6 @@ h4 {
         font-size: medium;
     }
 
-       
- 
   /* form */
  
   .signup-form {
@@ -1222,6 +1214,7 @@ h4 {
         transform: scale(.2); 
         left: -130px;
     }
+
     #im-irwinmitchel-img {
         width: 630px;
         bottom: 10px;
@@ -1234,7 +1227,6 @@ h4 {
     font-size: medium;
 }   
  
-  
   /* form */
  
   .signup-form  {
@@ -1323,9 +1315,6 @@ h4 {
  text-boxes h2, h4 {
     font-size: medium;
 }   
- 
-  
-  /* form */
  
   /* form */
  
