@@ -1,11 +1,11 @@
 
 # Rugby Referee's Website
 
-This is a Website for Rugby Referee's in order to Recruite, and inform existing members.
+This is a Website for Rugby Referee's in order to Recruit, and inform existing members.
 
 ![image](https://user-images.githubusercontent.com/96495354/153231685-5f114c58-a2ab-400a-993d-894be1c3fe7c.png)
 
-This project develop over time and its propose is to inform Referees of the clubs acitives while inviting new members.
+This project developed over time and its purpose is to inform Referees of the club's acitives while inviting new members to join.
 
 ## View my live website in github pages https://codeharrington.github.io/Project-1/
 
@@ -43,46 +43,45 @@ This project develop over time and its propose is to inform Referees of the club
 
 
 ## Website owner business goals
-The main objective is recruite new members and retaining existing members by giving them a platform where they can access imformation easily.
+The main objective is recruit new members and retaining existing members by giving them a platform where they can access information easily.
  
 ## User goals
 
 ### New user goals:
-- User is able to find information about joining the Refereeing World.
-- User can easily locate Training Sessions and Social events.
+- Users are able to find information about joining the Refereeing World.
+- The User can easily locate Training Sessions and Social events.
 - Find contact information.
 
 ### Returning user goals:
-- User can learn more about Refereeing.
-- User is able to find timetable.
-- User can send a message to the Administrator using a contact form.
+- Users can learn more about Refereeing.
+- The User is able to find a timetable.
+- Users can send a message to the Administrator using a contact form.
 ## User Stories
 
 ### As a business owner:
 * I would like to present myself and my offer on the website clearly to potential Referees.
-* I need to make sure that my current and new Referees will find a professional help with their education or group trainings.
+* I need to make sure that my current and new Referees will find professional help with their education or group training.
 * I want my customers to be able to learn how to use my website intuitively and easily.
-* I would like to build and maintain relationship with potential and current Referees.
+* I would like to build and maintain relationships with potential and current Referees.
 
 ### As a new customer:
 * I wish to find information on what Refreeing is all about and how to get more information.
-* I would like to see what benefits of Joining. 
-* I want know how to get involved the Refreeing World.
-* I want to find out the social appect of the club.
+* I would like to see the benefits of Joining. 
+* I want to know how to get involved the Refreeing World.
+* I want to find out the social aspect of the club.
 
 ### As a returning customer:
-
-* I need to get reward for being a member.
-* I would like to check timetable for current days and times for a group trainings.
-* I would like to check when the workshop are on for education.
+* I need to get a reward for being a member.
+* I would like to check the timetable for current days and times for  group training.
+* I would like to check when the workshops are on for education.
 * I would like to know when social events are on.
 * I want to show my friend how they could be part of this too.
 ## Structure of the website ## Structure of the website
 
-The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. User will get some interaction from the interface as links and buttons will have a hover effects.
+The website is designed to be easy and user-friendly on all types of devices. On a desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. Users will get some interaction from the interface as links and buttons will have hover effects.
 ## Wireframes 
 
-I used website wireframe.cc to create a wireframes.
+I used the website wireframe.cc to create  wireframes.
 ![page 4 ](https://user-images.githubusercontent.com/96495354/153260971-22a00688-db67-41d2-81b3-602ee5ed3a0b.png)
 ![page 3](https://user-images.githubusercontent.com/96495354/153260990-cace89e3-142d-4260-a8ff-86e0bf1cc7ec.png)
 ![page 2](https://user-images.githubusercontent.com/96495354/153260993-f0cc224e-2cb9-405c-9157-c3b9c904114e.png)
@@ -124,19 +123,19 @@ The website has below features:
 
 ## Footer
 
-* Footer is consistent on all pages. It has sponsors details which are of a fixed position which is a nice feature.
-* At the bottom: left side are social directed by a finger pointer with " need more  information" links Each link will open in a separate tab in a browser.
-* On right side is a link to the contact-us page with button type.
+* Footer is consistent on all pages. It has sponsor details which are of a fixed position which is a nice feature.
+* At the bottom left side are social media links directed by a finger pointer with " need more  information" links Each link will open in a separate tab in a browser.
+* At the bottom right side is a link to the contact-us page with button type.
 
 ## Home
 
 * ### Welcome and Why section
 
     *  Welcome is just a short message to keep people on the page.
-    * The hero picture with 2 smaller pic of referees, telling the story of the team spirit.
-    * The hero pic are different in each page which help to keep the viewer interested.
+    * The hero picture with 2 smaller pictures of referees, telling the story of the team spirit.
+    * The hero pic are different in each page which helps to keep the viewer interested.
 
-* ### Why - is the messages why to get involved in refereeing. 
+* ### Why - is the message why to get involved in refereeing. 
     * This has a picture of a rugby ball, whistle and a watch to display the tools involved.
 
 
@@ -147,20 +146,20 @@ The website has below features:
 
 ## Gallery 
 
-* This is a feature page that shows the referees in a action on the pitch and rewards thoses acitive members also by protraying them.
+* This is a feature page that shows the referees in action on the pitch and rewards theses active members also by protraying them.
 
 
 ## Contact
 
-* Contact form is a main part on this site. User can contact by filling a form with detail in getting in touch.
+* Contact form is a main part on this site. Users can contact by filling a form with details in getting in touch.
 
 
 ##  Future implementations
 
-* Create more information on eduction.
+* Create more information on education.
 * Add videos and learning platforms to the website.
-* A interactive on refereeing matter with solutions on weekly topics.
-* Login site for paid content including videos, banl payments for goods and memebreship.
+* An interactive on refereeing matters with solutions on weekly topics.
+* Login site for paid content including videos, bank payments for goods and memebreships.
 
 
 [Back to Table of contents](#table-of-contents)
@@ -182,7 +181,7 @@ The website has below features:
 * @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
 
 ### GitHub
-* As a software hosting platform to keep project in a remote location.
+* As a software hosting platform to keep projects in a remote location.
 
 ### Git
 * As a version-control system tracking.
@@ -210,19 +209,19 @@ The website has below features:
 
 
 [Back to Table of contents](#table-of-contents)
-## Testing # Testing
+## Testing 
 
 ## Functionality testing 
 
  I used Chrome web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
  
-lighthouse was key for obtimising the website. 
+Lighthouse was key for optimisinging the website. 
 
 
 ## Compatibility testing
  Site was tested across 16 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
  
- I tested on hardware devices such as: macbook pro, mac desktop, iphone 5, samaung ds, mac table, and all screen width as follows:
+ I tested on hardware devices such as: macbook pro, mac desktop, iphone 5, samsaung ds, mac table, and all screen width as follows:
  * 1900px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 425px, 414px, 375px, 320px.
 
 ## User stories testing
@@ -230,36 +229,36 @@ lighthouse was key for obtimising the website.
 ### As a business owner:
 
 - I would like to present a platform and my offer on the website clearly to potential and existing Referees.
-    > Keep the potential use engaged and wanting to stay on the page a learn more about contacting-us.
+    > Keep the potential user engaged and wanting to stay on the page and learn more about contacting-us.
 
-- I need to make sure that my current and new customers will find a professional help with queries or group trainings.
+- I need to make sure that my current and new customers will find  professional help with queries or group training.
     > Customers can achieve this by contacting through contact-us form. They can choose their experience in a message box.
 
 - I want my customers to be able to learn how to use my website intuitively and easily.
     > Each site has a fixed navigation menu and is accessible at all times. All content is presented with minimalistic approach.
 
-- I would like to build and maintain relationship with potential and current customers.
-    > Customers are able to find a links to social channels at the bottom of each page. Alternatively they can contact by email or contact form.
+- I would like to build and maintain relationships with potential and current customers.
+    > Customers are able to find links to social channels at the bottom of each page. Alternatively they can contact by email or contact form.
 
 
 ### As a new customer:
-- wish to find information about refreeing and what they might get out of it.
-    > User can see essential description on the home page. More information can be find in information page.
+- I wish to find information about refereeing and what they might get out of it.
+    > Users can see essential descriptions on the home page. More information can be found in the information page.
 
-- I would like to contact with how to get involved and become a Referee.
-    > User can find a contact form in contact page. Alternatively can use an email. Email address if located in a footer the bottom of each page.
+- I would like to know how to get involved and become a Referee.
+    > Users can find a contact form on the contact page. Alternatively can use an email. Email address if located in a footer the bottom of each page.
 
-- I want to join in a fitness group with professional structure, to find motivation and spend time actively.
-    > Brief training description of group sessions can be find on the information page , with the green background with blue border. Frome there user can click contact-us button and send a message on the form.
+- I want to join a fitness group with a professional structure, to find motivation and spend time actively.
+    > Brief training description of group sessions can be find on the information page , with the green background with blue border. From there the user can click contact-us button and send a message on the form.
 
 ### As a returning customer:
 - I need to contact my coach to reschedule my meeting.
-    > User can find a contact form in contact page. Alternatively can use social channels or email.
+    > Users can find a contact form in contact page. Alternatively can use social channels or email.
 
-- I would like to check timetable for current days and times for a group trainings.
-    > information page has time table.
+- I would like to check timetable for current days and times for  group training.
+    > The information page has a time table.
 
-- I want to show my friends what refereing and the club is about.
+- I want to show my friends what refereeing and the club is about.
     > Each page contains a Contact-us button at the top and bottom of each page.  
 
 
@@ -267,24 +266,24 @@ lighthouse was key for obtimising the website.
 ## Issues found during site development
 
 ### Hero pics 
-* I used a youtube video to get the disired outcome with balaning the main hero photo with the 2 smaller ones.
+* I used a youtube video to get the desired outcome with balancing the main hero photo with the 2 smaller ones.
 
 ### Left and right abouts 
-As I wanted to look desizned rather that inline.
-* this was trouble some to say the least, but i am not very good with, margin, border and padding. it took at lot of work during resizing and it will be alot fast next time.
+As I wanted to look designed rather than inline.
+* This was troublesome to say the least, but I am now very good with margin, border and padding. it took alot of work during resizing and it will be alot faster next time.
 
 * #### Sizing on the Horizontal scrolling bar on the bottom of the screen.
     * I used the developer tools in Chrome to resize and fix.
 
 
-* #### I had to create several screen sizing to keep to slick look of the website.
+* #### I had to create several screen sizes to keep the look of the website.
 
 
 
 ## Performance testing
 
-I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
-I had to do couple of changes to improve performance. Screenshots are presented below:
+I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check the performance of the website.
+I had to do a couple of changes to improve performance. Screenshots are presented below:
 
 ![Screen Shot 2022-02-09 at 08 14 32](https://user-images.githubusercontent.com/96495354/153283959-dc7d2514-f151-4743-bb65-efe6f13f5a25.png)
 
@@ -295,13 +294,13 @@ I had to do couple of changes to improve performance. Screenshots are presented 
 ### I have better luck after fixing that. but the next bugs was a change in 2 more resizing of pictures
 ![Screen Shot 2022-02-09 at 13 22 37](https://user-images.githubusercontent.com/96495354/153283944-4ec99a89-53dc-4a04-8608-000d5f2e9ea0.png)
 
-### Performance was good now just need to fix a bug on a information ancor element that had no discription.
+### Performance was good, now I just need to fix a bug on an information anchor element that had no description.
 
 
 
 ### Final results:
 
-I noticed that this tests scores vary from time to time and depends on external libraries as well. 
+I noticed that these test scores vary from time to time and depend on external libraries as well. 
 
 
 ![Screen Shot 2022-02-09 at 20 58 07](https://user-images.githubusercontent.com/96495354/153289018-027f618e-2ff6-4b19-88bd-581b644545d6.png)
@@ -371,7 +370,7 @@ To run localy:
 
 ## Mentor
 
-  Mentor ADEGBENGA ADEYE for the help and self guidance to get me throught my first milestone project. Thank you !
+  Mentor: ADEGBENGA ADEYE for the help and self guidance to get me throught my first milestone project. Thank you !
 
 ## 4fm 
 Keeping me in tune and company (#great radio station)
