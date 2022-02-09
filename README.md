@@ -368,6 +368,9 @@ To run localy:
 ### Color
 * https://coolors.co/
 
+### Image Resizing
+* https://picresize.com/
+
 ## Mentor
 
   Mentor: ADEGBENGA ADEYE for the help and self guidance to get me throught my first milestone project. Thank you !
