@@ -1,108 +1,380 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome CodeHarrington,
+# Rugby Referee's Website
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is a Website for Rugby Referee's in order to Recruite, and inform existing members.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![image](https://user-images.githubusercontent.com/96495354/153231685-5f114c58-a2ab-400a-993d-894be1c3fe7c.png)
 
-## Gitpod Reminders
+This project develop over time and its propose is to inform Referees of the clubs acitives while inviting new members.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## View my live website in github pages https://codeharrington.github.io/Project-1/
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Table of Content
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- [UX](#ux)
+    - [Website owner business goals](#website-owner-business-goals)
+    - [User goals](#user-goals)
+        - [New user goals](#new-user-goals)
+        - [Returning user goals](#returning-user-goals)
+        - [Website owner business goals](#website-owner-business-goals)
+    - [User stories](#user-stories)
+    - [Structure of the website](#structure-of-the-website)
+    - [Wireframes](#wireframes)
+    - [Surface](#surface)
+- [Features](#features)
+- [Technology](#technology)
+- [Testing](#testing)
+    - [Functionality testing](#functionality-testing)
+    - [Compatibility testing](#compatibility-testing)
+    - [Code Validation](#code-validation)
+    - [User stories testing](#user-stories-testing)
+    - [Issues found during site development](#issues-found-during-site-development)
+    - [Performance testing](#performance-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screenshots](#screenshots)
 
-A blue button should appear to click: _Make Public_,
+# UX
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Website owner business goals
+The main objective is recruite new members and retaining existing members by giving them a platform where they can access imformation easily.
+ 
+## User goals
 
-------
+### New user goals:
+- User is able to find information about joining the Refereeing World.
+- User can easily locate Training Sessions and Social events.
+- Find contact information.
 
-## Release History
+### Returning user goals:
+- User can learn more about Refereeing.
+- User is able to find timetable.
+- User can send a message to the Administrator using a contact form.
+## User Stories
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### As a business owner:
+* I would like to present myself and my offer on the website clearly to potential Referees.
+* I need to make sure that my current and new Referees will find a professional help with their education or group trainings.
+* I want my customers to be able to learn how to use my website intuitively and easily.
+* I would like to build and maintain relationship with potential and current Referees.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### As a new customer:
+* I wish to find information on what Refreeing is all about and how to get more information.
+* I would like to see what benefits of Joining. 
+* I want know how to get involved the Refreeing World.
+* I want to find out the social appect of the club.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### As a returning customer:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* I need to get reward for being a member.
+* I would like to check timetable for current days and times for a group trainings.
+* I would like to check when the workshop are on for education.
+* I would like to know when social events are on.
+* I want to show my friend how they could be part of this too.
+## Structure of the website ## Structure of the website
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. User will get some interaction from the interface as links and buttons will have a hover effects.
+## Wireframes 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+I used website wireframe.cc to create a wireframes.
+![page 4 ](https://user-images.githubusercontent.com/96495354/153260971-22a00688-db67-41d2-81b3-602ee5ed3a0b.png)
+![page 3](https://user-images.githubusercontent.com/96495354/153260990-cace89e3-142d-4260-a8ff-86e0bf1cc7ec.png)
+![page 2](https://user-images.githubusercontent.com/96495354/153260993-f0cc224e-2cb9-405c-9157-c3b9c904114e.png)
+![page 1](https://user-images.githubusercontent.com/96495354/153260997-cb3aea2c-e82d-4289-b8f6-74e41051f223.png)
+## Surface
+### Colors
+Main colours used in a project:
+* background color: #4b296b and 87b37a
+* font color: #fafafa
+* title color: #0082c8
+* hoover color: #4b296b
+![Screen Shot 2022-01-26 at 13 34 40](https://user-images.githubusercontent.com/96495354/153261601-9647b748-5a51-4f52-ab87-1c08cda098c1.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Fonts 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* As a main font I used  Oswald, and as a backup font sans-serif
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Images
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* I used images from my own stock files.
+## Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The website consists of 4 pages. Four are accessible from a navigation menu.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The website has below features:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Navigation bar
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices.
+* Navigation scheme:
 
-------
+    * in the center is a logo text. 
+    * On right side there are four links. It contains:
+        * Home
+        * information
+        * Gallery
+        * Contact-us
 
-## FAQ about the uptime script
+## Footer
 
-**Why have you added this script?**
+* Footer is consistent on all pages. It has sponsors details which are of a fixed position which is a nice feature.
+* At the bottom: left side are social directed by a finger pointer with " need more  information" links Each link will open in a separate tab in a browser.
+* On right side is a link to the contact-us page with button type.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Home
 
-**How will this affect me?**
+* ### Welcome and Why section
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    *  Welcome is just a short message to keep people on the page.
+    * The hero picture with 2 smaller pic of referees, telling the story of the team spirit.
+    * The hero pic are different in each page which help to keep the viewer interested.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* ### Why - is the messages why to get involved in refereeing. 
+    * This has a picture of a rugby ball, whistle and a watch to display the tools involved.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Information
 
-**Can I opt out?**
+* Give information on training nights, workshops, social events and kit.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Gallery 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* This is a feature page that shows the referees in a action on the pitch and rewards thoses acitive members also by protraying them.
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Contact
+
+* Contact form is a main part on this site. User can contact by filling a form with detail in getting in touch.
+
+
+##  Future implementations
+
+* Create more information on eduction.
+* Add videos and learning platforms to the website.
+* A interactive on refereeing matter with solutions on weekly topics.
+* Login site for paid content including videos, banl payments for goods and memebreship.
+
+
+[Back to Table of contents](#table-of-contents)
+## Technologies used
+
+### HTML5
+* As a structure language.
+
+### CSS
+* As a style language.
+
+### Bootstrap 
+* "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+### Font Awesome
+* "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">.
+
+### Google fonts
+* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
+### GitHub
+* As a software hosting platform to keep project in a remote location.
+
+### Git
+* As a version-control system tracking.
+
+### Gitpod
+* As a development hosting platform.
+
+### Wireframe.cc
+* As a wireframing tool.
+
+### GNU Image Manipulation Program [GIMP]
+* As an image editor.
+
+### html and Css checker 
+* I used this to check my code https://jigsaw.w3.org/
+
+### Colors 
+* I used this to pick my colors https://coolors.co/
+
+### Responsive-design
+* I used this to check the website for http://ami.responsivedesign.is/
+
+
+
+
+
+[Back to Table of contents](#table-of-contents)
+## Testing # Testing
+
+## Functionality testing 
+
+ I used Chrome web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+ 
+lighthouse was key for obtimising the website. 
+
+
+## Compatibility testing
+ Site was tested across 16 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+ 
+ I tested on hardware devices such as: macbook pro, mac desktop, iphone 5, samaung ds, mac table, and all screen width as follows:
+ * 1900px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 425px, 414px, 375px, 320px.
+
+## User stories testing
+
+### As a business owner:
+
+- I would like to present a platform and my offer on the website clearly to potential and existing Referees.
+    > Keep the potential use engaged and wanting to stay on the page a learn more about contacting-us.
+
+- I need to make sure that my current and new customers will find a professional help with queries or group trainings.
+    > Customers can achieve this by contacting through contact-us form. They can choose their experience in a message box.
+
+- I want my customers to be able to learn how to use my website intuitively and easily.
+    > Each site has a fixed navigation menu and is accessible at all times. All content is presented with minimalistic approach.
+
+- I would like to build and maintain relationship with potential and current customers.
+    > Customers are able to find a links to social channels at the bottom of each page. Alternatively they can contact by email or contact form.
+
+
+### As a new customer:
+- wish to find information about refreeing and what they might get out of it.
+    > User can see essential description on the home page. More information can be find in information page.
+
+- I would like to contact with how to get involved and become a Referee.
+    > User can find a contact form in contact page. Alternatively can use an email. Email address if located in a footer the bottom of each page.
+
+- I want to join in a fitness group with professional structure, to find motivation and spend time actively.
+    > Brief training description of group sessions can be find on the information page , with the green background with blue border. Frome there user can click contact-us button and send a message on the form.
+
+### As a returning customer:
+- I need to contact my coach to reschedule my meeting.
+    > User can find a contact form in contact page. Alternatively can use social channels or email.
+
+- I would like to check timetable for current days and times for a group trainings.
+    > information page has time table.
+
+- I want to show my friends what refereing and the club is about.
+    > Each page contains a Contact-us button at the top and bottom of each page.  
+
 
 ---
+## Issues found during site development
 
-Happy coding!
+### Hero pics 
+* I used a youtube video to get the disired outcome with balaning the main hero photo with the 2 smaller ones.
+
+### Left and right abouts 
+As I wanted to look desizned rather that inline.
+* this was trouble some to say the least, but i am not very good with, margin, border and padding. it took at lot of work during resizing and it will be alot fast next time.
+
+* #### Sizing on the Horizontal scrolling bar on the bottom of the screen.
+    * I used the developer tools in Chrome to resize and fix.
+
+
+* #### I had to create several screen sizing to keep to slick look of the website.
+
+
+
+## Performance testing
+
+I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
+I had to do couple of changes to improve performance. Screenshots are presented below:
+
+![Screen Shot 2022-02-09 at 08 14 32](https://user-images.githubusercontent.com/96495354/153283959-dc7d2514-f151-4743-bb65-efe6f13f5a25.png)
+
+### I had major images issues at the first lighthouse run
+   * I fixed these with a great toll https://picresize.com/ This save my project because I had alot of images and I was able to reduce them in size in group which was brillant.
+![Screen Shot 2022-02-07 at 18 06 33](https://user-images.githubusercontent.com/96495354/153283949-e5b734f6-ca19-416e-bba4-e6ee2d7ad7bd.png)
+
+### I have better luck after fixing that. but the next bugs was a change in 2 more resizing of pictures
+![Screen Shot 2022-02-09 at 13 22 37](https://user-images.githubusercontent.com/96495354/153283944-4ec99a89-53dc-4a04-8608-000d5f2e9ea0.png)
+
+### Performance was good now just need to fix a bug on a information ancor element that had no discription.
+
+
+
+### Final results:
+
+I noticed that this tests scores vary from time to time and depends on external libraries as well. 
+
+
+![Screen Shot 2022-02-09 at 20 58 07](https://user-images.githubusercontent.com/96495354/153289018-027f618e-2ff6-4b19-88bd-581b644545d6.png)
+
+
+## Code Validation
+ At the and of the project I used two websites to validate a code
+ 
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+ * [Nu Html Checker](https://validator.w3.org/) to test HTML
+
+
+[Back to Table of contents](#table-of-contents)
+
+## Development
+
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
+I used push command in Gitpod to save changes into GitHub.
+
+To deploy a project I had to:
+
+* Log in to GitHub and click on repository to deploy (https://codeharrington.github.io/Project-1/)
+* select `Settings` and find GitHub Pages section at the very bottom of the page
+* from source select `none` and then `Milestone-Projects` branch.
+* click `save` and page was deployed after auto-refresh.
+>  Your site is published at https://marcin-kli.github.io/MP1/
+
+To run localy:
+* Log in to GitHub and click on repository to download [https://codeharrington.github.io/Project-1/)
+* select `Code` and click Download the ZIP file.
+* after download you can extract the file and use it in your local environment 
+
+
+[Back to Table of contents](#table-of-contents)
+## Credits
+
+
+* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+* Ideas and knowledge library:
+
+    * [w3schools.com](https://www.w3schools.com)
+
+    * [css-tricks.com](https://css-tricks.com/)
+
+    * I used code for navbar, and form section fron the love running project.
+
+    * Am I responcive (http://ami.responsivedesign.is/)
+
+    * youtube and google for searches on issues and solving brian block.
+
+    
+
+### Code
+
+* Links transition: [CSS transition Property](https://www.w3schools.com/cssref/css3_pr_transition.asp)
+* script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+* script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"
+### Content:
+*  General content:  [fitlife.ie](http://fitlife.ie/lessons-its-your-life-your-fit-life/)
+
+### Fonts
+* url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');)
+
+### Color
+* https://coolors.co/
+
+## Mentor
+
+  Mentor ADEGBENGA ADEYE for the help and self guidance to get me throught my first milestone project. Thank you !
+
+## 4fm 
+Keeping me in tune and company (#great radio station)
+
+[Back to Table of contents](#table-of-contents)
+___
