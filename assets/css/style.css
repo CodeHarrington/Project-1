@@ -1336,6 +1336,81 @@ h4 {
    max-width: 90%;
 }
 }
+
+   
+    /* For medium screen sizes from 390px wide and down i.e "iphone-13 " */
+    @media screen and (max-width: 390px) {      
+       
+        #right-about-top {
+            width: 130px;
+            padding-right: 20px;   
+        }
+                
+        #left-about-top {
+          right: 15px;                             
+        }        
+                
+        #right-about-mid {
+            right: 25px;
+        }
+                
+        #left-about-mid {
+            width: 900px;
+           right: 240px; 
+        }  
+    
+          /* footer */
+        
+        #need {
+            margin-left: 84px;
+            top: 450px;
+         }
+    
+         
+         #need h2 {
+            padding: 20px 610px 60px 0px;
+        }
+       
+        .circle {
+           left: 30px;
+           top: 70px;
+         font-size: 7px;
+      
+        }
+        
+         .social-network-contact li {
+             padding: 10px;
+         }
+        
+        
+         .social-network-contact i {
+            font-size: 180%;
+            
+         }
+       
+         
+         #allianz-img {
+             width: 580px;
+            left: -70px;    
+         }
+         
+         #adidas-img {
+            width: 490px; 
+            left: -130px;
+        }
+    
+         #im-irwinmitchel-img {
+             width: 575px; 
+             left: 47px;
+         }
+         
+       
+      /* form */
+    
+    .signup-form h4 {
+        max-width: 100%;
+     }  
+    }
    
   /* For medium screen sizes from 375px wide and down i.e "iphone/6/7/8 " */
   @media screen and (max-width: 375px) {      
