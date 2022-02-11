@@ -222,7 +222,7 @@ Lighthouse was key for optimisinging the website.
  Site was tested across 16 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
  
  I tested on hardware devices such as: macbook pro, mac desktop, iphone 5, samsaung ds, mac table, and all screen width as follows:
- * 1900px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 425px, 414px, 375px, 320px.
+ * 1900px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px,460px, 425px, 414px, 375px, 320px.
 
 ## User stories testing
 

@@ -65,6 +65,7 @@
     background: url('../css/images/hero-1.jpg') no-repeat center center;
     float: left;
     transform: scale(.80);
+    box-shadow: 2px 3px 4px 9px rgba(0,0,0,0.36)
  }
 
  #hero-image-2 {
@@ -73,7 +74,9 @@
     background: url('../css/images/hero-2.jpg') no-repeat center center;
     float: right;
     transform: scale(.80);
- }  
+    box-shadow: 2px 3px 4px 9px rgba(0,0,0,0.36);
+
+ } 
 
  #hero-image-3 {
     height: 500px;
