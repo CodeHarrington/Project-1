@@ -1038,6 +1038,7 @@ h4 {
           }
         }
 
+
 /* For medium screen sizes from 540px wide and down i.e "Surface Duo"*/
 @media screen and (max-width: 540px) {
 
@@ -1087,17 +1088,18 @@ h4 {
     #need {  
         padding: 0%;
         top: 60%;
+        
      }
 
      #need h2 {
          font-size: large;
-         padding: 10px 530px 120px 0px;
+         padding: 10px 590px 120px 0px;
      }
     
      .circle {
-        left: 0px;
+        left: -40px;
         top: 100px;
-        font-size: 100%;
+        font-size: 80%;
      }
     
      .social-network-contact li {
@@ -1155,6 +1157,99 @@ h4 {
      width: 100%;
  }
 }
+
+/* For medium screen sizes from 460px wide and down i.e "mobile XL" */
+@media screen and (max-width: 460px) {
+   
+    #right-about-top {
+        padding-right: 50px;   
+    }
+            
+    #left-about-top {
+      right: 25px;                             
+    }        
+            
+    #right-about-mid {
+        right: 30px;
+    }
+            
+    #left-about-mid {
+       right: 260px; 
+    }  
+    
+      /* footer */
+    
+    #need, h2 {
+        margin-left: 70px;
+        top: 440px;
+     }
+    
+     .circle {
+        left: 20px;
+        top: 90px;
+      font-size: 6px;
+   
+     }
+       
+     .social-network-contact li {
+         bottom: 192px;
+         padding: 16px;
+     }
+    
+    
+     .social-network-contact i {
+        font-size: 180%;   
+     }
+    
+    
+     #thanks {
+         width: 200px;
+         padding: 20px 0px;
+         left: -60px;
+         transform: scale(.4)
+     }
+     
+        
+     #allianz-img {
+        width: 670px;
+        left: -69px;
+        transform: scale(.2);   
+    }
+    
+    #adidas-img {
+        width: 600px;
+        transform: scale(.2); 
+        left: -160px;
+    }
+
+    #im-irwinmitchel-img {
+        width: 670px;
+        left: 60px;
+        transform: scale(.2);   
+    }
+    /* information */
+
+ text-boxes h2, h4 {
+    font-size: medium;
+}   
+ 
+  /* form */
+ 
+  .signup-form  {
+    max-width: 86%;
+    top: 85%;
+    left: 0%;
+}
+
+.signup-form h2 {
+    max-width: 80%;
+ }
+
+.signup-form h4 {
+   max-width: 90%;
+}
+}
+
 
 /* For medium screen sizes from 425px wide and down i.e "mobile L" */
 @media screen and (max-width: 425px) {
