@@ -102,6 +102,7 @@ Main colours used in a project:
 ### Images
 
 * I used images from my own stock files.
+* also i used a box-shadow for the 2 small hero images. This was something I picked up at my first study group. Thanks guys!
 ## Features
 
 The website consists of 4 pages. Four are accessible from a navigation menu.
@@ -351,6 +352,8 @@ To run localy:
     * Am I responcive (http://ami.responsivedesign.is/)
 
     * youtube and google for searches on issues and solving brian block.
+    
+    * The study group were brillant for picking up ideas. Thanks a mill guys. 
 
     
 
