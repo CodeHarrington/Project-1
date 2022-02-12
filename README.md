@@ -59,7 +59,7 @@ The main objective is recruit new members and retaining existing members by givi
 ## User Stories
 
 ### As a business owner:
-* I would like to present myself and my offer on the website clearly to potential Referees.
+* I would like to present Refereeing and my offer on the website clearly to potential Referees.
 * I need to make sure that my current and new Referees will find professional help with their education or group training.
 * I want my customers to be able to learn how to use my website intuitively and easily.
 * I would like to build and maintain relationships with potential and current Referees.
@@ -76,7 +76,7 @@ The main objective is recruit new members and retaining existing members by givi
 * I would like to check when the workshops are on for education.
 * I would like to know when social events are on.
 * I want to show my friend how they could be part of this too.
-## Structure of the website ## Structure of the website
+## Structure of the website 
 
 The website is designed to be easy and user-friendly on all types of devices. On a desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. Users will get some interaction from the interface as links and buttons will have hover effects.
 ## Wireframes 
@@ -93,6 +93,7 @@ Main colours used in a project:
 * font color: #fafafa
 * title color: #0082c8
 * hoover color: #4b296b
+* thanks to (https://coolors.co/) brillant website.
 ![Screen Shot 2022-01-26 at 13 34 40](https://user-images.githubusercontent.com/96495354/153261601-9647b748-5a51-4f52-ab87-1c08cda098c1.png)
 
 ### Fonts 
