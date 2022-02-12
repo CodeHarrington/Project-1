@@ -1210,9 +1210,9 @@ h4 {
     }
    
     .circle {
-       left: 10px;
+       left: -10px;
        top: 80px;
-     font-size: 50%;
+     font-size: 40%;
     }
       
     .social-network-contact li {
@@ -1348,14 +1348,21 @@ h4 {
    
            /* footer */
            .circle {
-            left: 0px;
-            top: 100px;
-          font-size: 40%;
+            left: -40px;
+            top: 80px;
+         }
+
+         #need h2 {
+             padding: 0px 710px 80px 200px;   
          }
         
+
+        #need {
+            bottom: 400px;
+        }
          .social-network-contact li {
-             bottom: 192px;
-             padding: 18px;
+             bottom: 172px;
+             padding: 15px;
          }
         
         
@@ -1397,6 +1404,7 @@ h4 {
     }   
 }
 
+
    
     /* For medium screen sizes from 390px wide and down i.e "iphone-13 " */
     @media screen and (max-width: 390px) {      
@@ -1427,9 +1435,9 @@ h4 {
           }
          
           .social-network-contact li {
-              padding: 15px;
-              bottom: 260px;
-          }
+            padding: 10px;
+            bottom: 260px;
+        }
          
          
           .social-network-contact i {
@@ -1485,9 +1493,9 @@ h4 {
   
     }
     
-     .social-network-contact li {
-         padding: 14px;
-     }
+    .social-network-contact li {
+        padding: 5px;
+    }
     
     
      .social-network-contact i {
