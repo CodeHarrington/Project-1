@@ -1123,13 +1123,13 @@ h4 {
     
      #need h2 {
          font-size: large;
-         padding: 0px 600px 100px 230px;
+         padding: 0px 700px 100px 230px;
      }
     
      .circle {
-        left: 120px;
+        left: 50px;
         top: 80px;
-        font-size: 70%;
+        font-size: 60%;
      }
     
      .social-network-contact li {
@@ -1292,10 +1292,9 @@ h4 {
       }
         
       .social-network-contact li {
-          bottom: 192px;
-          padding: 27px;
-      }
-     
+        bottom: 170px;
+        padding: 27px;
+    }
      
       .social-network-contact i {
          font-size: 180%;   
