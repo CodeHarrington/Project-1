@@ -94,7 +94,8 @@ Main colours used in a project:
 * title color: #0082c8
 * hoover color: #4b296b
 * thanks to (https://coolors.co/) brillant website.
-![Screen Shot 2022-01-26 at 13 34 40](https://user-images.githubusercontent.com/96495354/153261601-9647b748-5a51-4f52-ab87-1c08cda098c1.png)
+![Screen Shot 2022-02-12 at 23 05 25](https://user-images.githubusercontent.com/96495354/153731682-7ae00a81-def8-48d9-bbe2-ad6af8d5726b.png)
+
 
 ### Fonts 
 
