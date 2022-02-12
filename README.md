@@ -103,7 +103,7 @@ Main colours used in a project:
 ### Images
 
 * I used images from my own stock files.
-* also i used a box-shadow for the 2 small hero images. This was something I picked up at my first study group. Thanks guys!
+* Also i used a box-shadow for the 2 small hero images. This was something I picked up at my first study group. Thanks guys!
 ## Features
 
 The website consists of 4 pages. Four are accessible from a navigation menu.
@@ -126,7 +126,8 @@ The website has below features:
 ## Footer
 
 * Footer is consistent on all pages. It has sponsor details which are of a fixed position which is a nice feature.
-* At the bottom left side are social media links directed by a finger pointer with " need more  information" links Each link will open in a separate tab in a browser.
+* At the bottom left side are social media links directed by a finger pointer with " need more  information" links.
+* Each link will open in a separate tab in a browser.
 * At the bottom right side is a link to the contact-us page with button type.
 
 ## Home
@@ -138,7 +139,7 @@ The website has below features:
     * The hero pic are different in each page which helps to keep the viewer interested.
 
 * ### Why - is the message why to get involved in refereeing. 
-    * This has a picture of a rugby ball, whistle and a watch to display the tools involved.
+    * This has a picture of a rugby ball, whistle and a watch to display the tools involved, but only on tablet size screen and above.
 
 
 
@@ -148,7 +149,7 @@ The website has below features:
 
 ## Gallery 
 
-* This is a feature page that shows the referees in action on the pitch and rewards theses active members also by protraying them.
+* This is a feature page that shows the referees in action on the pitch and rewards theses active members also by protraying them with interest.
 
 
 ## Contact
@@ -206,6 +207,8 @@ The website has below features:
 ### Responsive-design
 * I used this to check the website for http://ami.responsivedesign.is/
 
+### Image resize.
+* I used picresize to resize some images (https://picresize.com/). Brillant tool.
 
 
 
@@ -221,10 +224,10 @@ Lighthouse was key for optimisinging the website.
 
 
 ## Compatibility testing
- Site was tested across 16 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+ Site was tested across 19 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
  
- I tested on hardware devices such as: macbook pro, mac desktop, iphone 5, samsaung ds, mac table, and all screen width as follows:
- * 1900px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px,460px, 425px, 414px, 375px, 320px.
+ I tested on hardware devices such as: macbook pro 13", mac desktop 27", iphone 5, samsaung ds, mac table, and all screen width as follows:
+ * 2560px, 1900px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 460px, 425px, 414px, 390px, 375px, 320px.
 
 ## User stories testing
 
@@ -250,11 +253,11 @@ Lighthouse was key for optimisinging the website.
 - I would like to know how to get involved and become a Referee.
     > Users can find a contact form on the contact page. Alternatively can use an email. Email address if located in a footer the bottom of each page.
 
-- I want to join a fitness group with a professional structure, to find motivation and spend time actively.
+- I want to join a Referee group with a professional structure, to find motivation and spend time actively.
     > Brief training description of group sessions can be find on the information page , with the green background with blue border. From there the user can click contact-us button and send a message on the form.
 
 ### As a returning customer:
-- I need to contact my coach to reschedule my meeting.
+- I need to contact this club regarding traing and education.
     > Users can find a contact form in contact page. Alternatively can use social channels or email.
 
 - I would like to check timetable for current days and times for  group training.
@@ -268,7 +271,7 @@ Lighthouse was key for optimisinging the website.
 ## Issues found during site development
 
 ### Hero pics 
-* I used a youtube video to get the desired outcome with balancing the main hero photo with the 2 smaller ones.
+* I used a youtube video to get the desired outcome with balancing the main hero photo with the 2 smaller ones and a trick i picked up at a slack study group.
 
 ### Left and right abouts 
 As I wanted to look designed rather than inline.
@@ -279,6 +282,7 @@ As I wanted to look designed rather than inline.
 
 
 * #### I had to create several screen sizes to keep the look of the website.
+   * this was time comsuming and will approch in a different way the next. 
 
 
 
