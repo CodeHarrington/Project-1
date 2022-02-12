@@ -1415,16 +1415,16 @@ h4 {
      
            /* footer */
          
-        #need {
-           top: 370px;
-           padding: 20px 250px 10px 10px;
-        }
-        
-         .circle {
-            left: -15px;
-            top: 90px;
-          font-size: 7px;
+           #need {
+            top: 370px;
+            padding: 20px 270px 10px 10px;
          }
+         
+          .circle {
+             left: -30px;
+             top: 90px;
+          
+          }
          
           .social-network-contact li {
               padding: 15px;
