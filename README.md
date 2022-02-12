@@ -282,7 +282,7 @@ As I wanted to look designed rather than inline.
 
 
 * #### I had to create several screen sizes to keep the look of the website.
-   * this was time comsuming and will approch in a different way the next. 
+   * This was time comsuming and will approch in a different way the next. 
 
 
 
@@ -358,9 +358,7 @@ To run localy:
 
     * youtube and google for searches on issues and solving brian block.
     
-    * The study group were brillant for picking up ideas. Thanks a mill guys. 
-
-    
+ 
 
 ### Code
 
@@ -372,16 +370,20 @@ To run localy:
 
 ### Fonts
 * url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');)
+* I used (https://fontawesome.com/) for amazing icons that add value.
 
 ### Color
-* https://coolors.co/
+* * I used (https://coolors.co/) for my colors which was brillant.
 
 ### Image Resizing
-* https://picresize.com/
+* I used (https://picresize.com/) to reduce images so they would not slow the website down.
 
 ## Mentor
 
   Mentor: ADEGBENGA ADEYE for the help and self guidance to get me throught my first milestone project. Thank you !
+
+## Slack members and study group.
+* The study group were brillant for picking up ideas. Thanks a mill guys. 
 
 ## 4fm 
 Keeping me in tune and company (#great radio station)
