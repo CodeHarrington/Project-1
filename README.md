@@ -393,7 +393,7 @@ To run locally:
 * The study group were brilliant for picking up ideas. Thanks a mill guys. 
 
 ## 4fm 
-Keeping me in tune and company (#great radio station)
+Keeping me in tune and company (#great radio station).
 
 [Back to Table of contents](#table-of-contents)
 ___

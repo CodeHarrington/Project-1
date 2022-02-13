@@ -23,5 +23,24 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Dark",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "cSpell.words": [
+      "abouts",
+      "ADEGBENGA",
+      "ADEYE",
+      "fitlife",
+      "gitpod",
+      "Gitpod",
+      "Jotform",
+      "Macbook",
+      "minimalistic",
+      "optimising",
+      "picresize",
+      "Samsaung",
+      "wireframe",
+      "Wireframe",
+      "wireframes",
+      "Wireframes",
+      "wireframing"
+   ]
 }
