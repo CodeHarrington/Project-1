@@ -3,7 +3,7 @@
 
 This is a Website for Rugby Referee's in order to Recruit, and inform existing members.
 
-![multi screen repo](https://user-images.githubusercontent.com/96495354/153713969-c54b855c-1121-4191-9d8e-d6a5d356df85.png)
+![Screen Shot 2022-02-13 at 00 35 42](https://user-images.githubusercontent.com/96495354/153733397-0822a5c3-e2d9-417f-bf48-24c3fc88b3f7.png)
 
 This project developed over time and its purpose is to inform Referees of the club's acitives while inviting new members to join.
 
@@ -96,7 +96,8 @@ Main colours used in a project:
 * thanks to (https://coolors.co/) brillant website.
 ![Screen Shot 2022-02-12 at 23 05 25](https://user-images.githubusercontent.com/96495354/153731682-7ae00a81-def8-48d9-bbe2-ad6af8d5726b.png)
 * after review at the end as i had time to check a great tools called contrast grid. I ended up taking out the rgb(0,130,200) which made for better viewing experence. and finish with just using 3 colors.
-![Screen Shot 2022-02-13 at 00 20 15](https://user-images.githubusercontent.com/96495354/153733136-01956e73-1cfb-4872-89d2-e8b6ef561324.png
+
+![Screen Shot 2022-02-13 at 00 20 15](https://user-images.githubusercontent.com/96495354/153733136-01956e73-1cfb-4872-89d2-e8b6ef561324.png)
 ### Fonts 
 
 * As a main font I used  Oswald, and as a backup font sans-serif
@@ -130,6 +131,7 @@ The website has below features:
 * At the bottom left side are social media links directed by a finger pointer with " need more  information" links.
 * Each link will open in a separate tab in a browser.
 * At the bottom right side is a link to the contact-us page with button type.
+* The sponsors and the bottom are only used for educational purposes only.
 
 ## Home
 
