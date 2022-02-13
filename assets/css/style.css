@@ -1358,17 +1358,22 @@ h4 {
 @media screen and (max-width: 425px) {
    
                
+               
     #left-about-mid {
         left: 70px;
      }  
      
        /* footer */
      
-     
+     #need h2 {
+         padding: 20px 650px 80px 220px;
+
+     }
+
       .circle {
-         left: 240px;
-         top: 75px;
-       font-size: 60%;
+         left: 220px;
+         top: 55px;
+       font-size: 50%;
     
       }
         
@@ -1419,69 +1424,72 @@ h4 {
     .signup-form h2 {
         height: 150px;
      }
-    
- 
 }
+
 
  /* For medium screen sizes from 414px wide and down i.e "iphone/6/7/8 plus" */
  @media screen and (max-width: 414px) {
-   
-           /* footer */
-           .circle {
-            left: -40px;
-            top: 80px;
-         }
-
-         #need h2 {
-             padding: 0px 710px 80px 200px;   
-         }
-        
-
-        #need {
-            bottom: 400px;
+    #left-about-top {
+        left: 190px;
+        width: 220px;
+    }
+  
+          /* footer */
+          .circle {
+           left: -40px;
+           top: 80px;
         }
-         .social-network-contact li {
-             bottom: 172px;
-             padding: 15px;
-         }
-        
-        
-         .social-network-contact i {
-            font-size: 180%;   
-         }
-        
-        
-         #thanks {
-             padding: 20px 0px;
-             left: -60px;
-             transform: scale(.4)
-         }
-         
-         #allianz-img {
-             width: 600px;
-             left: -70px;
-             transform: scale(.2);   
-         }
-         
-         #adidas-img {
-             width: 500px;
-             transform: scale(.2); 
-             left: -130px;
-         }
-         #im-irwinmitchel-img {
-             width: 600px;
-             bottom: 10px;
-             left: 50px;
-             transform: scale(.2);   
-         }
-        /* information */
-        #hero-image-4 {
-            height: 123%;
+
+        #need h2 {
+            padding: 0px 710px 80px 200px;   
+        }
+       
+
+       #need {
+           bottom: 400px;
+       }
+        .social-network-contact li {
+            bottom: 172px;
+            padding: 15px;
+        }
+       
+       
+        .social-network-contact i {
+           font-size: 180%;   
+        }
+       
+       
+        #thanks {
+            padding: 20px 0px;
+            left: -60px;
+            transform: scale(.4)
         }
         
-     text-boxes h2, h4 {
-        font-size: medium;
-    }   
+        #allianz-img {
+            width: 600px;
+            left: -70px;
+            transform: scale(.2);   
+        }
+        
+        #adidas-img {
+            width: 500px;
+            transform: scale(.2); 
+            left: -130px;
+        }
+        #im-irwinmitchel-img {
+            width: 600px;
+            bottom: 10px;
+            left: 50px;
+            transform: scale(.2);   
+        }
+       /* information */
+       #hero-image-4 {
+           height: 123%;
+       }
+       
+    text-boxes h2, h4 {
+       font-size: medium;
+   }   
 }
 
 
@@ -1489,75 +1497,77 @@ h4 {
     /* For medium screen sizes from 390px wide and down i.e "iphone-13 " */
     @media screen and (max-width: 390px) {      
        
-        #right-about-top {
-            padding-right: 100px;    
-         }
-                 
-         #left-about-top {
-           padding-left: 160px;                        
-         }        
+              
                 
-         #left-about-mid {
-             padding-right: 15px;
-         }  
-     
-           /* footer */
-         
-           #need {
-            top: 370px;
-            padding: 20px 270px 10px 10px;
-         }
-         
-          .circle {
-             left: -30px;
-             top: 90px;
-          
-          }
-         
-          .social-network-contact li {
-            padding: 10px;
-            bottom: 260px;
-        }
-         
-         
-          .social-network-contact i {
-             font-size: 200%; 
-          }
-        
-          
-          #allianz-img {
-              width: 580px;
-             left: -70px;    
-          }
-          
-          #adidas-img {
-             width: 490px; 
-             left: -130px;
-         }
-     
-          #im-irwinmitchel-img {
-              width: 575px; 
-              left: 47px;
-          }
-          
-       /* information */
-       #hero-image-4 {
-        height: 128%;
-    }   
+        #left-about-mid {
+            padding-right: 15px;
+        }  
     
-      /* form */
-      .signup-form h2 {
-        height: 90px;
-       padding: 0px;
-     }  
-    }
+          /* footer */
+        
+          #need {
+           top: 370px;
+           padding: 20px 270px 10px 10px;
+        }
+        
+         .circle {
+            left: -30px;
+            top: 90px;
+         
+         }
+        
+         .social-network-contact li {
+           padding: 10px;
+           bottom: 260px;
+       }
+        
+        
+         .social-network-contact i {
+            font-size: 200%; 
+         }
+       
+         
+         #allianz-img {
+             width: 580px;
+            left: -70px;    
+         }
+         
+         #adidas-img {
+            width: 490px; 
+            left: -130px;
+        }
+    
+         #im-irwinmitchel-img {
+             width: 575px; 
+             left: 47px;
+         }
+         
+      /* information */
+      #hero-image-4 {
+       height: 128%;
+   }   
+   
+     /* form */
+     .signup-form h2 {
+       height: 90px;
+      padding: 0px;
+    }  
+   }
    
   /* For medium screen sizes from 375px wide and down i.e "iphone/6/7/8 " */
   @media screen and (max-width: 375px) {      
        
-       
     #menu li {
         font-size: medium;
+      }
+
+      #right-about-top {
+          width: 210px;
+      }
+
+      #left-about-top {
+          width: 180px;
+          padding-left: 40px;
       }
 
     #left-about-mid {
@@ -1565,6 +1575,10 @@ h4 {
     }  
 
       /* footer */
+
+      #need h2 {
+         padding: 0px 600px 80px 210px; 
+      }
    
     .circle {
        left: 0px;
@@ -1574,7 +1588,7 @@ h4 {
     }
     
     .social-network-contact li {
-        padding: 5px;
+        padding: 9px;
     }
     
     
@@ -1605,6 +1619,7 @@ h4 {
     }
 }
 
+
 /* For medium screen sizes from 320px wide and down i.e "iphone 5/ SE" */
 @media screen and (max-width: 320px) { 
 
@@ -1614,21 +1629,23 @@ h4 {
     }
 
     #right-about-top {
-        padding-right: 120px;
+        padding-right: 100px;
     }
             
     #left-about-top {
-           padding-left: 180px;                       
+        width: 140px;
+           padding-left: 0px;                       
     }        
             
     #right-about-mid {
-        padding-top:30px;
+        padding-top: 30px;
         padding-right: 20px;
     }
 
     #left-about-mid {
+        width: 250px;
       padding-top: 30px;
-      padding-left: 150px;
+      padding-left: 140px;
     }
             
    
