@@ -5,7 +5,7 @@ This is a Website for Rugby Referee's in order to Recruit, and inform existing m
 
 ![Screen Shot 2022-02-13 at 00 35 42](https://user-images.githubusercontent.com/96495354/153733397-0822a5c3-e2d9-417f-bf48-24c3fc88b3f7.png)
 
-This project developed over time and its purpose is to inform Referees of the club's acitives while inviting new members to join.
+This project developed over time and its purpose is to inform Referees of the club's activities while inviting new members to join.
 
 ## View my live website in github pages https://codeharrington.github.io/Project-1/
 
@@ -65,9 +65,9 @@ The main objective is recruit new members and retaining existing members by givi
 * I would like to build and maintain relationships with potential and current Referees.
 
 ### As a new customer:
-* I wish to find information on what Refreeing is all about and how to get more information.
+* I wish to find information on what Refereeing is all about and how to get more information.
 * I would like to see the benefits of Joining. 
-* I want to know how to get involved the Refreeing World.
+* I want to know how to get involved the Refereeing World.
 * I want to find out the social aspect of the club.
 
 ### As a returning customer:
@@ -93,9 +93,9 @@ Main colours used in a project:
 * font color: #fafafa
 * title color: #0082c8
 * hoover color: #4b296b
-* thanks to (https://coolors.co/) brillant website.
+* thanks to (https://coolors.co/) brilliant website.
 ![Screen Shot 2022-02-12 at 23 05 25](https://user-images.githubusercontent.com/96495354/153731682-7ae00a81-def8-48d9-bbe2-ad6af8d5726b.png)
-* after review at the end as i had time to check a great tools called contrast grid. I ended up taking out the rgb(0,130,200) which made for better viewing experence. and finish with just using 3 colors. This also bought my SEO score in lighthouse to 100.
+* After review at the end as I had time to check a great tools called contrast grid. I ended up taking out the rgb(0,130,200) which made for better viewing experience. and finish with just using 3 colors. This also bought my SEO score in lighthouse to 100.
 
 ![Screen Shot 2022-02-13 at 00 20 15](https://user-images.githubusercontent.com/96495354/153733136-01956e73-1cfb-4872-89d2-e8b6ef561324.png)
 ### Fonts 
@@ -118,7 +118,7 @@ The website has below features:
 * #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices.
 * Navigation scheme:
 
-    * in the center is a logo text. 
+    * In the center is a logo text. 
     * On right side there are four links. It contains:
         * Home
         * information
@@ -152,13 +152,13 @@ The website has below features:
 
 ## Gallery 
 
-* This is a feature page that shows the referees in action on the pitch and rewards theses active members also by protraying them with interest.
+* This is a feature page that shows the referees in action on the pitch and rewards theses active members also by portraying them with interest.
 
 
 ## Contact
 
 * Contact form is a main part on this site. Users can contact by filling a form with details in getting in touch.
-* I used https://submit.jotformeu.com/submit/ to redirect the form. no data is been gaddered.
+* I used https://submit.jotformeu.com/submit/ to redirect the form. no data is been gathered.
  ## This is only used for educational purposes only!!
 
 
@@ -167,7 +167,7 @@ The website has below features:
 * Create more information on education.
 * Add videos and learning platforms to the website.
 * An interactive on refereeing matters with solutions on weekly topics.
-* Login site for paid content including videos, bank payments for goods and memebreships.
+* Login site for paid content including videos, bank payments for goods and memberships.
 
 
 [Back to Table of contents](#table-of-contents)
@@ -213,7 +213,7 @@ The website has below features:
 * I used this to check the website for http://ami.responsivedesign.is/
 
 ### Image resize.
-* I used picresize to resize some images (https://picresize.com/). Brillant tool.
+* I used picresize to resize some images (https://picresize.com/). Brilliant tool.
 
 
 
@@ -225,13 +225,13 @@ The website has below features:
 
  I used Chrome web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
  
-Lighthouse was key for optimisinging the website. 
+Lighthouse was key for optimising the website. 
 
 
 ## Compatibility testing
  Site was tested across 19 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
  
- I tested on hardware devices such as: macbook pro 13", mac desktop 27", iphone 5, samsaung ds, mac table, and all screen width as follows:
+ I tested on hardware devices such as: Macbook pro 13", mac desktop 27", iphone 5, Samsaung ds, Mac tablet, and all screen width as follows:
  * 2560px, 1900px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 460px, 425px, 414px, 390px, 375px, 320px.
 
 ## User stories testing
@@ -262,7 +262,7 @@ Lighthouse was key for optimisinging the website.
     > Brief training description of group sessions can be find on the information page , with the green background with blue border. From there the user can click contact-us button and send a message on the form.
 
 ### As a returning customer:
-- I need to contact this club regarding traing and education.
+- I need to contact this club regarding training and education.
     > Users can find a contact form in contact page. Alternatively can use social channels or email.
 
 - I would like to check timetable for current days and times for  group training.
@@ -276,18 +276,18 @@ Lighthouse was key for optimisinging the website.
 ## Issues found during site development
 
 ### Hero pics 
-* I used a youtube video to get the desired outcome with balancing the main hero photo with the 2 smaller ones and a trick i picked up at a slack study group.
+* I used a Youtube video to get the desired outcome with balancing the main hero photo with the 2 smaller ones and a trick I picked up at a slack study group.
 
 ### Left and right abouts 
 As I wanted to look designed rather than inline.
-* This was troublesome to say the least, but I am now very good with margin, border and padding. it took alot of work during resizing and it will be alot faster next time.
+* This was troublesome to say the least, but I am now very good with margin, border and padding. It took a lot of work during resizing and it will be a lot faster next time.
 
 * #### Sizing on the Horizontal scrolling bar on the bottom of the screen.
     * I used the developer tools in Chrome to resize and fix.
 
 
 * #### I had to create several screen sizes to keep the look of the website.
-   * This was time comsuming and will approch in a different way the next. 
+   * This was time consuming and will approach in a different way the next. 
 
 
 
@@ -299,7 +299,7 @@ I had to do a couple of changes to improve performance. Screenshots are presente
 ![Screen Shot 2022-02-09 at 08 14 32](https://user-images.githubusercontent.com/96495354/153283959-dc7d2514-f151-4743-bb65-efe6f13f5a25.png)
 
 ### I had major images issues at the first lighthouse run
-   * I fixed these with a great toll https://picresize.com/ This save my project because I had alot of images and I was able to reduce them in size in group which was brillant.
+   * I fixed these with a great toll https://picresize.com/ This save my project because I had a lot of images and I was able to reduce them in size in group which was brilliant.
 ![Screen Shot 2022-02-07 at 18 06 33](https://user-images.githubusercontent.com/96495354/153283949-e5b734f6-ca19-416e-bba4-e6ee2d7ad7bd.png)
 
 ### I have better luck after fixing that. but the next bugs was a change in 2 more resizing of pictures
@@ -327,7 +327,7 @@ I noticed that these test scores vary from time to time and depend on external l
 
 ## Development
 
-The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I committed all changes to git version control system.
 I used push command in Gitpod to save changes into GitHub.
 
 To deploy a project I had to:
@@ -338,7 +338,7 @@ To deploy a project I had to:
 * click `save` and page was deployed after auto-refresh.
 >  Your site is published at https://marcin-kli.github.io/MP1/
 
-To run localy:
+To run locally:
 * Log in to GitHub and click on repository to download [https://codeharrington.github.io/Project-1/)
 * select `Code` and click Download the ZIP file.
 * after download you can extract the file and use it in your local environment 
@@ -356,15 +356,15 @@ To run localy:
 
     * [css-tricks.com](https://css-tricks.com/)
 
-    * I used code for navbar, and form section fron the love running project.
+    * I used code for navbar, and form section from the love running project, but I added my own submit form from Jotform.
 
-    * Am I responcive (http://ami.responsivedesign.is/)
+    * I used am I responsive (http://ami.responsivedesign.is/) to check and run the website.
 
-    * Youtube and google for searches on issues and solving brian block.
+    * Youtube and google for searches on issues and solving brain block.
     
     * I used  (https://contrast-grid.eightshapes.com/) Thanks to contrast grid for giving my color an AA and AAA rating.
 
-    * I used https://submit.jotformeu.com/submit/ to redirect the form. no data is been gaddered and is only for educational use.
+    * I used https://submit.jotformeu.com/submit/ to redirect the form. no data is been gathered and is only for educational use.
  
 
 ### Code
@@ -380,17 +380,17 @@ To run localy:
 * I used (https://fontawesome.com/) for amazing icons that add value.
 
 ### Color
-* * I used (https://coolors.co/) for my colors which was brillant.
+* * I used (https://coolors.co/) for my colors which was brilliant.
 
 ### Image Resizing
 * I used (https://picresize.com/) to reduce images so they would not slow the website down.
 
 ## Mentor
 
-  Mentor: ADEGBENGA ADEYE for the help and self guidance to get me throught my first milestone project. Thank you !
+  Mentor: ADEGBENGA ADEYE for the help and mentoring of self-guidance to get me through my first milestone project. Thank you !
 
 ## Slack members and study group.
-* The study group were brillant for picking up ideas. Thanks a mill guys. 
+* The study group were brilliant for picking up ideas. Thanks a mill guys. 
 
 ## 4fm 
 Keeping me in tune and company (#great radio station)
