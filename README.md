@@ -158,6 +158,8 @@ The website has below features:
 ## Contact
 
 * Contact form is a main part on this site. Users can contact by filling a form with details in getting in touch.
+* I used https://submit.jotformeu.com/submit/ to redirect the form. no data is been gaddered.
+ ## This is only used for educational purposes only!!
 
 
 ##  Future implementations
@@ -361,7 +363,9 @@ To run localy:
 
     * Youtube and google for searches on issues and solving brian block.
     
-    # Thanks to contrast grid for giving my color an AA and AAA rating.
+    * I used  (https://contrast-grid.eightshapes.com/) Thanks to contrast grid for giving my color an AA and AAA rating.
+
+    * I used https://submit.jotformeu.com/submit/ to redirect the form. no data is been gaddered and is only for educational use.
  
 
 ### Code
