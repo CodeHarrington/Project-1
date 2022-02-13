@@ -95,8 +95,8 @@ Main colours used in a project:
 * hoover color: #4b296b
 * thanks to (https://coolors.co/) brillant website.
 ![Screen Shot 2022-02-12 at 23 05 25](https://user-images.githubusercontent.com/96495354/153731682-7ae00a81-def8-48d9-bbe2-ad6af8d5726b.png)
-
-
+* after review at the end as i had time to check a great tools called contrast grid. I ended up taking out the rgb(0,130,200) which made for better viewing experence. and finish with just using 3 colors.
+![Screen Shot 2022-02-13 at 00 20 15](https://user-images.githubusercontent.com/96495354/153733136-01956e73-1cfb-4872-89d2-e8b6ef561324.png
 ### Fonts 
 
 * As a main font I used  Oswald, and as a backup font sans-serif
@@ -357,8 +357,9 @@ To run localy:
 
     * Am I responcive (http://ami.responsivedesign.is/)
 
-    * youtube and google for searches on issues and solving brian block.
+    * Youtube and google for searches on issues and solving brian block.
     
+    # Thanks to contrast grid for giving my color an AA and AAA rating.
  
 
 ### Code
