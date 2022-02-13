@@ -95,7 +95,7 @@ Main colours used in a project:
 * hoover color: #4b296b
 * thanks to (https://coolors.co/) brillant website.
 ![Screen Shot 2022-02-12 at 23 05 25](https://user-images.githubusercontent.com/96495354/153731682-7ae00a81-def8-48d9-bbe2-ad6af8d5726b.png)
-* after review at the end as i had time to check a great tools called contrast grid. I ended up taking out the rgb(0,130,200) which made for better viewing experence. and finish with just using 3 colors.
+* after review at the end as i had time to check a great tools called contrast grid. I ended up taking out the rgb(0,130,200) which made for better viewing experence. and finish with just using 3 colors. This also bought my SEO score in lighthouse to 100.
 
 ![Screen Shot 2022-02-13 at 00 20 15](https://user-images.githubusercontent.com/96495354/153733136-01956e73-1cfb-4872-89d2-e8b6ef561324.png)
 ### Fonts 
@@ -313,8 +313,7 @@ I had to do a couple of changes to improve performance. Screenshots are presente
 
 I noticed that these test scores vary from time to time and depend on external libraries as well. 
 
-
-![Screen Shot 2022-02-09 at 20 58 07](https://user-images.githubusercontent.com/96495354/153289018-027f618e-2ff6-4b19-88bd-581b644545d6.png)
+![Screen Shot 2022-02-13 at 01 41 58](https://user-images.githubusercontent.com/96495354/153735032-c8b887d2-6712-4226-85a9-09b68a3f04f8.png)
 
 
 ## Code Validation
