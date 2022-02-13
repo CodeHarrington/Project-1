@@ -229,10 +229,10 @@ Lighthouse was key for optimising the website.
 
 
 ## Compatibility testing
- Site was tested across 19 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+ Site was tested across 21 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
  
  I tested on hardware devices such as: Macbook pro 13", mac desktop 27", iphone 5, Samsaung ds, Mac tablet, and all screen width as follows:
- * 2560px, 1900px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 460px, 425px, 414px, 390px, 375px, 320px.
+ * 2560px, 1920px 1900px, 1680px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 460px, 425px, 414px, 390px, 375px, 320px.
 
 ## User stories testing
 
