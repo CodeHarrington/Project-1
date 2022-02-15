@@ -426,6 +426,7 @@ footer{
  
     #rugbyball-whistle {
         transform: scale(.3);
+        top: 100px;
        
     }
        
@@ -484,6 +485,7 @@ footer{
   
     #rugbyball-whistle {
         transform: scale(.25);
+        top: 100px;
        
     }
        
@@ -1339,18 +1341,18 @@ footer{
          }
         
          .social-network-contact > li {
-             padding: 10px;
+             padding: 5px;
              bottom: 170px;
          }
      
          .social-network-contact i {
-             font-size: 2rem;
+             font-size: 1.5rem;
             
          }
           
          .circle {
-             font-size: .4rem;
-             left: 90px;
+             font-size: .3rem;
+             left: -10px;
              bottom: -70px;
          }
          
