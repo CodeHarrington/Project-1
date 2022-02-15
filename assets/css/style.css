@@ -740,426 +740,673 @@ footer{
  }
  
 
+ /* For medium screen sizes from 479px wide and down i.e "mobile XL" */
+ @media (min-width: 411px) and (max-width: 479px) { 
+    
+    #hero-image-1, #hero-image-2, #rugbyball-whistle {
+        display: none;
+    }
+   
+    
 
-/* For medium screen sizes from 479px wide and down i.e "mobile XL" */
-@media screen and (max-width: 479px) { 
+    #menu li {
+        font-size: 2rem;
+    }
+    
+    .question h3, p {
+        font-size: 1.5rem;
+    
+    }
+    
+    .block h3, p {
+      min-width: 400px;
+     
+    }
+    
+    #left-about-top {
+        top: 800px;
+        padding: 0px 0px 0px 10px;
+    }
     
     #right-about-top {
-        padding-right: 80px;
+        padding: 10px;
+        top: 880px;
+        
     }
-           
-   #left-about-top {
-       padding-left: 60px;                         
-    }        
-           
-   #right-about-mid {
-       max-width: 450px;
-       padding-left: 330px;
+
+    #left-about-mid {
+        padding: 10px;
+        top: 980px;
     }
-           
-   #left-about-mid {
-       max-width: 300px;
-      padding-left: 180px;
-    }  
-   
-     /* footer */
-   
-    #need h2 {
-        padding: 40px 640px 50px 250px;
-    }
-   
-    .circle {
-       left: -10px;
-       top: 80px;
-       font-size: 40%;
-    }
-      
-    .social-network-contact li {
-        bottom: 172px;
-        padding: 20px;
-    }
-   
-   
-    .social-network-contact i {
-       font-size: 180%; 
-    }
-   
-   
-    #thanks {
-        width: 200px;
-        padding: 20px 0px;
-        left: -60px;
-        transform: scale(.4)
+
+    #right-about-mid{
+        padding: 10px;
+        top: 1070px;
+    }     
+        /* footer */
+
+        
+        #need h2 {
+            font-size: 1.3rem;
+            padding: 30px 970px 50px 0px;
+         } 
+            
+            
+         #need {
+             margin-left: 40px;
+             font-size: 1em;
+         }
+        
+         .social-network-contact > li {
+             padding: 15px;
+             bottom: 170px;
+         }
+     
+         .social-network-contact i {
+             font-size: 3rem;
+            
+         }
+          
+         .circle {
+             font-size: .5rem;
+             left: 20px;
+             bottom: -70px;
+         }
+         
+            
+         #thanks {
+            font-size: .9rem;
+            letter-spacing: 0;
+            min-height: 80px;
+            
+        } 
+               
+        #allianz-img {
+            transform: scale(.3);
+            min-width: 300px;
+            left: 90px;
+        }
+            
+        #adidas-img {
+            transform: scale(.3);
+            max-width: 200px;
+            left: 40px; 
+        }
+            
+        #im-irwinmitchel-img {
+            transform: scale(.3);
+            min-width: 200px;
+            left: 250px;    
+        }
+
+      /* information */
+
+    
+      #text-boxes h4, h3 {
+        font-size: 1.8rem;
     }
     
+    /* gallery */
+
+    #photos {
+        column-count: 1;
+    }
+
+      /* form */
+
+      .signup-form {
+          margin: 0px;
+          max-width: 400px;
+      }
+      .form-section {
+        padding-top: 320px;
        
-    #allianz-img {
-       width: 670px;
-       left: -69px;
-       transform: scale(.2);   
-   }
-   
-     #adidas-img {
-       width: 600px;
-       transform: scale(.2); 
-       left: -160px;
-   }
-
-    #im-irwinmitchel-img {
-       width: 670px;
-       left: 60px;
-       transform: scale(.2);   
-    }
-   /* information */
-
-    
-
-    .text-boxes h2, h4 {
-        font-size: medium;
-    }   
-
- /* form */
-
-    .signup-form {
-         right: 15px; 
     }
 
     .signup-form h2 {
-        width: 100%;
-        height: 130px;
-    }
-    }
-
-
-/* For medium screen sizes from 425px wide and down i.e "mobile L" */
-@media screen and (max-width: 425px) {
-           
-    #left-about-mid {
-        left: 70px;
-    }  
-     
-       /* footer */
-     
-    #need h2 {
-        padding: 20px 650px 80px 220px;
-
-    }
-
-    .circle {
-        left: 220px;
-        top: 55px;
-        font-size: 50%;
-    }
-        
-    .social-network-contact li {
-        bottom: 170px;
-        padding: 27px;
-    }
-     
-    .social-network-contact i {
-        font-size: 180%;   
-    }
-     
-     
-    #thanks {
-        padding: 20px 0px;
-        left: -60px;
-        transform: scale(.4)
-    }
-      
-         
-    #allianz-img {
-        width: 670px;
-        left: -99px;
-        transform: scale(.2);   
-    }
-     
-    #adidas-img {
-         width: 500px;
-         transform: scale(.2); 
-         left: -130px;
+        max-width: 360px
     }
  
-    #im-irwinmitchel-img {
-         width: 630px;
-         bottom: 10px;
-         left: 50px;
-         transform: scale(.2);   
-     }
+ }
 
-     /* information */
-    
-    
-     .text-boxes h2, h4 {
-     font-size: medium;
- }   
-  
-   /* form */
-    .signup-form h2 {
-        height: 150px;
-     }
-}
-
-
- /* For medium screen sizes from 414px wide and down i.e "iphone/6/7/8 plus" */
- @media screen and (max-width: 414px) {
-    #left-about-top {
-        left: 190px;
-        width: 220px;
-    }
-  
-/* footer */
-    .circle {
-        left: -40px;
-        top: 80px;
-    }
-
-    #need h2 {
-        padding: 0px 710px 80px 200px;   
-    }
-       
-
-    #need {
-        bottom: 400px;
-    }
-    
-    .social-network-contact li {
-        bottom: 172px;
-        padding: 15px;
-    }
-       
-    .social-network-contact i {
-        font-size: 180%;   
-    }
-    
-    #thanks {
-        padding: 20px 0px;
-        left: -60px;
-        transform: scale(.4)
-    }
-        
-     #allianz-img {
-        width: 600px;
-        left: -70px;
-        transform: scale(.2);   
-    }
-        
-    #adidas-img {
-        width: 500px;
-        transform: scale(.2); 
-        left: -130px;
-    }
-    
-    #im-irwinmitchel-img {
-        width: 600px;
-        bottom: 10px;
-        left: 50px;
-        transform: scale(.2);   
-    }
-
-/* information */
-       
-    
-       
-    .text-boxes h2, h4 {
-       font-size: medium;
-   }   
-}
 
 
    
-/* For medium screen sizes from 390px wide and down i.e "iphone-13 " */
-    @media screen and (max-width: 390px) {      
+/* For medium screen sizes from 410px wide and down  */
+@media (min-width: 375px) and (max-width: 410px) {    
        
               
-    #left-about-mid {
-        padding-right: 15px;
-    }  
-    
-/* footer */
-        
-    #need {
-        top: 370px;
-        padding: 20px 270px 10px 10px;
+    #hero-image-1, #hero-image-2, #rugbyball-whistle {
+        display: none;
     }
-        
-    .circle {
-        left: -30px;
-        top: 90px;
-         
-    }
-        
-    .social-network-contact li {
-        padding: 10px;
-        bottom: 260px;
-    }
-        
-        
-    .social-network-contact i {
-        font-size: 200%; 
-    }
-       
-         
-    #allianz-img {
-        width: 580px;
-        left: -70px;    
-    }
-         
-    #adidas-img {
-        width: 490px; 
-        left: -130px;
-    }
-    
-    #im-irwinmitchel-img {
-        width: 575px; 
-        left: 47px;
-    }
-         
-/* information */
-      
-    #hero-image-4 {
-    height: 130%;
-}   
    
- /* form */
-     
-    .signup-form h2 {
-       height: 90px;
-       padding: 0px;
-}  
-}
-   
-/* For medium screen sizes from 375px wide and down i.e "iphone/6/7/8 " */
-  @media screen and (max-width: 375px) {      
-       
+    
+
     #menu li {
-        font-size: medium;
+        font-size: 1.5rem;
     }
-
-    #right-about-top {
-        width: 210px;
+    
+    h1 {
+        font-size: 3rem;
     }
-
+    .question h3, p {
+    
+    
+    }
+    
+    .block h3, p {
+      min-width: 360px;
+     
+    }
+    
     #left-about-top {
-        width: 180px;
-        padding-left: 40px;
+        top: 800px;
+        padding: 0px 0px 0px 10px;
+    }
+    
+    #right-about-top {
+        padding: 10px;
+        top: 880px;
+        
     }
 
     #left-about-mid {
-       left: 50px;
-    }  
+        padding: 10px;
+        top: 980px;
+    }
 
-/* footer */
+    #right-about-mid{
+        padding: 10px;
+        top: 1070px;
+    }     
+        /* footer */
 
-    #need h2 {
-        padding: 0px 600px 80px 210px; 
+        
+        #need h2 {
+            font-size: 1rem;
+            padding: 30px 1050px 50px 0px;
+         } 
+            
+            
+         #need {
+             margin-left: 40px;
+             font-size: 1em;
+         }
+        
+         .social-network-contact > li {
+             padding: 10px;
+             bottom: 170px;
+         }
+     
+         .social-network-contact i {
+             font-size: 2rem;
+            
+         }
+          
+         .circle {
+             font-size: .4rem;
+             left: 60px;
+             bottom: -70px;
+         }
+         
+            
+         #thanks {
+            font-size: .7rem;
+            letter-spacing: 0;
+            min-height: 80px;
+            
+        } 
+               
+        #allianz-img {
+            transform: scale(.3);
+            min-width: 300px;
+            left: 70px;
+        }
+            
+        #adidas-img {
+            transform: scale(.3);
+            max-width: 200px;
+            left: 20px; 
+        }
+            
+        #im-irwinmitchel-img {
+            transform: scale(.3);
+            min-width: 200px;
+            left: 220px;    
+        }
+
+    /* information */
+
+    
+    #text-boxes h4, h3 {
+        font-size: 1.6rem;
+    }
+    
+    /* gallery */
+
+    #photos {
+        column-count: 1;
+    }
+
+      /* form */
+
+      .signup-form {
+          margin: 0px;
+          max-width: 380px;
+      }
+      .form-section {
+        padding-top: 320px;
+       
+    }
+
+    .signup-form h2 {
+        max-width: 340px
+    }
+ 
+ }
+
+/* For medium screen sizes from 374px wide and down i.e " */
+@media (min-width: 360px) and (max-width: 374px) {     
+       
+             
+    #hero-image-1, #hero-image-2, #rugbyball-whistle {
+        display: none;
     }
    
-    .circle {
-       left: 0px;
-       top: 100px;
-       font-size: 40%;
+    
+
+    #menu li {
+        font-size: 1.5rem;
     }
     
-    .social-network-contact li {
-        padding: 9px;
+    h1 {
+        font-size: 3rem;
     }
+    .question h3, p {
     
     
-    .social-network-contact i {
-        font-size: 180%; 
     }
-   
+    
+    .block h3, p {
+      min-width: 350px;
      
-    #allianz-img {
-         width: 580px;
-        left: -70px;    
     }
+    
+    #left-about-top {
+        top: 800px;
+        padding: 0px 0px 0px 10px;
+    }
+    
+    #right-about-top {
+        padding: 10px;
+        top: 880px;
+        
+    }
+
+    #left-about-mid {
+        padding: 10px;
+        top: 980px;
+    }
+
+    #right-about-mid{
+        padding: 10px;
+        top: 1070px;
+    }     
+        /* footer */
+
+        
+        #need h2 {
+            font-size: 1rem;
+            padding: 30px 1050px 50px 0px;
+         } 
+            
+            
+         #need {
+             margin-left: 40px;
+             font-size: 1em;
+         }
+        
+         .social-network-contact > li {
+             padding: 10px;
+             bottom: 170px;
+         }
      
-    #adidas-img {
-        width: 490px; 
-        left: -130px;
+         .social-network-contact i {
+             font-size: 2rem;
+            
+         }
+          
+         .circle {
+             font-size: .4rem;
+             left: 60px;
+             bottom: -70px;
+         }
+         
+            
+         #thanks {
+            font-size: .7rem;
+            letter-spacing: 0;
+            min-height: 80px;
+            
+        } 
+               
+        #allianz-img {
+            transform: scale(.3);
+            min-width: 300px;
+            left: 70px;
+        }
+            
+        #adidas-img {
+            transform: scale(.3);
+            max-width: 200px;
+            left: 20px; 
+        }
+            
+        #im-irwinmitchel-img {
+            transform: scale(.3);
+            min-width: 200px;
+            left: 220px;    
+        }
+
+    /* information */
+
+    /* information */
+
+    
+    #text-boxes h4, h3 {
+        font-size: 1.6rem;
+    }
+    
+    /* gallery */
+
+    #photos {
+        column-count: 1;
     }
 
-    #im-irwinmitchel-img {
-         width: 520px; 
-         left: 60px;
-    }   
-}
+      /* form */
+
+      .signup-form {
+          margin: 0px;
+          max-width: 380px;
+      }
+      .form-section {
+        padding-top: 320px;
+       
+    }
+
+      .signup-form h2 {
+        max-width: 320px
+    }
+ 
+ }
 
 
-/* For medium screen sizes from 320px wide and down i.e "iphone 5/ SE" */
-@media screen and (max-width: 320px) { 
+
+
+/* For medium screen sizes from 359px wide and down  */
+@media (min-width: 320px) and (max-width: 359px) { 
 
           
+             
+    #hero-image-1, #hero-image-2, #rugbyball-whistle {
+        display: none;
+    }
+   
+    
+
     #menu li {
-        font-size: small;
+        font-size: 1.3rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
     }
 
-    #right-about-top {
-        width: 190px;
-        left: -120px;
+    
+    .block h3, p {
+      min-width: 310px;
+      font-size: 1.3rem;
+     
     }
-            
+    
     #left-about-top {
-        width: 140px;
-        padding-left: 0px;                       
-    }        
-            
-    #right-about-mid {
-        left: -240px;
-        padding-top: 30px;
-        padding-right: 20px;
+        top: 820px;
+        padding: 0px 0px 0px 10px;
+    }
+    
+    #right-about-top {
+        padding: 10px;
+        top: 900px;
+        
     }
 
     #left-about-mid {
-        width: 250px;
-      padding-top: 30px;
-      padding-left: 140px;
+        padding: 10px;
+        top: 1000px;
     }
+
+    #right-about-mid{
+        padding: 10px;
+        top: 1090px;
+    }     
+        /* footer */
+
+        
+        #need h2 {
+            font-size: 2rem;
+            padding: 10px 1150px 50px 0px;
+         } 
             
-   
-
-      /* footer */
-    
-     #need, h2 {
-         top: 400px;
-         padding: 50px 330px 0px 0px;
-    }
-    
-     .circle {
-        left: 0px;
-        top: 100px;
-      font-size: 7px;
-    }
-    
-     .social-network-contact li {
-         padding: 5px;
-         bottom: 200px;
-    }
-    
-    
-     .social-network-contact i {
-        font-size: 180%;  
-    }
-   
-     #allianz-img {
-         width: 500px;
-        left: -60px;
-    }
+            
+         #need {
+             margin-left: 50px;
+             
+         }
+        
+         .social-network-contact > li {
+             padding: 10px;
+             bottom: 170px;
+         }
      
-     #adidas-img {
-         width: 370px;
-         left: -80px;
-    }
+         .social-network-contact i {
+             font-size: 2rem;
+            
+         }
+          
+         .circle {
+             font-size: .4rem;
+             left: 0px;
+             bottom: -70px;
+         }
+         
+            
+         #thanks {
+            font-size: .6rem;
+            letter-spacing: 0;
+            min-height: 80px;
+            
+        } 
+               
+        #allianz-img {
+            transform: scale(.3);
+            min-width: 300px;
+            left: 40px;
+        }
+            
+        #adidas-img {
+            transform: scale(.3);
+            max-width: 200px;
+            left: 10px; 
+        }
+            
+        #im-irwinmitchel-img {
+            transform: scale(.3);
+            min-width: 200px;
+            left: 170px;    
+        }
 
-    #im-irwinmitchel-img {
-         width: 400px;
-         left: 80px;
+    /* information */
+
+    
+    #text-boxes h4, h3 {
+        font-size: 1.6rem;
     }
     
-    .form-section h2 {
-        height: 100px;
-       padding-right: 0px;
+    /* gallery */
+
+    #photos {
+        column-count: 1;
     }
- }
+
+      /* form */
+
+      .signup-form {
+        margin: 0px;
+        max-width: 380px;
+    }
+    .form-section {
+      padding-top: 20px;
+     
+  }
+
+    .signup-form h2 {
+      max-width: 280px
+  }
+
+}
+
+/* For medium screen sizes from 319px wide and down  */
+@media (min-width: 240px) and (max-width: 319px) { 
+
+          
+            
+    #hero-image-1, #hero-image-2, #rugbyball-whistle {
+        display: none;
+    }
+   
+    #logo {
+        font-size: 3rem;
+    }
+
+    #menu li {
+        font-size: 1.6rem;
+        margin: 7px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    
+    .block h3, p {
+      min-width: 220px;
+      font-size: 1.3rem;
+     
+    }
+    
+    #left-about-top {
+        top: 920px;
+        padding: 0px 0px 0px 10px;
+    }
+    
+    #right-about-top {
+        padding: 10px;
+        top: 1000px;
+        
+    }
+
+    #left-about-mid {
+        padding: 10px;
+        top: 1100px;
+    }
+
+    #right-about-mid{
+        padding: 10px;
+        top: 1190px;
+    }     
+        /* footer */
+
+        
+        #need h2 {
+            font-size: 1rem;
+            padding: 40px 1150px 50px 0px;
+         } 
+            
+            
+         #need {
+             margin-left: 10px;
+             
+         }
+        
+         .social-network-contact > li {
+             padding: 10px;
+             bottom: 170px;
+         }
+     
+         .social-network-contact i {
+             font-size: 2rem;
+            
+         }
+          
+         .circle {
+             font-size: .4rem;
+             left: 90px;
+             bottom: -70px;
+         }
+         
+            
+         #thanks {
+            font-size: .5rem;
+            padding: 20px 0px;
+            letter-spacing: 0;
+            min-height: 70px;
+            
+        } 
+               
+        #allianz-img {
+            transform: scale(.2);
+            min-width: 300px;
+            left: -10px;
+        }
+            
+        #adidas-img {
+            transform: scale(.2);
+            max-width: 200px;
+            left: -20px; 
+        }
+            
+        #im-irwinmitchel-img {
+            transform: scale(.2);
+            min-width: 200px;
+            left: 100px;    
+        }
+
+    /* information */
+ 
+      
+    #text-boxes h4, h3 {
+        font-size: 1.3rem;
+    }
+
+    /* gallery */
+
+    #photos {
+        column-count: 1;
+    }
+
+      /* form */
+
+      .signup-form {
+        margin: 0px;
+        max-width: 380px;
+    }
+    .form-section {
+      padding-top: 20px;
+     
+  }
+
+    .signup-form h2 {
+      max-width: 280px
+  }
+
+}
