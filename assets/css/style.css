@@ -1402,11 +1402,10 @@ footer{
     }
     .form-section {
       padding-top: 20px;
-     
   }
 
-    .signup-form h2 {
-      max-width: 280px
-  }
+  .signup-form h2 {
+    max-width: 200px
+}
 
 }
