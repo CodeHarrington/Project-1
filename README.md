@@ -83,13 +83,31 @@ The website is designed to be easy and user-friendly on all types of devices. On
 ## Wireframes 
 
 I used the website wireframe.cc to create  wireframes.
-
-![page 4 ](https://user-images.githubusercontent.com/96495354/153260971-22a00688-db67-41d2-81b3-602ee5ed3a0b.png)
-![page 3](https://user-images.githubusercontent.com/96495354/153260990-cace89e3-142d-4260-a8ff-86e0bf1cc7ec.png)
-![page 2](https://user-images.githubusercontent.com/96495354/153260993-f0cc224e-2cb9-405c-9157-c3b9c904114e.png)
 ![page 1](https://user-images.githubusercontent.com/96495354/153260997-cb3aea2c-e82d-4289-b8f6-74e41051f223.png)
+![page 2](https://user-images.githubusercontent.com/96495354/153260993-f0cc224e-2cb9-405c-9157-c3b9c904114e.png)
+![page 3](https://user-images.githubusercontent.com/96495354/153260990-cace89e3-142d-4260-a8ff-86e0bf1cc7ec.png)
+![page 4 ](https://user-images.githubusercontent.com/96495354/153260971-22a00688-db67-41d2-81b3-602ee5ed3a0b.png)
 
 ## Surface
+### The finished look!
+### The Home page has a an inviting kids hero image playing rugby with two referee as a extra invite and gives beauty, while  a rugby whistle , ball and watch  gives the context of the propose of the website.
+### A Menu bar at the top gives easy access to all 4 pages.
+### The messages are clear and a good incentive to get involved in Refereeing.
+### links to social media pages and a contact us button which links to the Contact-Us page along with the sponsors at the bottom is a feature in all 4 pages.
+![Screen Shot 2022-02-16 at 20 38 32](https://user-images.githubusercontent.com/96495354/154354297-ce109358-e5ea-4bac-b07b-5abe04957a4f.png)
+![Screen Shot 2022-02-16 at 20 38 56](https://user-images.githubusercontent.com/96495354/154354303-27e9afbb-5dbc-4649-ae0a-22a94f7bf307.png)
+
+### The Information page has a landing hero image of a training session with the details of training and educational meeting.
+![Screen Shot 2022-02-16 at 20 42 42](https://user-images.githubusercontent.com/96495354/154354304-3a94b2b3-9cdc-435d-a643-f68e59a82dda.png)
+![Screen Shot 2022-02-16 at 20 43 07](https://user-images.githubusercontent.com/96495354/154354305-b76a51b5-e00c-4e6a-b061-636e09267778.png)
+
+### The Gallery page has 6 landing images of what the club is all about, with the social media pages and contact button at the bottom along with the sponsors also. 
+![Screen Shot 2022-02-16 at 20 44 19](https://user-images.githubusercontent.com/96495354/154354306-1b8c5570-c7f4-486a-b94d-1cb650dcad8d.png)
+![Screen Shot 2022-02-16 at 20 44 55](https://user-images.githubusercontent.com/96495354/154354310-5a58fc24-4243-4680-899a-b5a084bfd237.png)
+
+### The Contact-us page has a landing image of a scrum and a form section to fill out to get in contact. it also has the social media links and sponsors details.
+![Screen Shot 2022-02-16 at 20 45 22](https://user-images.githubusercontent.com/96495354/154354311-e48e4283-3155-448f-ad0b-8aa9c5d764fd.png)
+
 ### Colors
 Main colours used in a project:
 * background color: #4b296b and 87b37a
@@ -210,6 +228,8 @@ The website has below features:
 
 ### html and Css checker 
 * I used this to check my code https://jigsaw.w3.org/
+
+![Screen Shot 2022-02-16 at 20 28 11](https://user-images.githubusercontent.com/96495354/154354294-6c478571-9330-4d84-a728-0f999f8266a8.png)
 
 ### Colors 
 * I used this to pick my colors https://coolors.co/
