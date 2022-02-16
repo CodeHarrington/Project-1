@@ -3,7 +3,8 @@
 
 This is a Website for Rugby Referee's in order to Recruit, and inform existing members.
 
-![Screen Shot 2022-02-13 at 00 35 42](https://user-images.githubusercontent.com/96495354/153733397-0822a5c3-e2d9-417f-bf48-24c3fc88b3f7.png)
+![Screen Shot 2022-02-16 at 00 18 46](https://user-images.githubusercontent.com/96495354/154172246-b4e1aba8-7a4e-41bd-acae-6c267c601c21.png)
+
 
 This project developed over time and its purpose is to inform Referees of the club's activities while inviting new members to join.
 
@@ -82,25 +83,29 @@ The website is designed to be easy and user-friendly on all types of devices. On
 ## Wireframes 
 
 I used the website wireframe.cc to create  wireframes.
+
 ![page 4 ](https://user-images.githubusercontent.com/96495354/153260971-22a00688-db67-41d2-81b3-602ee5ed3a0b.png)
 ![page 3](https://user-images.githubusercontent.com/96495354/153260990-cace89e3-142d-4260-a8ff-86e0bf1cc7ec.png)
 ![page 2](https://user-images.githubusercontent.com/96495354/153260993-f0cc224e-2cb9-405c-9157-c3b9c904114e.png)
 ![page 1](https://user-images.githubusercontent.com/96495354/153260997-cb3aea2c-e82d-4289-b8f6-74e41051f223.png)
+
 ## Surface
 ### Colors
 Main colours used in a project:
 * background color: #4b296b and 87b37a
-* font color: #fafafa
+* font color: #ffffff
 * title color: #0082c8
 * hoover color: #4b296b
 * thanks to (https://coolors.co/) brilliant website.
+
 ![Screen Shot 2022-02-12 at 23 05 25](https://user-images.githubusercontent.com/96495354/153731682-7ae00a81-def8-48d9-bbe2-ad6af8d5726b.png)
-* After review at the end as I had time to check a great tools called contrast grid. I ended up taking out the rgb(0,130,200) which made for better viewing experience. and finish with just using 3 colors. This also bought my SEO score in lighthouse to 100.
+
+* After review at the end as I had time to check a great tools called contrast grid. I ended up removing the rgb(0,130,200) which made for better viewing experience. and finish with just using 3 colors. This also bought my SEO score in lighthouse to 100.
 
 ![Screen Shot 2022-02-13 at 00 20 15](https://user-images.githubusercontent.com/96495354/153733136-01956e73-1cfb-4872-89d2-e8b6ef561324.png)
 ### Fonts 
 
-* As a main font I used  Oswald, and as a backup font sans-serif
+* As a main font I used  Oswald, and as a backup font sans-serif.
 
 ### Images
 
@@ -158,7 +163,7 @@ The website has below features:
 ## Contact
 
 * Contact form is a main part on this site. Users can contact by filling a form with details in getting in touch.
-* I used https://submit.jotformeu.com/submit/ to redirect the form. no data is been gathered.
+* I used https://submit.jotformeu.com/submit/ to redirect the form. no data is been gathered, but I reverted back to the Code Institute created in Love Running project. As I was informed that was all that was required. 
  ## This is only used for educational purposes only!!
 
 
@@ -229,10 +234,11 @@ Lighthouse was key for optimising the website.
 
 
 ## Compatibility testing
- Site was tested across 21 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+ The Site was tested across 21 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
  
  I tested on hardware devices such as: Macbook pro 13", mac desktop 27", iphone 5, Samsaung ds, Mac tablet, and all screen width as follows:
  * 2560px, 1920px 1900px, 1680px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 460px, 425px, 414px, 390px, 375px, 320px.
+ * But Found it was not responsive, I learned a very valuable lesson and one that took serval hours to get right. It is now responsive and I checked it on all the above after solving the bugs. 
 
 ## User stories testing
 
@@ -287,13 +293,13 @@ As I wanted to look designed rather than inline.
 
 
 * #### I had to create several screen sizes to keep the look of the website.
-   * This was time consuming and will approach in a different way the next. 
+   * This was time consuming and will approach in a different way the next, and the amount I learned getting through it was colossal.
 
 
 
 ## Performance testing
 
-I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check the performance of the website.
+I ran [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check the performance of the website.
 I had to do a couple of changes to improve performance. Screenshots are presented below:
 
 ![Screen Shot 2022-02-09 at 08 14 32](https://user-images.githubusercontent.com/96495354/153283959-dc7d2514-f151-4743-bb65-efe6f13f5a25.png)
@@ -391,6 +397,8 @@ To run locally:
 
 ## Slack members and study group.
 * The study group were brilliant for picking up ideas. Thanks a mill guys. 
+
+## Code Institute for the brilliant program and the self learning way its structured, is very enjoyable.
 
 ## 4fm 
 Keeping me in tune and company (#great radio station).
