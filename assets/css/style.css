@@ -23,9 +23,7 @@ h1 {
    height: 100px;
    background-color: #87b37a;
    text-decoration: underline; 
-   
 }
-
 
 #menu, #logo {
    line-height: 40px;
@@ -76,7 +74,6 @@ h1 {
    float: right;
    transform: scale(.80);
    box-shadow: 2px 3px 4px 9px rgba(0,0,0,0.36);
-
 } 
 
 #hero-image-3 {
@@ -97,7 +94,7 @@ h1 {
 
 .question p {
    max-width: 200px;
-   color: #fafafa;
+   color: #ffffff;
 }
 
 #left-about-top {
@@ -125,7 +122,7 @@ h1 {
 }
 
 hr {
-   border-top: 2px solid #fafafa;
+   border-top: 2px solid #ffffff;
    width: 100%;
    margin: 5px 0;
 }
@@ -145,7 +142,7 @@ hr {
 footer{
    height: 700px;
    width: 100%;
-   color: #fafafa;
+   color: #ffffff;
    background-color: #4b296b
 }
 
@@ -163,7 +160,6 @@ footer{
    margin: 5px;
    padding: 20px 0px 40px 0px;
    text-decoration: underline;
-
 }
 
 .circle {
@@ -175,8 +171,8 @@ footer{
    height: 34px;
    padding: 25px;
    background: #87b37a;
-   border: 5px solid #fafafa;
-   color: #fafafa;
+   border: 5px solid #ffffff;
+   color: #ffffff;
    text-align: center;
    font-family: Oswald, sans-serif;
 }
@@ -197,7 +193,7 @@ footer{
 
 
 #sponsors li {
-    color: #fafafa;
+    color: #ffffff;
     position: fixed;
     text-align: center;
     background-color: #4b296b;
@@ -211,7 +207,7 @@ footer{
     margin: 5px;
     padding: 5px;
     text-decoration: underline;
-    color: #fafafa;
+    color: #ffffff;
     font-size: x-large;
  }
  
@@ -220,7 +216,7 @@ footer{
     min-width: 100%;
     min-height: 100px;
     display: flex;
-    color: #fafafa;
+    color: #ffffff;
     position: fixed;
     padding: 25px 20px;
     background-color: #4b296b;
@@ -313,7 +309,7 @@ footer{
  
  .signup-form {
     margin: 30px 30px;
-    color: #fafafa;
+    color: #ffffff;
     background-color: rgba(75, 41, 107, 1);
     max-width: 435px;
     position: absolute;
@@ -326,14 +322,14 @@ footer{
  
  .signup-form > h2 {
     color:rgba(75, 41, 107, 1);
-    background-color:#fafafa;
+    background-color:#ffffff;
     width: 400px;
     height: 80px;
  }
  
  .text-input {
     background: transparent;
-    color: #fafafa;
+    color: #ffffff;
     width: 100%;
     height: 55px;
     margin: 5px 0 20px 0;
@@ -351,14 +347,14 @@ footer{
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #fafafa;
+    background-color: #ffffff;
     color: #4b296b;
     display: block;
  }
  
  .join-button:hover {
     color: #4b296b;
-    background-color: #fafafa;  
+    background-color: #ffffff;  
  }
 
 
@@ -374,12 +370,10 @@ footer{
    
 .question h3, p {
     font-size: 2.5rem;
-
 }
 
 .block h3, p {
-  min-width: 550px;
- 
+  min-width: 550px; 
 }
 
 #left-about-top, #left-about-mid {
@@ -389,23 +383,18 @@ footer{
 #right-about-top, #right-about-mid {
     padding-left: 200px;
 }
-
     
 /* footer */
     
 #need h2 { 
     padding: 50px 10px 0px 110px;
 }
-    
-     
-    
+        
 .social-network-contact > li {
     bottom: 130px;
     padding: 80px;
 }
-    
-     
-        
+            
 #allianz-img {
     min-width: 900px;
 }
@@ -431,12 +420,10 @@ footer{
        
     .question h3, p {
         font-size: 2rem;
-    
     }
     
     .block h3, p {
-      min-width: 250px;
-     
+      min-width: 250px; 
     }
     
     #left-about-top, #left-about-mid {
@@ -484,18 +471,15 @@ footer{
   
     #rugbyball-whistle {
         transform: scale(.25);
-        top: 550px;
-       
+        top: 550px;   
     }
        
     .question h3, p {
         font-size: 2rem;
-    
     }
     
     .block h3, p {
-      min-width: 250px;
-     
+      min-width: 250px; 
     }
     
     #left-about-top, #left-about-mid {
@@ -526,7 +510,7 @@ footer{
    .circle {
        font-size: 2rem;
        left: 450px;
-   }    
+    }    
          
             
     #allianz-img {
@@ -549,18 +533,15 @@ footer{
  @media (min-width: 768px) and (max-width: 1025px) {
    
     #rugbyball-whistle {
-        display: none;
-       
+        display: none;   
     }
        
     .question h3, p {
         font-size: 2rem;
-    
     }
     
     .block h3, p {
-      min-width: 250px;
-     
+      min-width: 250px; 
     }
     
     #left-about-top, #left-about-mid {
@@ -625,7 +606,6 @@ footer{
  /* For medium screen sizes from 767px wide and down  */
  @media (min-width: 481px) and (max-width: 767px) {
 
-
     #rugbyball-whistle {
         display: none;
     }
@@ -640,12 +620,10 @@ footer{
     
     .question h3, p {
         font-size: 1.5rem;
-    
     }
     
     .block h3, p {
-      min-width: 450px;
-     
+      min-width: 450px; 
     }
     
     #left-about-top {
@@ -655,8 +633,7 @@ footer{
     
     #right-about-top {
         padding: 10px;
-        top: 930px;
-        
+        top: 930px;   
     }
 
     #left-about-mid {
@@ -669,62 +646,63 @@ footer{
         top: 1040px;
     }
             
-        /* footer */
+    /* footer */
 
         
-          #need h2 {
-            font-size: 1.5rem;
-            padding: 40px 940px 50px 0px;
-         } 
+    #need h2 {
+        font-size: 1.5rem;
+        padding: 40px 940px 50px 0px;
+    } 
             
-         #need {
-             margin-left: 40px;
-             font-size: 1em;
-         }
+    #need {
+         margin-left: 40px;
+        font-size: 1em;
+    }
         
-         .social-network-contact > li {
-             padding: 15px;
-             bottom: 170px;
-         }
+    .social-network-contact > li {
+        padding: 15px;
+        bottom: 170px;
+    }
      
-         .social-network-contact i {
-             font-size: 3rem;
+    .social-network-contact i {
+        font-size: 3rem;
             
-         }
+    }
           
-         .circle {
-             font-size: 1rem;
-             left: 60px;
-             bottom: -70px;
-         }
-         #thanks {
-            font-size: 1rem;
-            letter-spacing: 0;
-            min-height: 80px;
+    .circle {
+        font-size: 1rem;
+        left: 60px;
+        bottom: -70px;
+    }
+
+    #thanks {
+        font-size: 1rem;
+        letter-spacing: 0;
+        min-height: 80px;
             
-        } 
+    } 
                
-        #allianz-img {
-            transform: scale(.4);
-            min-width: 300px;
-            left: 120px;
-        }
+    #allianz-img {
+        transform: scale(.4);
+        min-width: 300px;
+        left: 120px;
+    }
             
-        #adidas-img {
-            transform: scale(.4);
-            max-width: 200px;
-            left: 60px; 
-        }
+    #adidas-img {
+        transform: scale(.4);
+        max-width: 200px;
+        left: 60px; 
+    }
             
-        #im-irwinmitchel-img {
-            transform: scale(.4);
-            min-width: 200px;
-            left: 300px;    
-        }
+    #im-irwinmitchel-img {
+        transform: scale(.4);
+        min-width: 200px;
+        left: 300px;    
+    }
 
-      /* information */
+    /* information */
 
-      #text-boxes h4, h3 {
+    #text-boxes h4, h3 {
         font-size: 2rem;
     }
     
@@ -734,8 +712,8 @@ footer{
         column-count: 1;
     }
 
-      /* form */
-      .form-section {
+    /* form */
+    .form-section {
         padding-top: 20px;
     }
  
@@ -749,20 +727,16 @@ footer{
         display: none;
     }
    
-    
-
     #menu li {
         font-size: 2rem;
     }
     
     .question h3, p {
         font-size: 1.5rem;
-    
     }
     
     .block h3, p {
-      min-width: 400px;
-     
+       min-width: 400px; 
     }
     
     #left-about-top {
@@ -772,8 +746,7 @@ footer{
     
     #right-about-top {
         padding: 10px;
-        top: 880px;
-        
+        top: 880px;    
     }
 
     #left-about-mid {
@@ -788,63 +761,60 @@ footer{
         /* footer */
 
         
-        #need h2 {
-            font-size: 1.3rem;
-            padding: 30px 970px 50px 0px;
-         } 
+    #need h2 {
+        font-size: 1.3rem;
+        padding: 30px 970px 50px 0px;
+    } 
             
             
-         #need {
-             margin-left: 40px;
-             font-size: 1em;
-         }
+    #need {
+        margin-left: 40px;
+        font-size: 1em;
+    }
         
-         .social-network-contact > li {
-             padding: 15px;
-             bottom: 170px;
-         }
+    .social-network-contact > li {
+        padding: 15px;
+        bottom: 170px;
+    }
      
-         .social-network-contact i {
-             font-size: 3rem;
-            
-         }
+    .social-network-contact i {
+        font-size: 3rem;
+    }
           
-         .circle {
-             font-size: .5rem;
-             left: 20px;
-             bottom: -70px;
-         }
+    .circle {
+        font-size: .5rem;
+        left: 20px;
+        bottom: -70px;
+    }
          
             
-         #thanks {
-            font-size: .9rem;
-            letter-spacing: 0;
-            min-height: 80px;
-            
-        } 
+    #thanks {
+        font-size: .9rem;
+        letter-spacing: 0;
+        min-height: 80px;
+    } 
                
-        #allianz-img {
-            transform: scale(.3);
-            min-width: 300px;
-            left: 90px;
-        }
+    #allianz-img {
+        transform: scale(.3);
+        min-width: 300px;
+        left: 90px;
+    }
             
-        #adidas-img {
-            transform: scale(.3);
-            max-width: 200px;
-            left: 40px; 
-        }
+    #adidas-img {
+        transform: scale(.3);
+        max-width: 200px;
+        left: 40px; 
+    }
             
-        #im-irwinmitchel-img {
-            transform: scale(.3);
-            min-width: 200px;
-            left: 250px;    
-        }
+    #im-irwinmitchel-img {
+        transform: scale(.3);
+        min-width: 200px;
+        left: 250px;    
+    }
 
-      /* information */
+    /* information */
 
-    
-      #text-boxes h4, h3 {
+    #text-boxes h4, h3 {
         font-size: 1.8rem;
     }
     
@@ -854,15 +824,15 @@ footer{
         column-count: 1;
     }
 
-      /* form */
+    /* form */
 
-      .signup-form {
-          margin: 0px;
-          max-width: 400px;
-      }
-      .form-section {
-        padding-top: 30px;
-       
+    .signup-form {
+        margin: 0px;
+        max-width: 400px;
+    }
+
+    .form-section {
+        padding-top: 30px;  
     }
 
     .signup-form h2 {
@@ -870,20 +840,14 @@ footer{
     }
  
  }
-
-
-
    
 /* For medium screen sizes from 410px wide and down  */
 @media (min-width: 375px) and (max-width: 410px) {    
-       
-              
+                 
     #hero-image-1, #hero-image-2, #rugbyball-whistle {
         display: none;
     }
    
-    
-
     #menu li {
         font-size: 1.5rem;
     }
@@ -891,14 +855,9 @@ footer{
     h1 {
         font-size: 3rem;
     }
-    .question h3, p {
-    
-    
-    }
     
     .block h3, p {
       min-width: 360px;
-     
     }
     
     #left-about-top {
@@ -908,8 +867,7 @@ footer{
     
     #right-about-top {
         padding: 10px;
-        top: 880px;
-        
+        top: 880px;   
     }
 
     #left-about-mid {
@@ -921,65 +879,61 @@ footer{
         padding: 10px;
         top: 1070px;
     }     
-        /* footer */
+    
+    /* footer */
 
-        
-        #need h2 {
-            font-size: 1rem;
-            padding: 30px 1050px 50px 0px;
-         } 
+    #need h2 {
+        font-size: 1rem;
+        padding: 30px 1050px 50px 0px;
+    } 
             
             
-         #need {
-             margin-left: 40px;
-             font-size: 1em;
-         }
+    #need {
+        margin-left: 40px;
+        font-size: 1em;
+    }
         
-         .social-network-contact > li {
-             padding: 10px;
-             bottom: 170px;
-         }
+    .social-network-contact > li {
+        padding: 10px;
+        bottom: 170px;
+    }
      
-         .social-network-contact i {
-             font-size: 2rem;
-            
-         }
+    .social-network-contact i {
+        font-size: 2rem;
+    }
           
-         .circle {
-             font-size: .4rem;
-             left: 60px;
-             bottom: -70px;
-         }
+    .circle {
+        font-size: .4rem;
+        left: 60px;
+        bottom: -70px;
+    }
          
-            
-         #thanks {
-            font-size: .7rem;
-            letter-spacing: 0;
-            min-height: 80px;
-            
-        } 
+    #thanks {
+        font-size: .7rem;
+        letter-spacing: 0;
+        min-height: 80px;
+    } 
                
-        #allianz-img {
-            transform: scale(.3);
-            min-width: 300px;
-            left: 70px;
-        }
+     #allianz-img {
+        transform: scale(.3);
+        min-width: 300px;
+        left: 70px;
+    }
             
-        #adidas-img {
-            transform: scale(.3);
-            max-width: 200px;
-            left: 20px; 
-        }
+    #adidas-img {
+        transform: scale(.3);
+        max-width: 200px;
+        left: 20px; 
+    }
             
-        #im-irwinmitchel-img {
-            transform: scale(.3);
-            min-width: 200px;
-            left: 220px;    
-        }
+    #im-irwinmitchel-img {
+        transform: scale(.3);
+        min-width: 200px;
+        left: 220px;    
+    }
 
     /* information */
 
-    
     #text-boxes h4, h3 {
         font-size: 1.6rem;
     }
@@ -992,30 +946,27 @@ footer{
 
       /* form */
 
-      .signup-form {
-          margin: 0px;
-          max-width: 380px;
-      }
-      .form-section {
+    .signup-form {
+        margin: 0px;
+        max-width: 380px;
+    }
+
+    .form-section {
         padding-top: 30px;
     }
 
     .signup-form h2 {
         max-width: 340px
     }
- 
  }
 
 /* For medium screen sizes from 374px wide and down i.e " */
 @media (min-width: 360px) and (max-width: 374px) {     
-       
-             
+                
     #hero-image-1, #hero-image-2, #rugbyball-whistle {
         display: none;
     }
    
-    
-
     #menu li {
         font-size: 1.5rem;
     }
@@ -1024,10 +975,8 @@ footer{
         font-size: 3rem;
     }
    
-    
     .block h3, p {
-      min-width: 350px;
-     
+      min-width: 350px; 
     }
     
     #left-about-top {
@@ -1037,8 +986,7 @@ footer{
     
     #right-about-top {
         padding: 10px;
-        top: 880px;
-        
+        top: 880px;    
     }
 
     #left-about-mid {
@@ -1053,58 +1001,55 @@ footer{
         /* footer */
 
         
-        #need h2 {
-            font-size: 1rem;
-            padding: 30px 1050px 50px 0px;
-         } 
+    #need h2 {
+        font-size: 1rem;
+        padding: 30px 1050px 50px 0px;
+    } 
             
             
-         #need {
-             margin-left: 40px;
-             font-size: 1em;
-         }
+    #need {
+        margin-left: 40px;
+        font-size: 1em;
+    }
         
-         .social-network-contact > li {
-             padding: 10px;
-             bottom: 170px;
-         }
+    .social-network-contact > li {
+        padding: 10px;
+        bottom: 170px;
+    }
      
-         .social-network-contact i {
-             font-size: 2rem;
-            
-         }
+    .social-network-contact i {
+        font-size: 2rem;
+    }
           
-         .circle {
-             font-size: .4rem;
-             left: 60px;
-             bottom: -70px;
-         }
+    .circle {
+        font-size: .4rem;
+        left: 60px;
+        bottom: -70px;
+    }
          
-            
-         #thanks {
-            font-size: .7rem;
-            letter-spacing: 0;
-            min-height: 80px;
-            
-        } 
+    #thanks {
+        font-size: .7rem;
+        letter-spacing: 0;
+        min-height: 80px;
+    } 
                
-        #allianz-img {
-            transform: scale(.3);
-            min-width: 300px;
-            left: 70px;
-        }
+    #allianz-img {
+        transform: scale(.3);
+        min-width: 300px;
+        left: 70px;
+    }
             
-        #adidas-img {
-            transform: scale(.3);
-            max-width: 200px;
-            left: 20px; 
-        }
+    #adidas-img {
+        transform: scale(.3);
+        max-width: 200px;
+        left: 20px; 
+    }
             
-        #im-irwinmitchel-img {
-            transform: scale(.3);
-            min-width: 200px;
-            left: 220px;    
-        }
+    #im-irwinmitchel-img {
+        transform: scale(.3);
+        min-width: 200px;
+        left: 220px;    
+    }
 
     /* information */
     
@@ -1118,18 +1063,18 @@ footer{
         column-count: 1;
     }
 
-      /* form */
+    /* form */
 
-      .signup-form {
-          margin: 0px;
-          max-width: 380px;
-      }
-      .form-section {
-        padding-top: 30px;
-       
+    .signup-form {
+        margin: 0px;
+        max-width: 380px;
     }
 
-      .signup-form h2 {
+    .form-section {
+        padding-top: 30px;
+    }
+
+    .signup-form h2 {
         max-width: 320px
     }
  }
@@ -1144,7 +1089,6 @@ footer{
         display: none;
     }
    
-    
     #menu li {
         font-size: 1.3rem;
     }
@@ -1178,64 +1122,61 @@ footer{
         padding: 10px;
         top: 1090px;
     }     
-        /* footer */
+     /* footer */
 
         
-        #need h2 {
-            font-size: 2rem;
-            padding: 10px 1150px 50px 0px;
-         } 
-            
-            
-         #need {
-             margin-left: 50px;
+    #need h2 {
+        font-size: 2rem;
+        padding: 10px 1150px 50px 0px;
+    } 
+                   
+    #need {
+         margin-left: 50px;
              
-         }
+    }
         
-         .social-network-contact > li {
-             padding: 10px;
-             bottom: 170px;
-         }
+    .social-network-contact > li {
+        padding: 10px;
+        bottom: 170px;
+    }
      
-         .social-network-contact i {
-             font-size: 2rem;
-            
-         }
+    .social-network-contact i {
+        font-size: 2rem;
+    }
           
-         .circle {
-             font-size: .4rem;
-             left: 0px;
-             bottom: -70px;
-         }
+    .circle {
+        font-size: .4rem;
+        left: 0px;
+        bottom: -70px;
+    }
          
             
-         #thanks {
-            font-size: .6rem;
-            letter-spacing: 0;
-            min-height: 80px;    
-        } 
+    #thanks {
+        font-size: .6rem;
+        letter-spacing: 0;
+        min-height: 80px;    
+    } 
                
-        #allianz-img {
-            transform: scale(.3);
-            min-width: 300px;
-            left: 40px;
-        }
+    #allianz-img {
+        transform: scale(.3);
+        min-width: 300px;
+        left: 40px;
+    }
             
-        #adidas-img {
-            transform: scale(.3);
-            max-width: 200px;
-            left: 10px; 
-        }
+    #adidas-img {
+        transform: scale(.3);
+        max-width: 200px;
+        left: 10px; 
+    }
             
-        #im-irwinmitchel-img {
-            transform: scale(.3);
-            min-width: 200px;
-            left: 170px;    
-        }
+    #im-irwinmitchel-img {
+        transform: scale(.3);
+        min-width: 200px;
+        left: 170px;    
+    }
 
     /* information */
 
-    
     #text-boxes h4, h3 {
         font-size: 1.6rem;
     }
@@ -1246,28 +1187,27 @@ footer{
         column-count: 1;
     }
 
-      /* form */
+    /* form */
 
-      .signup-form {
+    .signup-form {
         margin: 0px;
         max-width: 380px;
     }
+
     .form-section {
-      padding-top: 20px;
+        padding-top: 20px;
      
-  }
+    }
 
     .signup-form h2 {
       max-width: 280px
-  }
+    }
 
 }
 
 /* For medium screen sizes from 319px wide and down  */
 @media (min-width: 240px) and (max-width: 319px) { 
-
-          
-            
+        
     #hero-image-1, #hero-image-2, #rugbyball-whistle {
         display: none;
     }
@@ -1289,7 +1229,6 @@ footer{
     .block h3, p {
       min-width: 220px;
       font-size: 1.3rem;
-     
     }
     
     #left-about-top {
@@ -1299,8 +1238,7 @@ footer{
     
     #right-about-top {
         padding: 10px;
-        top: 1000px;
-        
+        top: 1000px;   
     }
 
     #left-about-mid {
@@ -1315,59 +1253,57 @@ footer{
         /* footer */
 
         
-        #need h2 {
-            font-size: 1rem;
-            padding: 40px 1150px 50px 0px;
-         } 
+    #need h2 {
+        font-size: 1rem;
+         padding: 40px 1150px 50px 0px;
+    } 
             
             
-         #need {
-             margin-left: 10px;
-             
-         }
+    #need {
+        margin-left: 10px;
+    }
         
-         .social-network-contact > li {
-             padding: 5px;
-             bottom: 170px;
-         }
+    .social-network-contact > li {
+        padding: 5px;
+        bottom: 170px;
+    }
      
-         .social-network-contact i {
-             font-size: 1.5rem;
+    .social-network-contact i {
+        font-size: 1.5rem;
             
-         }
+    }
           
-         .circle {
-             font-size: .3rem;
-             left: -10px;
-             bottom: -70px;
-         }
+    .circle {
+        font-size: .3rem;
+        left: -10px;
+        bottom: -70px;
+    }
          
             
-         #thanks {
-            font-size: .5rem;
-            padding: 20px 0px;
-            letter-spacing: 0;
-            min-height: 70px;
-            
-        } 
+    #thanks {
+        font-size: .5rem;
+        padding: 20px 0px;
+        letter-spacing: 0;
+        min-height: 70px;
+    } 
                
-        #allianz-img {
-            transform: scale(.2);
-            min-width: 300px;
-            left: -10px;
-        }
+    #allianz-img {
+        transform: scale(.2);
+        min-width: 300px;
+        left: -10px;
+    }
             
-        #adidas-img {
-            transform: scale(.2);
-            max-width: 200px;
-            left: -20px; 
-        }
+    #adidas-img {
+        transform: scale(.2);
+        max-width: 200px;
+        left: -20px; 
+    }
             
-        #im-irwinmitchel-img {
-            transform: scale(.2);
-            min-width: 200px;
-            left: 100px;    
-        }
+    #im-irwinmitchel-img {
+        transform: scale(.2);
+        min-width: 200px;
+        left: 100px;    
+    }
 
     /* information */
  
@@ -1382,18 +1318,18 @@ footer{
         column-count: 1;
     }
 
-      /* form */
+    /* form */
 
-      .signup-form {
+    .signup-form {
         margin: 0px;
         max-width: 380px;
     }
+
     .form-section {
-      padding-top: 20px;
-  }
+        padding-top: 20px;
+    }
 
-  .signup-form h2 {
-    max-width: 200px
-}
-
+    .signup-form h2 {
+        max-width: 200px
+   }
 }
