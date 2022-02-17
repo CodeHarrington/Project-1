@@ -148,22 +148,19 @@ footer{
 
 .become {
     position: relative;
-    font-size: 300%;
     border-radius: 50%;
     width: 70%;
     height: auto;
     padding: 25px;
     background: #87b37a;
-    border: 5px solid #ffffff;
     color: #ffffff;
     text-align: center;
     font-family: Oswald, sans-serif;
-    margin: -65px;
+    margin: -75px;
     top: 249px;
-    left: 20%;
+    left: 22%;
+    box-shadow: 2px 3px 4px 29px #ffffff; 
 }
-
-
 
 #need {
    position: relative;
@@ -402,6 +399,10 @@ footer{
 #right-about-top, #right-about-mid {
     padding-left: 200px;
 }
+
+.become {
+    left: 20%;
+}
     
 /* footer */
     
@@ -452,8 +453,11 @@ footer{
     #right-about-top, #right-about-mid {
         padding-left: 200px;
     }
-    
-        
+
+    .become {
+        left: 19%;
+    }
+  
     /* footer */
         
     #need {
@@ -509,6 +513,7 @@ footer{
         padding-left: 100px;
     }
     
+   
         
     /* footer */
     
@@ -569,6 +574,10 @@ footer{
     
     #right-about-top, #right-about-mid {
         padding-left: 100px;
+    }
+
+    .become {
+        left: 24%;
     }
     
         
@@ -663,6 +672,11 @@ footer{
     #right-about-mid{
         padding: 10px;
         top: 1040px;
+    }
+
+    .become {
+        left: 30%;
+        transform: scale(.8)
     }
             
     /* footer */
@@ -776,7 +790,13 @@ footer{
     #right-about-mid{
         padding: 10px;
         top: 1070px;
-    }     
+    } 
+    .become {
+        left: 34%;
+        transform: scale(.8)
+
+    } 
+    
         /* footer */
 
         
@@ -897,7 +917,12 @@ footer{
     #right-about-mid{
         padding: 10px;
         top: 1070px;
-    }     
+    } 
+    
+    .become {
+        left: 35%;
+        transform: scale(.7);
+    } 
     
     /* footer */
 
@@ -1016,7 +1041,12 @@ footer{
     #right-about-mid{
         padding: 10px;
         top: 1070px;
-    }     
+    }  
+    
+    .become {
+        left: 37%;
+        transform: scale(.7)
+    }
         /* footer */
 
         
@@ -1140,7 +1170,13 @@ footer{
     #right-about-mid{
         padding: 10px;
         top: 1090px;
-    }     
+    }  
+    
+    .become {
+        left: 38%;
+        transform: scale(.7)
+    }
+
      /* footer */
 
         
@@ -1164,7 +1200,7 @@ footer{
     }
           
     .circle {
-        font-size: .4rem;
+        font-size: 1rem;
         left: 0px;
         bottom: -70px;
     }
@@ -1268,6 +1304,12 @@ footer{
     #right-about-mid{
         padding: 10px;
         top: 1190px;
+    }
+    
+    .become {
+        left: 50%;
+        transform: scale(.7);
+        margin: -90px;
     }     
         /* footer */
 
@@ -1293,7 +1335,7 @@ footer{
     }
           
     .circle {
-        font-size: .3rem;
+        font-size: .6rem;
         left: -10px;
         bottom: -70px;
     }
