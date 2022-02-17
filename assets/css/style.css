@@ -754,7 +754,7 @@ footer{
  
 
  /* For medium screen sizes from 479px wide and down i.e "mobile XL" */
- @media (min-width: 411px) and (max-width: 479px) { 
+ @media (min-width: 411px) and (max-width: 480px) { 
     
     #hero-image-1, #hero-image-2, #rugbyball-whistle {
         display: none;
@@ -821,7 +821,7 @@ footer{
     }
           
     .circle {
-        font-size: .5rem;
+        font-size: .7rem;
         left: 20px;
         bottom: -70px;
     }
@@ -1071,7 +1071,7 @@ footer{
     }
           
     .circle {
-        font-size: .4rem;
+        font-size: .7rem;
         left: 60px;
         bottom: -70px;
     }
@@ -1200,7 +1200,7 @@ footer{
     }
           
     .circle {
-        font-size: 1rem;
+        font-size: .7rem;
         left: 0px;
         bottom: -70px;
     }
