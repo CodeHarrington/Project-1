@@ -146,6 +146,21 @@ footer{
    background-color: #4b296b
 }
 
+.become > h2 {
+    position: relative;
+  text-align: center;
+  font-size: 300%;
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  background: #87b37a;
+  border: 5px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+}
+
 #need {
    position: relative;
    width: 1300px;
