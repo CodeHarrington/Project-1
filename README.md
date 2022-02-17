@@ -98,15 +98,16 @@ I used the website wireframe.cc to create  wireframes.
 ![Screen Shot 2022-02-16 at 20 38 56](https://user-images.githubusercontent.com/96495354/154354303-27e9afbb-5dbc-4649-ae0a-22a94f7bf307.png)
 
 ### The Information page has a landing hero image of a training session with the details of training and educational meeting.
-![Screen Shot 2022-02-16 at 20 42 42](https://user-images.githubusercontent.com/96495354/154354304-3a94b2b3-9cdc-435d-a643-f68e59a82dda.png)
-![Screen Shot 2022-02-16 at 20 43 07](https://user-images.githubusercontent.com/96495354/154354305-b76a51b5-e00c-4e6a-b061-636e09267778.png)
+![Screen Shot 2022-02-17 at 16 31 24](https://user-images.githubusercontent.com/96495354/154526571-93d7efbb-7bc4-4ba9-8a4f-cdfaca261f77.png)
+
+
+![Screen Shot 2022-02-17 at 16 23 47](https://user-images.githubusercontent.com/96495354/154527343-b284d9d5-b095-4e07-bd63-c2a8dd8192ac.png)
 
 ### The Gallery page has 6 landing images of what the club is all about, with the social media pages and contact button at the bottom along with the sponsors also. 
-![Screen Shot 2022-02-16 at 20 44 19](https://user-images.githubusercontent.com/96495354/154354306-1b8c5570-c7f4-486a-b94d-1cb650dcad8d.png)
-![Screen Shot 2022-02-16 at 20 44 55](https://user-images.githubusercontent.com/96495354/154354310-5a58fc24-4243-4680-899a-b5a084bfd237.png)
+![Screen Shot 2022-02-17 at 16 24 47](https://user-images.githubusercontent.com/96495354/154525793-351e7055-fe41-409b-a1bc-558ec92589ee.png)
 
 ### The Contact-us page has a landing image of a scrum and a form section to fill out to get in contact. it also has the social media links and sponsors details.
-![Screen Shot 2022-02-16 at 20 45 22](https://user-images.githubusercontent.com/96495354/154354311-e48e4283-3155-448f-ad0b-8aa9c5d764fd.png)
+![Screen Shot 2022-02-17 at 16 25 47](https://user-images.githubusercontent.com/96495354/154525800-a7b794fd-32cf-4a30-897f-2cf4502d14e2.png)
 
 ### Colors
 Main colours used in a project:
