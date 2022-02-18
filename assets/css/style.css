@@ -20,9 +20,9 @@ h1 {
 
 #why {
    width: 100%;
-   height: 100px;
    background-color: #87b37a;
-   text-decoration: underline; 
+   text-decoration: underline;
+   padding: 15px; 
 }
 
 #menu, #logo {
@@ -85,120 +85,118 @@ h1 {
 
 /* reasons to get involved */
 
-.question {
-   color: #87b37a; 
+.container {
+   min-height: 400px;
+   width: 100%;
+   background-color: #87b37a;
 }
-.question h3 {
+
+.container h3, p {
+   color: #ffffff;
    max-width: 230px;
 }
 
-.question p {
-   max-width: 200px;
-   color: #ffffff;
+.container p {
+   font-size: 1.7rem;
 }
 
 #left-about-top {
-   position: absolute;
-   padding-left: 1500px;
-   top: 800px;
+ left: 300px;
+
 } 
 
 #left-about-mid {
-   position: absolute;
-   padding-left: 1400px;
-   top: 1000px;
+  left: 150px;
 }
 
 #right-about-top {
-   position: absolute;
-   padding-left: 200px;
-   top: 800px;
+ right: 300px;
 }
 
 #right-about-mid {
-   position: absolute;
-   padding-left: 300px;
-   top: 1000px;
+  right: 150px;
 }
 
+
+  
+#left-about-top, #right-about-top {
+      position: absolute;
+      top: 750px;
+
+  }
+  
+#left-about-mid, #right-about-mid {
+       position: absolute;
+       top: 950px; 
+  }
+  
 hr {
    border-top: 2px solid #ffffff;
-   width: 100%;
    margin: 5px 0;
 }
 
 #rugbyball-whistle {
-   background: url('../css/images/rugbyball-whistle-watch.png') no-repeat center center;
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   transform: scale(.3);
-   text-align: center;
-   top: 410px;
+    position: absolute;
+     background: url('../css/images/rugbyball-whistle-watch.png') no-repeat center center;
+    height: 100%;
+    width: 100%;
+    transform: scale(.25);
+    top: 380px;
+   
+
+}
+
+#circle-container {
+    width: 100%;
+    height:100%;
+    transform: scale(.7);
+    border-style: solid;
+    border-color: #4b296b;
+    border-width: 50px;
+    border-radius: 15%;
+   
 }
  
 /* footer */
 
-footer{
-   height: 700px;
+footer {
    width: 100%;
    color: #ffffff;
    background-color: #4b296b
 }
 
-.become {
-    position: relative;
-    border-radius: 50%;
-    width: 70%;
-    height: auto;
-    padding: 25px;
-    background: #87b37a;
-    color: #ffffff;
-    text-align: center;
-    font-family: Oswald, sans-serif;
-    margin: -75px;
-    top: 249px;
-    left: 22%;
-    box-shadow: 2px 3px 4px 29px #ffffff; 
-}
 
 #need {
    position: relative;
-   width: 1300px;
-   height: 100%;
-   top: 450px;
-   margin-left: 600px;   
+   margin-left: 100px; 
 }
 
 #need h2 {
    text-align-last: center;
    letter-spacing: 5px;
    margin: 5px;
-   padding: 20px 0px 40px 0px;
+   padding: 20px 0px 70px 280px;
    text-decoration: underline;
 }
 
 .circle {
    position: relative;
    left: 550px;
-   font-size: 300%;
    border-radius: 50%;
-   width: 54px;
-   height: 34px;
    padding: 25px;
    background: #87b37a;
-   border: 5px solid #ffffff;
+   box-shadow: 2px 4px 10px 8px #ffffff;
    color: #ffffff;
    text-align: center;
    font-family: Oswald, sans-serif;
+   font-size: xx-large;
 }
 
 .social-network-contact > li {
    display: inline;
    position: relative;
-   bottom: 150px;
-   padding: 70px;
-   left: 0px;
+   bottom: 180px;
+   padding: 30px;
 }
 
 
@@ -400,9 +398,7 @@ footer{
     padding-left: 200px;
 }
 
-.become {
-    left: 20%;
-}
+
     
 /* footer */
     
@@ -433,46 +429,11 @@ footer{
 /* For larger to medium screens size from 1920px wide and down */
 @media (min-width: 1281px) and (max-width: 1920px) {
  
-    #rugbyball-whistle {
-        transform: scale(.3);
-        top: 550px; 
-    }
-       
-    .question h3, p {
-        font-size: 2rem;
-    }
-    
-    .block h3, p {
-      min-width: 250px; 
-    }
-    
-    #left-about-top, #left-about-mid {
-        right: 200px;
-    }
-    
-    #right-about-top, #right-about-mid {
-        padding-left: 200px;
-    }
 
-    .become {
-        left: 19%;
-    }
+    
   
     /* footer */
-        
-    #need {
-        margin-left: 160px;
-    }
-   
-    .social-network-contact > li {
-        padding: 20px;
-    }
-     
-   .circle {
-       font-size: 2rem;
-   }    
-         
-            
+          
     #allianz-img {
         min-width: 300px;
         left: 570px;
