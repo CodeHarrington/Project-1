@@ -94,20 +94,27 @@ I used the website wireframe.cc to create  wireframes.
 ### A Menu bar at the top gives easy access to all 4 pages.
 ### The messages are clear and a good incentive to get involved in Refereeing.
 ### links to social media pages and a contact us button which links to the Contact-Us page along with the sponsors at the bottom is a feature in all 4 pages.
-![Screen Shot 2022-02-16 at 20 38 32](https://user-images.githubusercontent.com/96495354/154354297-ce109358-e5ea-4bac-b07b-5abe04957a4f.png)
-![Screen Shot 2022-02-16 at 20 38 56](https://user-images.githubusercontent.com/96495354/154354303-27e9afbb-5dbc-4649-ae0a-22a94f7bf307.png)
+
+![Screen Shot 2022-02-18 at 04 58 27](https://user-images.githubusercontent.com/96495354/154620801-75cb9a03-7897-4b35-9ce9-cd050e12e22c.png)
+![Screen Shot 2022-02-18 at 04 59 21](https://user-images.githubusercontent.com/96495354/154620818-1ecc0bbb-9f85-4fa0-bf18-b6d5bf1a79db.png)
 
 ### The Information page has a landing hero image of a training session with the details of training and educational meeting.
-![Screen Shot 2022-02-17 at 16 31 24](https://user-images.githubusercontent.com/96495354/154526571-93d7efbb-7bc4-4ba9-8a4f-cdfaca261f77.png)
 
+![Screen Shot 2022-02-18 at 04 59 57](https://user-images.githubusercontent.com/96495354/154620822-abe23604-2555-4263-b25f-fbc452096f3e.png)
 
-![Screen Shot 2022-02-17 at 16 23 47](https://user-images.githubusercontent.com/96495354/154527343-b284d9d5-b095-4e07-bd63-c2a8dd8192ac.png)
+![Screen Shot 2022-02-18 at 05 00 10](https://user-images.githubusercontent.com/96495354/154620824-ad16d6a8-b77f-4bfb-85ea-bd0b8af97f9b.png)
+
 
 ### The Gallery page has 6 landing images of what the club is all about, with the social media pages and contact button at the bottom along with the sponsors also. 
-![Screen Shot 2022-02-17 at 16 24 47](https://user-images.githubusercontent.com/96495354/154525793-351e7055-fe41-409b-a1bc-558ec92589ee.png)
+
+![Screen Shot 2022-02-18 at 05 00 37](https://user-images.githubusercontent.com/96495354/154620825-f713b0ff-657d-46fe-802c-6f309ef34878.png)
+
+![Screen Shot 2022-02-18 at 05 00 50](https://user-images.githubusercontent.com/96495354/154620832-d7969378-872d-45b6-b240-417951584355.png)
 
 ### The Contact-us page has a landing image of a scrum and a form section to fill out to get in contact. it also has the social media links and sponsors details.
-![Screen Shot 2022-02-17 at 16 25 47](https://user-images.githubusercontent.com/96495354/154525800-a7b794fd-32cf-4a30-897f-2cf4502d14e2.png)
+
+![Screen Shot 2022-02-18 at 05 01 12](https://user-images.githubusercontent.com/96495354/154620834-8c81800a-d771-42ff-9278-6fe059bd60ab.png)
+![Screen Shot 2022-02-18 at 05 01 27](https://user-images.githubusercontent.com/96495354/154620839-3f7e36e2-d8a0-4c4b-a8da-3e9581f4c78a.png)
 
 ### Colors
 Main colours used in a project:
@@ -241,9 +248,6 @@ The website has below features:
 ### Image resize.
 * I used picresize to resize some images (https://picresize.com/). Brilliant tool.
 
-
-
-
 [Back to Table of contents](#table-of-contents)
 ## Testing 
 
@@ -253,13 +257,22 @@ The website has below features:
  
 Lighthouse was key for optimising the website. 
 
-
 ## Compatibility testing
  The Site was tested across 21 virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
  
  I tested on hardware devices such as: Macbook pro 13", mac desktop 27", iphone 5, Samsaung ds, Mac tablet, and all screen width as follows:
  * 2560px, 1920px 1900px, 1680px, 1600px, 1500px, 1440px, 1280px, 1200px, 1115px, 1024px, 950px, 820px, 768px, 540px, 460px, 425px, 414px, 390px, 375px, 320px.
- * But Found it was not responsive, I learned a very valuable lesson and one that took serval hours to get right. It is now responsive and I checked it on all the above after solving the bugs. 
+ * But Found it was not responsive, I learned a very valuable lesson and one that took serval hours to get right. It is now responsive and I checked it on all the above after solving the bugs.
+ 
+### There was 2 main bugs
+[1. I made a huge but valuable learning when I created the html home page, I had put the main messages {.containers} in the footer rather than the body and when I added the css code I put a hight of 700px on this. It was only when I realized it was not responsive. it took a lot of trouble shooting, google and talking it out in a study group, where i realized my mistake.](#ux) 
+
+#2. I used float on my the containers also which make it difficult to what I wanted them to do. 
+ON the plus I made 150 commits. I solved my bugs and the learnings will stick with me a life-time.
+
+ 
+[2. I used {float} on my the containers also which make it difficult to what I wanted them to do. 
+ON the plus I made 150 commits. I solved my bugs and the learnings will stick with me a life-time.](#ux) 
 
 ## User stories testing
 
@@ -276,7 +289,6 @@ Lighthouse was key for optimising the website.
 
 - I would like to build and maintain relationships with potential and current customers.
     > Customers are able to find links to social channels at the bottom of each page. Alternatively they can contact by email or contact form.
-
 
 ### As a new customer:
 - I wish to find information about refereeing and what they might get out of it.
@@ -300,7 +312,7 @@ Lighthouse was key for optimising the website.
 
 
 ---
-## Issues found during site development
+## Other Issues found during site development
 
 ### Hero pics 
 * I used a Youtube video to get the desired outcome with balancing the main hero photo with the 2 smaller ones and a trick I picked up at a slack study group.
@@ -315,8 +327,6 @@ As I wanted to look designed rather than inline.
 
 * #### I had to create several screen sizes to keep the look of the website.
    * This was time consuming and will approach in a different way the next, and the amount I learned getting through it was colossal.
-
-
 
 ## Performance testing
 
@@ -334,14 +344,11 @@ I had to do a couple of changes to improve performance. Screenshots are presente
 
 ### Performance was good, now I just need to fix a bug on an information anchor element that had no description.
 
-
-
 ### Final results:
 
 I noticed that these test scores vary from time to time and depend on external libraries as well. 
 
 ![Screen Shot 2022-02-13 at 01 41 58](https://user-images.githubusercontent.com/96495354/153735032-c8b887d2-6712-4226-85a9-09b68a3f04f8.png)
-
 
 ## Code Validation
  At the and of the project I used two websites to validate a code
@@ -373,7 +380,6 @@ To run locally:
 
 [Back to Table of contents](#table-of-contents)
 ## Credits
-
 
 * To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
