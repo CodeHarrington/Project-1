@@ -137,11 +137,11 @@ hr {
 
 #rugbyball-whistle {
     position: absolute;
-     background: url('../css/images/rugbyball-whistle-watch.png') no-repeat center center;
+    background: url('../css/images/rugbyball-whistle-watch.png') no-repeat center center;
     height: 100%;
     width: 100%;
     transform: scale(.25);
-    top: 380px;
+    top: 320px;
    
 
 }
@@ -376,125 +376,121 @@ footer {
 /* For larger screens size from 2560px wide and down */
 @media (min-width: 1921px) and (max-width: 2560px) {
 
-#rugbyball-whistle {
-    height: 1700px;
-    transform: scale(.4);
-    top: 150px;
-}
-   
-.question h3, p {
-    font-size: 2.5rem;
-}
-
-.block h3, p {
-  min-width: 550px; 
-}
-
-#left-about-top, #left-about-mid {
-    right: 200px;
-}
-
-#right-about-top, #right-about-mid {
-    padding-left: 200px;
-}
-
-
-    
-/* footer */
-    
-#need h2 { 
-    padding: 50px 10px 0px 110px;
-}
-        
-.social-network-contact > li {
-    bottom: 130px;
-    padding: 80px;
-}
-            
-#allianz-img {
-    min-width: 900px;
-}
-    
-#adidas-img {
-    min-width: 900px;
-    left: 100px; 
-}
-    
-#im-irwinmitchel-img {
-    min-width: 200px;
-    left: 1580px;    
-}
-}
-
-/* For larger to medium screens size from 1920px wide and down */
-@media (min-width: 1281px) and (max-width: 1920px) {
- 
-
-    
-  
+    #rugbyball-whistle {
+        transform: scale(.3);
+        top: 250px;
+    }
+       
     /* footer */
-          
+        
+    #need h2 { 
+        padding: 30px 0px 70px 250px;
+    }
+            
+    .social-network-contact > li {
+        padding: 90px;
+    }
+                
     #allianz-img {
-        min-width: 300px;
-        left: 570px;
+        min-width: 900px;
     }
         
     #adidas-img {
-        max-width: 300px;
-        left: 300px; 
+        min-width: 900px;
+        left: 100px; 
     }
         
     #im-irwinmitchel-img {
         min-width: 200px;
-        left: 900px;    
+        left: 1580px;    
     }
+    }
+ 
+/* For larger to medium screens size from 1920px wide and down */
+@media (min-width: 1281px) and (max-width: 1920px) {
+ 
+    #rugbyball-whistle {
+        transform: scale(.22);
+        top: 400px;
     } 
+    #need h2 {
+        padding: 20px 110px 70px 10px;
+        font-size: 2.5rem;
+    }
+    
+    .social-network-contact li {
+        padding: 36px;
+        font-size: 1.1rem;
+    }
+    
+    .circle {
+        font-size: 2rem;
+    
+    }
+        
+        /* footer */
+              
+        #allianz-img {
+            min-width: 300px;
+            left: 570px;
+        }
+            
+        #adidas-img {
+            max-width: 300px;
+            left: 300px; 
+        }
+            
+        #im-irwinmitchel-img {
+            min-width: 200px;
+            left: 900px;    
+        }
+        } 
 
 /* For larger to medium screens size from 1280px wide and down */
 @media (min-width: 1026px) and (max-width: 1280px) {
   
     #rugbyball-whistle {
-        transform: scale(.25);
-        top: 550px;   
+        transform: scale(.22);   
+        top: 400px;
     }
        
-    .question h3, p {
-        font-size: 2rem;
-    }
-    
-    .block h3, p {
-      min-width: 250px; 
-    }
-    
-    #left-about-top, #left-about-mid {
-        right: 100px;
-    }
-    
-    #right-about-top, #right-about-mid {
-        padding-left: 100px;
-    }
-    
    
-        
+    #left-about-top {
+        left: 150px;
+       
+       } 
+       
+       #left-about-mid {
+         left: 150px;
+       }
+       
+       #right-about-top {
+        right: 150px;
+       }
+       
+       #right-about-mid {
+         right: 150px;
+       }
+
     /* footer */
     
     #need h2 {
        font-size: 2.5rem;
-       padding: 40px 130px 10px 10px;
+       padding: 20px 130px 90px 100px;
     } 
        
     #need {
-        margin-left: 60px;
-        font-size: 1em;
+        font-size: 1;
     }
    
     .social-network-contact > li {
         padding: 10px;
+        font-size: 1rem;
     }
      
    .circle {
        font-size: 2rem;
-       left: 450px;
+       
     }    
          
             
@@ -521,36 +517,31 @@ footer {
         display: none;   
     }
        
-    .question h3, p {
-        font-size: 2rem;
-    }
-    
-    .block h3, p {
-      min-width: 250px; 
-    }
-    
-    #left-about-top, #left-about-mid {
-        right: 100px;
-    }
-    
-    #right-about-top, #right-about-mid {
-        padding-left: 100px;
-    }
+   #left-about-top{
+       left: 100px;
+   }
 
-    .become {
-        left: 24%;
-    }
-    
-        
+   #right-about-top {
+       right:100px;
+   }
+
+   #left-about-mid {
+       left:100px;
+   }
+
+   #right-about-mid {
+       right: 100px;
+   }
+      
     /* footer */
     
     #need h2 {
        font-size: 2rem;
-       padding: 30px 430px 20px 0px;
+       padding: 20px 240px 80px 0px;
     } 
        
     #need {
-        margin-left: 40px;
+        
         font-size: 1em;
     }
    
@@ -559,13 +550,14 @@ footer {
     }
 
     .social-network-contact i {
-        font-size: 5rem;
+        font-size: 4rem;
     }
      
     .circle {
         font-size: 1rem;
         left: 310px;
-        bottom: 20px;
+        bottom: -20px;
+      
     }  
 
     #thanks {
@@ -590,7 +582,7 @@ footer {
         min-width: 200px;
         left: 550px;    
     }
-    }   
+    }    
         
  /* For medium screen sizes from 767px wide and down  */
  @media (min-width: 481px) and (max-width: 767px) {
@@ -607,55 +599,47 @@ footer {
         font-size: 2.5rem;
     }
     
-    .question h3, p {
-        font-size: 1.5rem;
-    }
-    
-    .block h3, p {
-      min-width: 450px; 
-    }
     
     #left-about-top {
-        top: 850px;
-        padding: 10px;
+        left: 20px;
+        padding-top: 40px;
+        max-width: 200px;
     }
     
     #right-about-top {
-        padding: 10px;
-        top: 930px;   
+          right: 20px; 
+          padding-top: 40px;
+          max-width: 200px;
     }
 
     #left-about-mid {
-        padding: 10px;
-        top: 1140px;
+        left: 20px;
+        padding-top: 20px;
+        max-width: 200px;
     }
 
     #right-about-mid{
-        padding: 10px;
-        top: 1040px;
+       right: 20px;
+       padding-top: 20px;
+       max-width: 200px;
     }
 
-    .become {
-        left: 30%;
-        transform: scale(.8)
-    }
             
     /* footer */
 
         
     #need h2 {
-        font-size: 1.5rem;
-        padding: 40px 940px 50px 0px;
+        font-size: 2rem;
+        width: 660px;
+        padding: 20px 410px 60px 0px;
+       margin-bottom: 50px;
     } 
             
-    #need {
-         margin-left: 40px;
-        font-size: 1em;
-    }
-        
+      
     .social-network-contact > li {
         padding: 15px;
-        bottom: 170px;
+        bottom: 250px;
+      
     }
      
     .social-network-contact i {
@@ -666,7 +650,7 @@ footer {
     .circle {
         font-size: 1rem;
         left: 60px;
-        bottom: -70px;
+        bottom: -50px;
     }
 
     #thanks {
@@ -725,33 +709,35 @@ footer {
         font-size: 2rem;
     }
     
-    .question h3, p {
-        font-size: 1.5rem;
-    }
     
-    .block h3, p {
-       min-width: 400px; 
+    #left-about-top, #left-about-mid, #right-about-top, #right-about-mid {
+        max-width: 170px;
     }
+   
     
     #left-about-top {
-        top: 800px;
-        padding: 0px 0px 0px 10px;
+      left: 10px;
+      padding-top: 30px;
+        
     }
     
     #right-about-top {
-        padding: 10px;
-        top: 880px;    
+        right: 10px;
+        padding-top: 30px;
+
+            
     }
 
     #left-about-mid {
-        padding: 10px;
-        top: 980px;
+        left: 10px;
+        padding-top: 20px;
     }
 
-    #right-about-mid{
-        padding: 10px;
-        top: 1070px;
+    #right-about-mid {
+       right: 10px;
+       padding-top: 20px;
     } 
+
     .become {
         left: 34%;
         transform: scale(.8)
@@ -763,18 +749,19 @@ footer {
         
     #need h2 {
         font-size: 1.3rem;
-        padding: 30px 970px 50px 0px;
+        padding: 20px 370px 80px 0px;
+        min-width: 650px;
     } 
             
             
     #need {
-        margin-left: 40px;
+        margin-left: 10px;
         font-size: 1em;
     }
         
     .social-network-contact > li {
         padding: 15px;
-        bottom: 170px;
+        bottom: 200px;
     }
      
     .social-network-contact i {
@@ -784,7 +771,7 @@ footer {
     .circle {
         font-size: .7rem;
         left: 20px;
-        bottom: -70px;
+        bottom: -50px;
     }
          
             
@@ -841,6 +828,7 @@ footer {
  
  }
    
+   
 /* For medium screen sizes from 410px wide and down  */
 @media (min-width: 375px) and (max-width: 410px) {    
                  
@@ -856,61 +844,58 @@ footer {
         font-size: 3rem;
     }
     
-    .block h3, p {
-      min-width: 360px;
+    #left-about-top, #left-about-mid, #right-about-top, #right-about-mid {
+        max-width: 150px;
     }
     
     #left-about-top {
-        top: 800px;
-        padding: 0px 0px 0px 10px;
+       left: 20px;
+       padding-top: 30px;
     }
     
     #right-about-top {
-        padding: 10px;
-        top: 880px;   
+       right: 20px;
+       padding-top: 30px; 
     }
 
     #left-about-mid {
-        padding: 10px;
-        top: 980px;
+       left: 20px;
+       padding-top: 20px;
     }
 
     #right-about-mid{
-        padding: 10px;
-        top: 1070px;
+        right: 20px;
+        padding-top: 20px;
+        
     } 
     
-    .become {
-        left: 35%;
-        transform: scale(.7);
-    } 
+    
     
     /* footer */
 
     #need h2 {
-        font-size: 1rem;
-        padding: 30px 1050px 50px 0px;
+        font-size: 1.9rem;
+        padding: 20px 50px 120px 0px;
     } 
             
             
     #need {
         margin-left: 40px;
-        font-size: 1em;
     }
         
     .social-network-contact > li {
-        padding: 10px;
-        bottom: 170px;
+        padding: 6px;
+        bottom: 290px;
     }
      
     .social-network-contact i {
-        font-size: 2rem;
+        font-size: 3rem;
     }
           
     .circle {
         font-size: .4rem;
         left: 60px;
-        bottom: -70px;
+        bottom: -40px;
     }
          
     #thanks {
@@ -980,51 +965,48 @@ footer {
         font-size: 3rem;
     }
    
-    .block h3, p {
-      min-width: 350px; 
+    #left-about-top, #left-about-mid, #right-about-top, #right-about-mid {
+        max-width: 150px;
     }
     
     #left-about-top {
-        top: 800px;
-        padding: 0px 0px 0px 10px;
+        left: 20px;
+        padding-top: 30px;
     }
     
     #right-about-top {
-        padding: 10px;
-        top: 880px;    
+        right: 20px;
+        padding-top: 30px;   
     }
 
     #left-about-mid {
-        padding: 10px;
-        top: 980px;
+      left: 20px;
+      padding-top: 20px;
     }
 
     #right-about-mid{
-        padding: 10px;
-        top: 1070px;
+       right: 20px;
+       padding-top: 20px;
     }  
     
-    .become {
-        left: 37%;
-        transform: scale(.7)
-    }
+    
         /* footer */
 
         
     #need h2 {
-        font-size: 1rem;
-        padding: 30px 1050px 50px 0px;
+        font-size: 1.5rem;
+        padding: 20px 150px 100px 0px;
     } 
             
             
     #need {
         margin-left: 40px;
-        font-size: 1em;
+        
     }
         
     .social-network-contact > li {
         padding: 10px;
-        bottom: 170px;
+        bottom: 230px;
     }
      
     .social-network-contact i {
@@ -1033,7 +1015,7 @@ footer {
           
     .circle {
         font-size: .7rem;
-        left: 60px;
+        left: 50px;
         bottom: -70px;
     }
          
@@ -1107,43 +1089,36 @@ footer {
         font-size: 2.5rem;
     }
 
-    
-    .block h3, p {
-      min-width: 310px;
-      font-size: 1.3rem; 
+    #left-about-top, #left-about-mid, #right-about-top, #right-about-mid {
+        max-width: 130px;
     }
     
     #left-about-top {
-        top: 820px;
-        padding: 0px 0px 0px 10px;
+       left: 20px;
+       padding-top: 60px;
     }
     
     #right-about-top {
-        padding: 10px;
-        top: 900px;    
+       right: 20px;
+       padding-top:  60px;    
     }
 
     #left-about-mid {
-        padding: 10px;
-        top: 1000px;
+       left: 20px;
+       padding-top: 70px;
     }
 
-    #right-about-mid{
-        padding: 10px;
-        top: 1090px;
+    #right-about-mid {
+       right: 20px;
+       padding-top: 70px;
     }  
-    
-    .become {
-        left: 38%;
-        transform: scale(.7)
-    }
-
+  
      /* footer */
 
         
-    #need h2 {
+     #need h2 {
         font-size: 2rem;
-        padding: 10px 1150px 50px 0px;
+        padding: 20px 780px 20px 0px;
     } 
                    
     #need {
@@ -1153,7 +1128,7 @@ footer {
         
     .social-network-contact > li {
         padding: 10px;
-        bottom: 170px;
+        bottom: 160px;
     }
      
     .social-network-contact i {
@@ -1220,7 +1195,6 @@ footer {
     }
 
 }
-
 /* For medium screen sizes from 319px wide and down  */
 @media (min-width: 240px) and (max-width: 319px) { 
         
@@ -1241,43 +1215,44 @@ footer {
         font-size: 2rem;
     }
 
-    
-    .block h3, p {
-      min-width: 220px;
-      font-size: 1.3rem;
+    .container {
+        height: 560px;
+    }
+
+    #right-about-top, #right-about-mid, #left-about-top, #left-about-mid {
+        max-width: 95%;
     }
     
+    
     #left-about-top {
-        top: 920px;
-        padding: 0px 0px 0px 10px;
+       left: 20px;
+       padding-top: 130px;
     }
     
     #right-about-top {
-        padding: 10px;
-        top: 1000px;   
+        right: 0px;
+        padding-top: 250px;
     }
 
     #left-about-mid {
-        padding: 10px;
-        top: 1100px;
+        left: 20px;
+        padding-top: 200px;
+     
     }
 
     #right-about-mid{
-        padding: 10px;
-        top: 1190px;
+      right: 0px;
+      padding-top:330px;
     }
 
-    .become {
-        left: 50%;
-        transform: scale(.7);
-        margin: -90px;
-    }     
+       
         /* footer */
 
         
     #need h2 {
         font-size: 1rem;
-         padding: 40px 1150px 50px 0px;
+         padding: 20px 150px 50px 0px;
+         width: 200px;
     } 
             
             
@@ -1298,7 +1273,7 @@ footer {
     .circle {
         font-size: .7rem;
         left: -10px;
-        bottom: -70px;
+        bottom: -40px;
     }
          
             
