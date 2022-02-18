@@ -101,8 +101,7 @@ h1 {
 }
 
 #left-about-top {
- left: 300px;
-
+ left: 300px
 } 
 
 #left-about-mid {
@@ -116,19 +115,16 @@ h1 {
 #right-about-mid {
   right: 150px;
 }
-
-
-  
+ 
 #left-about-top, #right-about-top {
       position: absolute;
       top: 750px;
-
-  }
+}
   
 #left-about-mid, #right-about-mid {
-       position: absolute;
-       top: 950px; 
-  }
+    position: absolute;
+    top: 950px; 
+}
   
 hr {
    border-top: 2px solid #ffffff;
@@ -142,8 +138,6 @@ hr {
     width: 100%;
     transform: scale(.25);
     top: 320px;
-   
-
 }
 
 #circle-container {
@@ -153,8 +147,7 @@ hr {
     border-style: solid;
     border-color: #4b296b;
     border-width: 50px;
-    border-radius: 15%;
-   
+    border-radius: 15%;   
 }
  
 /* footer */
@@ -312,7 +305,6 @@ footer {
 
 /* Form */
 
-
 .form-section {
     clear: both;
     background: url('../css/images/school-ref-scrum.png');
@@ -413,6 +405,7 @@ footer {
         transform: scale(.22);
         top: 500px;
     } 
+
     #need h2 {
         padding: 20px 110px 70px 10px;
         font-size: 2.5rem;
@@ -428,23 +421,23 @@ footer {
     
     }
         
-        /* footer */
+     /* footer */
               
-        #allianz-img {
-            min-width: 300px;
-            left: 570px;
-        }
+    #allianz-img {
+         min-width: 300px;
+        left: 570px;
+    }
             
-        #adidas-img {
-            max-width: 300px;
-            left: 300px; 
-        }
+    #adidas-img {
+        max-width: 300px;
+        left: 300px; 
+    }
             
-        #im-irwinmitchel-img {
-            min-width: 200px;
-            left: 900px;    
-        }
-        } 
+    #im-irwinmitchel-img {
+        min-width: 200px;
+        left: 900px;    
+    }
+    } 
 
 /* For larger to medium screens size from 1280px wide and down */
 @media (min-width: 1026px) and (max-width: 1280px) {
@@ -457,19 +450,19 @@ footer {
    
     #left-about-top {
         left: 150px;
-       } 
+    } 
        
-       #left-about-mid {
-         left: 150px;
-       }
+    #left-about-mid {
+        left: 150px;
+    }
        
-       #right-about-top {
+    #right-about-top {
         right: 150px;
-       }
+    }
        
-       #right-about-mid {
-         right: 150px;
-       }
+    #right-about-mid {
+        right: 150px;
+    }
 
     /* footer */
     
@@ -531,12 +524,12 @@ footer {
        right: 100px;
    }
       
-      /* footer */
+    /* footer */
     
-      #need h2 {
+    #need h2 {
         font-size: 1.5rem;
         padding: 20px 170px 80px 0px;
-     } 
+    } 
          
    
     .social-network-contact > li {
@@ -722,13 +715,7 @@ footer {
        padding-top: 20px;
     } 
 
-    .become {
-        left: 34%;
-        transform: scale(.8)
-
-    } 
-     
-        /* footer */
+     /* footer */
   
     #need h2 {
         font-size: 1.4rem;
@@ -738,8 +725,7 @@ footer {
             
             
     #need {
-        margin-left: 10px;
-        
+        margin-left: 10px;    
     }
         
     .social-network-contact > li {
@@ -848,8 +834,7 @@ footer {
 
     #right-about-mid{
         right: 20px;
-        padding-top: 20px;
-        
+        padding-top: 20px;   
     } 
     
     /* footer */
@@ -970,32 +955,32 @@ footer {
        padding-top: 20px;
     }  
     
-        /* footer */
+    /* footer */
    
      
-        #need h2 {
-            font-size: 1.5rem;
-            padding: 20px 0px 100px 0px;
-        } 
+    #need h2 {
+        font-size: 1.5rem;
+        padding: 20px 0px 100px 0px;
+    } 
                        
-        #need {
-            margin-left: 0px;   
-        }
+    #need {
+        margin-left: 0px;   
+    }
             
-        .social-network-contact > li {
-            padding: 10px;
-            bottom: 230px;
-        }
+    .social-network-contact > li {
+        padding: 10px;
+        bottom: 230px;
+    }
          
-        .social-network-contact i {
-            font-size: 2rem;
-        }
+    .social-network-contact i {
+        font-size: 2rem;
+    }
               
-        .circle {
-            font-size: .7rem;
-            left: 50px;
-            bottom: -40px;
-        }
+    .circle {
+        font-size: .7rem;
+        left: 50px;
+        bottom: -40px;
+    }
          
     #thanks {
         font-size: .7rem;
@@ -1092,14 +1077,13 @@ footer {
      /* footer */
 
         
-     #need h2 {
+    #need h2 {
         font-size: 2rem;
         padding: 20px 0px 120px 0px;
     } 
                    
     #need {
-         margin-left: 50px;
-             
+         margin-left: 50px;       
     }
         
     .social-network-contact > li {
