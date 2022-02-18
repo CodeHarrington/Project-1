@@ -457,7 +457,6 @@ footer {
    
     #left-about-top {
         left: 150px;
-       
        } 
        
        #left-about-mid {
@@ -489,8 +488,7 @@ footer {
     }
      
    .circle {
-       font-size: 2rem;
-       
+       font-size: 2rem;  
     }    
          
             
@@ -533,17 +531,13 @@ footer {
        right: 100px;
    }
       
-    /* footer */
+      /* footer */
     
-    #need h2 {
-       font-size: 2rem;
-       padding: 20px 240px 80px 0px;
-    } 
-       
-    #need {
-        
-        font-size: 1em;
-    }
+      #need h2 {
+        font-size: 1.5rem;
+        padding: 20px 170px 80px 0px;
+     } 
+         
    
     .social-network-contact > li {
         padding: 10px;
@@ -556,8 +550,7 @@ footer {
     .circle {
         font-size: 1rem;
         left: 310px;
-        bottom: -20px;
-      
+        bottom: -20px; 
     }  
 
     #thanks {
@@ -623,28 +616,23 @@ footer {
        padding-top: 20px;
        max-width: 200px;
     }
-
+       
             
-    /* footer */
-
-        
+    /* footer */        
     #need h2 {
         font-size: 2rem;
-        width: 660px;
-        padding: 20px 410px 60px 0px;
-       margin-bottom: 50px;
+        padding: 20px 7px 60px 0px;
+        margin-bottom: 50px;
     } 
             
       
     .social-network-contact > li {
         padding: 15px;
         bottom: 250px;
-      
     }
      
     .social-network-contact i {
-        font-size: 3rem;
-            
+        font-size: 3rem;        
     }
           
     .circle {
@@ -656,8 +644,7 @@ footer {
     #thanks {
         font-size: 1rem;
         letter-spacing: 0;
-        min-height: 80px;
-            
+        min-height: 80px;       
     } 
                
     #allianz-img {
@@ -717,15 +704,12 @@ footer {
     
     #left-about-top {
       left: 10px;
-      padding-top: 30px;
-        
+      padding-top: 30px;    
     }
     
     #right-about-top {
         right: 10px;
-        padding-top: 30px;
-
-            
+        padding-top: 30px;   
     }
 
     #left-about-mid {
@@ -743,20 +727,19 @@ footer {
         transform: scale(.8)
 
     } 
-    
+     
         /* footer */
-
-        
+  
     #need h2 {
-        font-size: 1.3rem;
-        padding: 20px 370px 80px 0px;
-        min-width: 650px;
+        font-size: 1.4rem;
+        padding: 20px 0px 100px 0px;
+        letter-spacing: 0px;
     } 
             
             
     #need {
         margin-left: 10px;
-        font-size: 1em;
+        
     }
         
     .social-network-contact > li {
@@ -869,18 +852,16 @@ footer {
         
     } 
     
-    
-    
     /* footer */
 
     #need h2 {
         font-size: 1.9rem;
-        padding: 20px 50px 120px 0px;
+        padding: 20px 0px 120px 0px;
     } 
             
             
     #need {
-        margin-left: 40px;
+        margin-left: 10px;
     }
         
     .social-network-contact > li {
@@ -893,9 +874,9 @@ footer {
     }
           
     .circle {
-        font-size: .4rem;
-        left: 60px;
-        bottom: -40px;
+        font-size: 1rem;
+        left: 40px;
+        bottom: -70px;
     }
          
     #thanks {
@@ -989,35 +970,32 @@ footer {
        padding-top: 20px;
     }  
     
-    
         /* footer */
-
-        
-    #need h2 {
-        font-size: 1.5rem;
-        padding: 20px 150px 100px 0px;
-    } 
-            
-            
-    #need {
-        margin-left: 40px;
-        
-    }
-        
-    .social-network-contact > li {
-        padding: 10px;
-        bottom: 230px;
-    }
+   
      
-    .social-network-contact i {
-        font-size: 2rem;
-    }
-          
-    .circle {
-        font-size: .7rem;
-        left: 50px;
-        bottom: -70px;
-    }
+        #need h2 {
+            font-size: 1.5rem;
+            padding: 20px 0px 100px 0px;
+        } 
+                       
+        #need {
+            margin-left: 0px;   
+        }
+            
+        .social-network-contact > li {
+            padding: 10px;
+            bottom: 230px;
+        }
+         
+        .social-network-contact i {
+            font-size: 2rem;
+        }
+              
+        .circle {
+            font-size: .7rem;
+            left: 50px;
+            bottom: -40px;
+        }
          
     #thanks {
         font-size: .7rem;
@@ -1074,9 +1052,7 @@ footer {
 
 /* For medium screen sizes from 359px wide and down  */
 @media (min-width: 320px) and (max-width: 359px) { 
-
-          
-             
+         
     #hero-image-1, #hero-image-2, #rugbyball-whistle {
         display: none;
     }
@@ -1118,7 +1094,7 @@ footer {
         
      #need h2 {
         font-size: 2rem;
-        padding: 20px 780px 20px 0px;
+        padding: 20px 0px 120px 0px;
     } 
                    
     #need {
@@ -1128,9 +1104,9 @@ footer {
         
     .social-network-contact > li {
         padding: 10px;
-        bottom: 160px;
+        bottom: 310px;
     }
-     
+
     .social-network-contact i {
         font-size: 2rem;
     }
@@ -1186,8 +1162,7 @@ footer {
     }
 
     .form-section {
-        padding-top: 20px;
-     
+        padding-top: 20px; 
     }
 
     .signup-form h2 {
@@ -1195,6 +1170,7 @@ footer {
     }
 
 }
+
 /* For medium screen sizes from 319px wide and down  */
 @media (min-width: 240px) and (max-width: 319px) { 
         
@@ -1216,48 +1192,46 @@ footer {
     }
 
     .container {
-        height: 560px;
+        height: 600px;
     }
 
     #right-about-top, #right-about-mid, #left-about-top, #left-about-mid {
-        max-width: 95%;
+        max-width: 100%;
     }
     
     
     #left-about-top {
-       left: 20px;
-       padding-top: 130px;
+       left: 10px;
+       margin-top: 100px;
     }
     
     #right-about-top {
-        right: 0px;
-        padding-top: 250px;
+        right: 10px;
+        padding-top: 210px;
     }
 
     #left-about-mid {
-        left: 20px;
-        padding-top: 200px;
-     
+        left: 10px;
+        padding-top: 160px;
     }
 
     #right-about-mid{
-      right: 0px;
-      padding-top:330px;
+      right: 10px;
+      padding-top: 290px;
     }
 
-       
+  
         /* footer */
 
         
     #need h2 {
         font-size: 1rem;
-         padding: 20px 150px 50px 0px;
-         width: 200px;
+         padding: 30px 10px 80px 0px;
     } 
             
             
     #need {
-        margin-left: 10px;
+       margin-left: 0px;
     }
         
     .social-network-contact > li {
@@ -1271,9 +1245,9 @@ footer {
     }
           
     .circle {
-        font-size: .7rem;
-        left: -10px;
-        bottom: -40px;
+        font-size: .6rem;
+        left: 0px;
+        bottom: -10px;
     }
          
             
