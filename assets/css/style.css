@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
 body {
    font-family: Oswald, sans-serif;
-   font-weight: 300;
+   font-weight: 300px;
    color: #4b296b;
 }
 
@@ -92,7 +92,7 @@ h1 {
 }
 
 .container h3, p {
-   max-width: 230px;
+   max-width: 240px;
 }
 
 .container p {
@@ -117,16 +117,16 @@ h1 {
  
 #left-about-top, #right-about-top {
       position: absolute;
-      top: 750px;
+      top: 730px;
 }
   
 #left-about-mid, #right-about-mid {
     position: absolute;
-    top: 950px; 
+    top: 910px; 
 }
   
 hr {
-   border-top: 2px solid #ffffff;
+   border-top: 2px solid;
    margin: 5px 0;
 }
 
