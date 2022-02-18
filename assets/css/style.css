@@ -96,7 +96,7 @@ h1 {
 }
 
 .container p {
-   font-size: 2rem;
+   font-size: 1.7rem;
 }
 
 #left-about-top {
@@ -587,25 +587,25 @@ footer {
     
     #left-about-top {
         left: 20px;
-        padding-top: 40px;
+        padding-top: 60px;
         max-width: 200px;
     }
     
     #right-about-top {
           right: 20px; 
-          padding-top: 40px;
+          padding-top: 60px;
           max-width: 200px;
     }
 
     #left-about-mid {
         left: 20px;
-        padding-top: 20px;
+        padding-top: 50px;
         max-width: 200px;
     }
 
-    #right-about-mid{
+    #right-about-mid {
        right: 20px;
-       padding-top: 20px;
+       padding-top: 50px;
        max-width: 200px;
     }
        
@@ -647,7 +647,7 @@ footer {
             
     #adidas-img {
         transform: scale(.4);
-        max-width: 200px;
+        width: 200px;
         left: 60px; 
     }
             
@@ -696,22 +696,22 @@ footer {
     
     #left-about-top {
       left: 10px;
-      padding-top: 30px;    
+      padding-top: 60px;    
     }
     
     #right-about-top {
         right: 10px;
-        padding-top: 30px;   
+        padding-top: 60px;   
     }
 
     #left-about-mid {
         left: 10px;
-        padding-top: 20px;
+        padding-top: 70px;
     }
 
     #right-about-mid {
        right: 10px;
-       padding-top: 20px;
+       padding-top: 70px;
     } 
 
      /* footer */
@@ -757,7 +757,7 @@ footer {
             
     #adidas-img {
         transform: scale(.3);
-        max-width: 200px;
+        min-width: 200px;
         left: 40px; 
     }
             
@@ -809,7 +809,7 @@ footer {
     }
     
     h1 {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
     
     #left-about-top, #left-about-mid, #right-about-top, #right-about-mid {
@@ -818,22 +818,22 @@ footer {
     
     #left-about-top {
        left: 20px;
-       padding-top: 30px;
+       padding-top: 40px;
     }
     
     #right-about-top {
        right: 20px;
-       padding-top: 30px; 
+       padding-top: 40px; 
     }
 
     #left-about-mid {
        left: 20px;
-       padding-top: 20px;
+       padding-top: 50px;
     }
 
     #right-about-mid{
         right: 20px;
-        padding-top: 20px;   
+        padding-top: 50px;   
     } 
     
     /* footer */
@@ -877,7 +877,7 @@ footer {
             
     #adidas-img {
         transform: scale(.3);
-        max-width: 200px;
+        min-width: 200px;
         left: 20px; 
     }
             
@@ -927,7 +927,7 @@ footer {
     }
     
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
    
     #left-about-top, #left-about-mid, #right-about-top, #right-about-mid {
@@ -936,22 +936,22 @@ footer {
     
     #left-about-top {
         left: 20px;
-        padding-top: 30px;
+        padding-top: 40px;
     }
     
     #right-about-top {
         right: 20px;
-        padding-top: 30px;   
+        padding-top: 40px;   
     }
 
     #left-about-mid {
       left: 20px;
-      padding-top: 20px;
+      padding-top: 50px;
     }
 
     #right-about-mid{
        right: 20px;
-       padding-top: 20px;
+       padding-top: 50px;
     }  
     
     /* footer */
@@ -995,7 +995,7 @@ footer {
             
     #adidas-img {
         transform: scale(.3);
-        max-width: 200px;
+        min-width: 200px;
         left: 20px; 
     }
             
@@ -1048,6 +1048,10 @@ footer {
     h1 {
         font-size: 2.5rem;
     }
+
+    .container p {
+        font-size: 1.5rem;
+       }
 
     #left-about-top, #left-about-mid, #right-about-top, #right-about-mid {
         max-width: 130px;
@@ -1115,7 +1119,7 @@ footer {
             
     #adidas-img {
         transform: scale(.3);
-        max-width: 200px;
+        min-width: 200px;
         left: 10px; 
     }
             
@@ -1185,22 +1189,22 @@ footer {
     
     #left-about-top {
        left: 10px;
-       margin-top: 100px;
+       margin-top: 110px;
     }
     
     #right-about-top {
         right: 10px;
-        padding-top: 210px;
+        padding-top: 220px;
     }
 
     #left-about-mid {
         left: 10px;
-        padding-top: 160px;
+        padding-top: 170px;
     }
 
     #right-about-mid{
       right: 10px;
-      padding-top: 290px;
+      padding-top: 300px;
     }
 
   
@@ -1249,7 +1253,7 @@ footer {
             
     #adidas-img {
         transform: scale(.2);
-        max-width: 200px;
+        min-width: 200px;
         left: -20px; 
     }
             

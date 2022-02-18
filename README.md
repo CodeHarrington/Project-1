@@ -95,26 +95,28 @@ I used the website wireframe.cc to create  wireframes.
 ### The messages are clear and a good incentive to get involved in Refereeing.
 ### links to social media pages and a contact us button which links to the Contact-Us page along with the sponsors at the bottom is a feature in all 4 pages.
 
-![Screen Shot 2022-02-18 at 04 58 27](https://user-images.githubusercontent.com/96495354/154620801-75cb9a03-7897-4b35-9ce9-cd050e12e22c.png)
-![Screen Shot 2022-02-18 at 04 59 21](https://user-images.githubusercontent.com/96495354/154620818-1ecc0bbb-9f85-4fa0-bf18-b6d5bf1a79db.png)
+![Screen Shot 2022-02-18 at 16 07 02](https://user-images.githubusercontent.com/96495354/154719569-3bbbee80-16be-4737-ad5d-e51acca034e3.png)
+![Screen Shot 2022-02-18 at 16 07 15](https://user-images.githubusercontent.com/96495354/154719587-b642c032-403d-41fd-858d-cc8648114061.png)
 
 ### The Information page has a landing hero image of a training session with the details of training and educational meeting.
 
-![Screen Shot 2022-02-18 at 04 59 57](https://user-images.githubusercontent.com/96495354/154620822-abe23604-2555-4263-b25f-fbc452096f3e.png)
+![Screen Shot 2022-02-18 at 16 08 02](https://user-images.githubusercontent.com/96495354/154719589-fc4fc63a-8706-4925-9eae-7600c42b7473.png)
 
-![Screen Shot 2022-02-18 at 05 00 10](https://user-images.githubusercontent.com/96495354/154620824-ad16d6a8-b77f-4bfb-85ea-bd0b8af97f9b.png)
+![Screen Shot 2022-02-18 at 16 08 14](https://user-images.githubusercontent.com/96495354/154719590-fc6c14fb-24d4-4ea4-9ffd-895d80513b90.png)
 
 
 ### The Gallery page has 6 landing images of what the club is all about, with the social media pages and contact button at the bottom along with the sponsors also. 
 
-![Screen Shot 2022-02-18 at 05 00 37](https://user-images.githubusercontent.com/96495354/154620825-f713b0ff-657d-46fe-802c-6f309ef34878.png)
 
-![Screen Shot 2022-02-18 at 05 00 50](https://user-images.githubusercontent.com/96495354/154620832-d7969378-872d-45b6-b240-417951584355.png)
+![Screen Shot 2022-02-18 at 16 08 34](https://user-images.githubusercontent.com/96495354/154719594-2cf64d2e-6adb-4844-aaff-f1e20d99735b.png)
+
+![Screen Shot 2022-02-18 at 16 08 52](https://user-images.githubusercontent.com/96495354/154719595-f410def9-d7fe-48ed-b70e-553e8ef7e88c.png)
 
 ### The Contact-us page has a landing image of a scrum and a form section to fill out to get in contact. it also has the social media links and sponsors details.
 
-![Screen Shot 2022-02-18 at 05 01 12](https://user-images.githubusercontent.com/96495354/154620834-8c81800a-d771-42ff-9278-6fe059bd60ab.png)
-![Screen Shot 2022-02-18 at 05 01 27](https://user-images.githubusercontent.com/96495354/154620839-3f7e36e2-d8a0-4c4b-a8da-3e9581f4c78a.png)
+![Screen Shot 2022-02-18 at 16 09 04](https://user-images.githubusercontent.com/96495354/154719599-95c3e69f-7bb4-448f-bf5e-b96fb0224a2c.png)
+
+![Screen Shot 2022-02-18 at 16 09 14](https://user-images.githubusercontent.com/96495354/154719606-3b9b2d0d-1610-4eb8-b3d5-a4d7c4908002.png)
 
 ### Colors
 Main colours used in a project:
@@ -126,9 +128,9 @@ Main colours used in a project:
 
 ![Screen Shot 2022-02-12 at 23 05 25](https://user-images.githubusercontent.com/96495354/153731682-7ae00a81-def8-48d9-bbe2-ad6af8d5726b.png)
 
-* After review at the end as I had time to check a great tools called contrast grid. I ended up removing the rgb(0,130,200) which made for better viewing experience. and finish with just using 3 colors. This also bought my SEO score in lighthouse to 100.
+* After review at the end as I had time to check a great tools called contrast grid. I ended up removing the rgb(0,130,200) which made for better viewing experience. and finish with just using 3 colors. This also bought my SEO score in lighthouse to 100. A big thank you to slack member David Bowers_5p_lead, who thought it might be a good idea to check. Thank you for the advice.
 
-![Screen Shot 2022-02-13 at 00 20 15](https://user-images.githubusercontent.com/96495354/153733136-01956e73-1cfb-4872-89d2-e8b6ef561324.png)
+![Screen Shot 2022-02-12 at 23 39 50](https://user-images.githubusercontent.com/96495354/154716723-67efe757-e7f8-48bf-852a-e3672b68a78a.png)
 ### Fonts 
 
 * As a main font I used  Oswald, and as a backup font sans-serif.
@@ -265,13 +267,13 @@ Lighthouse was key for optimising the website.
  * But Found it was not responsive, I learned a very valuable lesson and one that took serval hours to get right. It is now responsive and I checked it on all the above after solving the bugs.
  
 ### There was 2 main bugs
-[1. I made a huge but valuable learning when I created the html home page, I had put the main messages {.containers} in the footer rather than the body and when I added the css code I put a hight of 700px on this. It was only when I realized it was not responsive. it took a lot of trouble shooting, google and talking it out in a study group, where i realized my mistake.](#ux) 
+[1. I made a huge but valuable learning when I created the html home page, I had put the main messages .containers in the footer rather than the body and when I added the css code I put a hight of 700px on this. It was only when I realized it was not responsive. it took a lot of trouble shooting, google and talking it out in a study group, where i realized my mistake.](#ux) 
 
 #2. I used float on my the containers also which make it difficult to what I wanted them to do. 
 ON the plus I made 150 commits. I solved my bugs and the learnings will stick with me a life-time.
 
  
-[2. I used {float} on my the containers also which make it difficult to what I wanted them to do. 
+[2. I used float on my the containers also which make it difficult to what I wanted them to do. 
 ON the plus I made 150 commits. I solved my bugs and the learnings will stick with me a life-time.](#ux) 
 
 ## User stories testing
@@ -337,9 +339,11 @@ I had to do a couple of changes to improve performance. Screenshots are presente
 
 ### I had major images issues at the first lighthouse run
    * I fixed these with a great toll https://picresize.com/ This save my project because I had a lot of images and I was able to reduce them in size in group which was brilliant.
+
 ![Screen Shot 2022-02-07 at 18 06 33](https://user-images.githubusercontent.com/96495354/153283949-e5b734f6-ca19-416e-bba4-e6ee2d7ad7bd.png)
 
 ### I have better luck after fixing that. but the next bugs was a change in 2 more resizing of pictures
+
 ![Screen Shot 2022-02-09 at 13 22 37](https://user-images.githubusercontent.com/96495354/153283944-4ec99a89-53dc-4a04-8608-000d5f2e9ea0.png)
 
 ### Performance was good, now I just need to fix a bug on an information anchor element that had no description.
